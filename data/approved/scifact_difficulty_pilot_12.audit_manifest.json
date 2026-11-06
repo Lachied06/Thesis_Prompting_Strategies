@@ -1,0 +1,15 @@
+{
+  "audit_schema_version": "1.0.0",
+  "created_at_utc": "2026-09-22T09:14:40.237257+00:00",
+  "source_data": "data/processed/scifact_difficulty_pilot_12.jsonl",
+  "source_data_sha256": "409d282daf6425f034912c7d732e909fc8ef443759f2b29d81a8ef97150fbfa8",
+  "audit_csv": "audits/scifact_difficulty_pilot_12.audit.csv",
+  "audit_csv_sha256": "4789dbb54589714c9e6e16c2f4bc5f3d307788ff27ad5a83f47ec5c508237587",
+  "output_data": "data/approved/scifact_difficulty_pilot_12.jsonl",
+  "output_data_sha256": "409d282daf6425f034912c7d732e909fc8ef443759f2b29d81a8ef97150fbfa8",
+  "total_tasks": 12,
+  "included_tasks": 12,
+  "excluded_tasks": 0,
+  "exclusion_reasons": {},
+  "selection_note": "Tasks were selected from pre-run benchmark audit decisions only. No model responses are present in the audit template."
+}

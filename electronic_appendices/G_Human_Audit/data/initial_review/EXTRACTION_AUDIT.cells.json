@@ -1,0 +1,482 @@
+{
+  "member": "xl/worksheets/sheet5.xml",
+  "rows": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "CLAIM EXTRACTION COMPLETENESS",
+        "B1": "",
+        "C1": "",
+        "D1": "",
+        "E1": "",
+        "F1": "",
+        "G1": "",
+        "H1": ""
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "After annotating claims for a response, cross-check the complete output to see whether the automated extractor omitted factual content.",
+        "B2": "",
+        "C2": "",
+        "D2": "",
+        "E2": "",
+        "F2": "",
+        "G2": "",
+        "H2": ""
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Blind ID",
+        "B4": "Number of extracted claims",
+        "C4": "Extraction complete?",
+        "D4": "Additional missed factual statements",
+        "E4": "Incorrect splits / merged claims",
+        "F4": "Further notes / evidence"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "HR01",
+        "B5": "21",
+        "C5": "No",
+        "D5": "The central scope claim that none of the sources tests crowding, delivery-centre efficiency or the specified improvements is omitted.",
+        "E5": "No material segmentation error identified.",
+        "F5": "This omitted scope statement is supported by the supplied abstracts."
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "HR02",
+        "B6": "10",
+        "C6": "No",
+        "D6": "No direct test of p53 up-regulation and no quantified shortening of lifespan are not explicitly extracted.",
+        "E6": "Claim 6 loses 'possibly'; claims 7–10 turn study-scope statements into broad biological exclusions.",
+        "F6": "The problematic extracted statements should not automatically be counted as hallucinations in the original response, which retains the appropriate qualifications."
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "HR03",
+        "B7": "11",
+        "C7": "No",
+        "D7": "Single-abstract reliance and absence of detailed clinical covariates are omitted.",
+        "E7": "Claim 10 repeats the sample size in claim 3; claim 11 overlaps claim 1.",
+        "F7": "Core numerical findings are captured. The response qualifies the distinction between graft choice and a purified-cell causal exposure."
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "HR04",
+        "B8": "17",
+        "C8": "No",
+        "D8": "The final claim that evidence contradicts increased infectious complications is omitted; a non-significant estimate does not demonstrate equivalence or the opposite effect.",
+        "E8": "Claim 8 strengthens 'do not indicate' into 'does not worsen'. Claim 5 omits the numerical OR and CI.",
+        "F8": "The response's categorical CONTRADICT conclusion overstates the infection evidence. Noninfectious aetiology of fever is also not established."
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "HR05",
+        "B9": "16",
+        "C9": "Yes",
+        "D9": "None identified beyond the overall evaluative verdict.",
+        "E9": "No material meaning-changing split or merge identified.",
+        "F9": "Positive expression and its restricted model context are captured."
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "HR06",
+        "B10": "10",
+        "C10": "No",
+        "D10": "None of the supplied studies directly examines CR and methylation age together; the sperm study does not use a methylation-age clock. These scope limitations are omitted.",
+        "E10": "No material meaning-changing split or merge identified.",
+        "F10": "CR is mentioned as background in 7834603, but not tested as the exposure in its reported experiment."
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "HR07",
+        "B11": "7",
+        "C11": "No",
+        "D11": "Neither document studies reduced Treg IL-2 responsiveness or autoimmune/T1D resistance; the Treg abstract does not identify IL-2 as a mediator.",
+        "E11": "Claims 2 and 3 contain several molecular outcomes but all have consistent support.",
+        "F11": "Mechanistic findings are captured, but the main evidence-mismatch rationale is absent."
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "HR08",
+        "B12": "12",
+        "C12": "Yes",
+        "D12": "None identified beyond the overall verdict and restated review relevance.",
+        "E12": "Claim 12 combines four source-topic descriptions; each is accurate.",
+        "F12": "All material procedure comparisons and numerical results in the response are represented."
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "HR09",
+        "B13": "17",
+        "C13": "Yes",
+        "D13": "None identified beyond the overall evaluative conclusion.",
+        "E13": "No material meaning-changing split or merge identified.",
+        "F13": "This extraction retains the key source-scope and missing-exposure statements."
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "HR10",
+        "B14": "16",
+        "C14": "No",
+        "D14": "The categorical assertion that the sources contradict 'suboptimal nutrition is not predictive of chronic disease' is not separately assessed.",
+        "E14": "Claim 7 repeats a misleading causal formulation already present in the response; several interpretive claims overlap.",
+        "F14": "The response conflates total burden attribution, nutritional deficits, metabolic risks and chronic-disease prediction. Do not use unsupported mechanistic links to validate the overall verdict."
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A15": "HR11",
+        "B15": "10",
+        "C15": "No",
+        "D15": "No direct in-vivo establishment and uncertain generalisation across invadopodia-containing tumours are omitted.",
+        "E15": "Claim 8 combines three outcomes; podosomes/gelatin loss are supported, while 'abolished invasion' overstates 'poorly invasive'.",
+        "F15": "The podosome/invadopodium terminology is supported by 16280642. Keep the magnitude error distinct from the otherwise supported mechanism."
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "HR12",
+        "B16": "8",
+        "C16": "No",
+        "D16": "The studies do not test CR, dietary-intervention methylation-age acceleration, or the joint CR/methylation-age question.",
+        "E16": "No material meaning-changing split or merge identified.",
+        "F16": "The central evidence-absence rationale is omitted even though the reported molecular findings are captured."
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A17": "HR13",
+        "B17": "6",
+        "C17": "No",
+        "D17": "The Treg study does not measure IL-2 responsiveness, autoimmune incidence or T1D susceptibility; the iPSC study also lacks these populations/outcomes.",
+        "E17": "Claim 4 combines several mechanistic components, all supported.",
+        "F17": "The NO_EVIDENCE rationale and specific missing measurements are absent from the extracted list."
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A18": "HR14",
+        "B18": "13",
+        "C18": "No",
+        "D18": "The abstract omits sample sizes, statistical estimates, sex composition and confounding-control details; these limitations are not extracted.",
+        "E18": "Claim 9 drops 'suggesting'. Claim 13 reverses the response's explicit absence of a demonstrated human intervention effect.",
+        "F18": "Claim 13 is an extractor-introduced assertion, not a hallucination in the generated response. Human cross-species observations are distinct from human CR intervention evidence."
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A19": "HR15",
+        "B19": "8",
+        "C19": "Yes",
+        "D19": "None identified beyond the overall evaluative verdict.",
+        "E19": "Claims 4 and 5 combine related outcomes but preserve the response's meaning.",
+        "F19": "The scope restriction to lumbar puncture/epidural procedures is retained."
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A20": "HR16",
+        "B20": "15",
+        "C20": "No",
+        "D20": "The statement that the main study contradicts the target claim is not separately captured.",
+        "E20": "Claim 7 strengthens the source/response's lack of a significant increase into a definite no-increase statement.",
+        "F20": "The response also switches from the target's 'leuko-increased' blood to 'leukoreduced' blood. Its categorical verdict is not justified by the non-significant infection estimate."
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A21": "HR17",
+        "B21": "12",
+        "C21": "Yes",
+        "D21": "No material omitted factual assertion identified.",
+        "E21": "No material meaning-changing split or merge identified.",
+        "F21": "The twelve-month deficits refer to the peripheral-blood group. 'Not in the cord blood group as described' identifies that reported group, not a new twelve-month cord-blood measurement."
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A22": "HR18",
+        "B22": "15",
+        "C22": "Yes",
+        "D22": "No material omitted factual assertion identified.",
+        "E22": "Claims 1 and 9 overlap but are consistent; twelve-month outcomes are separately represented.",
+        "F22": "The important graft-versus-isolated-T-cell limitation is retained."
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A23": "HR19",
+        "B23": "13",
+        "C23": "No",
+        "D23": "The final inference that glial coupling and enhanced function contradict incapacity to form networks with host neurons is not separately extracted.",
+        "E23": "No material polarity error; 'matured into ... progenitors' loosely paraphrases populations present in mature recipient brains.",
+        "F23": "Glia-to-glia coupling and functional influence do not by themselves prove direct glia-neuron network formation. The response acknowledges this but retains an overconfident categorical verdict."
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "A24": "HR20",
+        "B24": "9",
+        "C24": "No",
+        "D24": "The source does not establish specific p53 up-regulation causing significantly shortened lifespan or accelerated organismal aging; other cancer studies do not test that component.",
+        "E24": "Claim 6 combines response prediction and survival association; interpret within the reported cohort.",
+        "F24": "The crucial limitation of the complete p53/lifespan proposition is omitted."
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "A25": "HR21",
+        "B25": "6",
+        "C25": "No",
+        "D25": "The evidence is one UK economic trial analysis in a specific subgroup and does not directly test reducing NIV after inadequate conventional-treatment response.",
+        "E25": "No material meaning-changing split or merge identified.",
+        "F25": "The factual trial results are supported. The conditional nonresponder recommendation is not directly tested; the CONTRADICT verdict is broader than that evidence."
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "A26": "HR22",
+        "B26": "10",
+        "C26": "No",
+        "D26": "The response's absence of direct evidence for reduction/discontinuation in nonresponders is not faithfully retained; broader-population limits are only partly captured.",
+        "E26": "Claim 10 drops 'does not' and reverses the original limitation.",
+        "F26": "The adult age qualification is not explicit in the supplied abstract. Do not attribute the extractor's reversed claim 10 to the generated response."
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "A27": "HR23",
+        "B27": "5",
+        "C27": "No",
+        "D27": "None of the sources quantifies a low-birth-weight-attributable perinatal mortality fraction or permits calculation of 5%; 1606628 reports prevalence rather than mortality.",
+        "E27": "No material meaning-changing split or merge identified.",
+        "F27": "The key absence-of-evidence reasoning is missing. The ibuprofen review includes a mortality-containing composite, but not the attributable fraction in the question."
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "A28": "HR24",
+        "B28": "11",
+        "C28": "Yes",
+        "D28": "No material omitted factual assertion identified.",
+        "E28": "Claims 4 and 9 overlap on the direction of the traumatic-procedure effect.",
+        "F28": "Possible operator/anatomy/setting variability is a methodological caution, not a demonstrated heterogeneity result."
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "A29": "HR25",
+        "B29": "9",
+        "C29": "No",
+        "D29": "No quantified p53 up-regulation or lifespan effect, no measured accelerated organismal aging, and lack of relevant outcomes in the other studies are omitted.",
+        "E29": "Claim 5 correctly retains 'may', unlike the corresponding extracted claim in HR02.",
+        "F29": "The factual biology is captured but the central limitations needed for the full causal claim are missing."
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "A30": "HR26",
+        "B30": "7",
+        "C30": "Yes",
+        "D30": "No material omitted factual assertion identified beyond the overall verdict and restated source relevance.",
+        "E30": "Several numerical components are merged but preserve all reported directions and values.",
+        "F30": "The relevant procedural scope and all main numerical findings are retained."
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "A31": "HR27",
+        "B31": "9",
+        "C31": "No",
+        "D31": "The conclusion that trial benefit contradicts the conditional claim about inadequate conventional-treatment response is not separately represented.",
+        "E31": "Claim 6 drops the explicit 'modeled' introduction; interpret as a forecast in context, not a guaranteed outcome.",
+        "F31": "The source does not directly test a policy of reducing NIV in nonresponders. The categorical verdict exceeds this narrower evidence."
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "A32": "HR28",
+        "B32": "4",
+        "C32": "No",
+        "D32": "The lack of a low-birth-weight-attributable perinatal mortality fraction, the GBD aggregate scope and the underweight study's prevalence rather than perinatal-attribution outcome are omitted.",
+        "E32": "No material meaning-changing split or merge identified.",
+        "F32": "Absence from the supplied abstracts supports the NO_EVIDENCE rationale. Do not generalise absence to the full underlying literature."
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "A33": "HR29",
+        "B33": "11",
+        "C33": "No",
+        "D33": "The inference that lower fever, antibiotic use and mortality 'further weakens' greater infectious harm is not extracted; the absence of relevant infection evidence in other sources is also omitted.",
+        "E33": "No material meaning-changing split or merge identified in the listed claims.",
+        "F33": "The response assesses post-leukoreduction outcomes while the target concerns leuko-increased blood. Non-significant infection results and non-infection endpoints do not establish the categorical CONTRADICT verdict."
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "A34": "HR30",
+        "B34": "12",
+        "C34": "No",
+        "D34": "No additional material omission, but the interpretation qualifier is lost in claim 1.",
+        "E34": "Claim 1 drops 'interpreted here as' and equates UCB with grafts. Small sample size repeats information in claim 2.",
+        "F34": "The response makes its graft-level interpretation explicit and acknowledges that isolated UCB T cells are not tested."
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "A35": "HR31",
+        "B35": "11",
+        "C35": "No",
+        "D35": "The supplied studies do not test CR against methylation age; the sperm and nematode studies contain no CR intervention. These scope statements are omitted.",
+        "E35": "Claim 9 helpfully clarifies the response's loose 'regions linked to risk' as genes previously associated with disease.",
+        "F35": "The source does not establish causal offspring disease effects of the observed methylation changes."
+      }
+    },
+    {
+      "row": 36,
+      "cells": {
+        "A36": "HR32",
+        "B36": "8",
+        "C36": "No",
+        "D36": "No supplied study measures Treg IL-2 responsiveness, autoimmune/T1D susceptibility or disease resistance; the iPSC study lacks these phenotypes.",
+        "E36": "Claim 2 merges several molecular outcomes, all with consistent support.",
+        "F36": "The central absence-of-evidence rationale is missing from the extraction."
+      }
+    },
+    {
+      "row": 37,
+      "cells": {
+        "A37": "HR33",
+        "B37": "16",
+        "C37": "Yes",
+        "D37": "No material omitted factual assertion identified.",
+        "E37": "Claim 10 expands 'this effect' to all listed mouse outcomes; claim 14 drops 'detailed' from subgroup characterisation. Both require contextual interpretation.",
+        "F37": "Claims 1 and 16 repeat the same direction-of-effect result. The 2,595-person cardiac cohort in the abstract is not necessarily the dietary-challenge sample and was correctly not used as its sample size."
+      }
+    },
+    {
+      "row": 38,
+      "cells": {
+        "A38": "HR34",
+        "B38": "11",
+        "C38": "No",
+        "D38": "The trial does not test discontinuing NIV after poor response; the concluding recommendation about inadequate conventional-treatment response is not separately assessed.",
+        "E38": "Claims 2 and 11 duplicate the adjunct-treatment design; claims 8 and 9 overlap on benefit/cost.",
+        "F38": "The trial results are accurately reported. The conditional nonresponder recommendation is broader than the direct evidence."
+      }
+    },
+    {
+      "row": 39,
+      "cells": {
+        "A39": "HR35",
+        "B39": "7",
+        "C39": "No",
+        "D39": "No measured lifespan population, quantified p53 activation, up-regulated versus non-up-regulated comparison, or demonstrated accelerated-aging/shortened-lifespan result is extracted.",
+        "E39": "No material meaning-changing split or merge; the mammalian restriction originates in the response.",
+        "F39": "The cautious biological claims are largely captured, but the principal reasons the full causal chain is unestablished are missing."
+      }
+    },
+    {
+      "row": 40,
+      "cells": {
+        "A40": "HR36",
+        "B40": "5",
+        "C40": "No",
+        "D40": "All five documents' lack of a low-birth-weight-attributable perinatal mortality percentage is omitted, as are the prevalence-versus-mortality and PDA-treatment-versus-population-attribution distinctions.",
+        "E40": "No material meaning-changing split or merge identified.",
+        "F40": "The source-topic list is captured, but most of the response's evidential reasoning is not."
+      }
+    },
+    {
+      "row": 41,
+      "cells": {
+        "A41": "HR37",
+        "B41": "8",
+        "C41": "No",
+        "D41": "The human microRNA study does not examine CR; the mouse study compares aging rather than CR; the nematode study does not measure methylation age or test CR.",
+        "E41": "Claim 5 uses 'loci' for the source's assayed genes/promoter regions; no material numerical distortion.",
+        "F41": "The absence of the joint CR/methylation-age exposure-outcome test is the main omitted reasoning."
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "A42": "HR38",
+        "B42": "15",
+        "C42": "Yes",
+        "D42": "No material omitted factual assertion identified beyond the restated uncertainty about clinical generalisation.",
+        "E42": "Claims 6 and 15 duplicate the decoy-mechanism interpretation. Claim 2 changes a reported hypothesis into a general capacity claim; interpret with the subsequent mechanistic findings.",
+        "F42": "The abstract reasonably supports the mechanism but does not supply miRNA identities, effect sizes or controls. No full-paper verification was undertaken."
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "A43": "HR39",
+        "B43": "17",
+        "C43": "No",
+        "D43": "The final categorical CONTRADICT verdict and caveat that small/population-specific effects are not excluded are not directly extracted. Other documents' lack of transfusion-infection evidence is also omitted.",
+        "E43": "Claim 2 adds detailed clinical groups from the source that the response summarises only as high-risk surgical/trauma populations.",
+        "F43": "Claim 10 overstates a non-significant comparison as unchanged outcomes. The caveat helps, but does not make equivalence or the categorical verdict established."
+      }
+    },
+    {
+      "row": 44,
+      "cells": {
+        "A44": "HR40",
+        "B44": "5",
+        "C44": "No",
+        "D44": "The response says low birth weight is an important adverse condition and is often studied in neonatal morbidity/mortality research; one PDA review does not establish research frequency. The lack of a 5% attributable fraction/usable perinatal definition and the prevalence-versus-mortality distinction are also omitted.",
+        "E44": "Claims 1 and 2 substantially overlap on the same review and purpose.",
+        "F44": "The broad 'often studied' assertion is an unsupported generalisation missed by extraction. The absence of the requested attributable fraction is supported by the supplied abstracts."
+      }
+    }
+  ]
+}

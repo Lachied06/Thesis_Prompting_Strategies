@@ -1,0 +1,136 @@
+{
+  "member": "xl/worksheets/sheet1.xml",
+  "rows": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "THESIS | BLINDED HUMAN REVIEW",
+        "B1": "",
+        "C1": "",
+        "D1": "",
+        "E1": "",
+        "F1": "",
+        "G1": "",
+        "H1": ""
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "40 generated responses • 433 extracted atomic claims • Do not open the separate judge key until annotations are locked.",
+        "B2": "",
+        "C2": "",
+        "D2": "",
+        "E2": "",
+        "F2": "",
+        "G2": "",
+        "H2": ""
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "COMPONENT",
+        "B4": "INSTRUCTIONS"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "1. Response packets",
+        "B5": "Open RESPONSE_PACKETS and locate a Blind ID (HR01–HR40). Read the question and complete generated response."
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "2. Source evidence",
+        "B6": "Read the corresponding source documents under EVIDENCE_DOCS or the full source context in RESPONSE_PACKETS."
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "3. Atomic claim review",
+        "B7": "Filter CLAIM_ANNOTATIONS by Blind ID. Assess every extracted claim using the RUBRIC; fill in the mint-coloured human annotation fields."
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "4. Extraction completeness",
+        "B8": "Compare the complete generated response to extracted claims. Record any omitted or incorrectly segmented factual claims in EXTRACTION_AUDIT."
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "5. Consistency check",
+        "B9": "Re-annotate four previously reviewed random-case responses after 48 hours, without viewing the original labels."
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "6. Lock manual labels",
+        "B10": "Save a final copy of this workbook BEFORE opening the separate JUDGE_KEY file."
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "7. Comparison",
+        "B11": "After locking annotations, join human labels to the automated judgements using Blind ID and full Claim ID."
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "Evidence standard",
+        "B12": "Evaluate factual support against supplied task evidence, not external plausibility. Do not assume a plausible claim is supported."
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "Label handling",
+        "B13": "Use Supported, Unsupported, Contradicted, Cannot assess. Record subtype separately, and explain doubtful judgements."
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "Citation caution",
+        "B14": "Do not classify every absent citation as fabricated. A fabricated citation must be demonstrated using a defined verification procedure."
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "RESPONSE COUNT",
+        "B16": "40"
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A17": "EXTRACTED CLAIMS",
+        "B17": "433"
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A18": "HUMAN-LABELLED CLAIMS",
+        "B18": "433"
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A19": "PROGRESS",
+        "B19": "1"
+      }
+    }
+  ]
+}

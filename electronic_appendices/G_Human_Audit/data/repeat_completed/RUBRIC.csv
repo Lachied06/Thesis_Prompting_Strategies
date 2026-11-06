@@ -1,0 +1,11 @@
+source_row,Label,Decision rule,Boundary / interpretation
+5,Supported,Provided evidence directly or reasonably establishes the factual claim without substantive distortion.,An accurate paraphrase may count even if wording is different.
+6,Unsupported,"Provided evidence does not establish the factual assertion, including unwarranted extrapolations or unsupported precision.",A claim's real-world plausibility does not make it supported by supplied sources.
+7,Contradicted,One or more supplied sources directly contradict the factual assertion.,"For a binary comparison, combine with Unsupported only if this matches the experiment's binary outcome definition."
+8,Cannot assess,Insufficient interpretability or evidence to make a defensible human judgement.,Document frequency and exclude from binary accuracy denominators; do not force a yes/no.
+9,Unsupported claim subtype,Unsupported factual addition or inference not primarily about misreporting a specified source.,Keep separate from source misrepresentation when using a mutually exclusive subtype table.
+10,Source misrepresentation,"Misreports the conclusion, direction, magnitude, population, outcome or methodological limits of a specific source.",Subtype assessment can overlap with unsupported status. Clearly distinguish substantive type from support label.
+11,Fabricated citation,Cited source/reference does not exist or contains a fabricated bibliographic identifier under the stated verification procedure.,A missing citation or unsupported reference to a real document is NOT automatically a fabricated citation.
+12,Citation mismatch,A valid document ID is cited but does not support the attached factual statement.,Record as a potential source-alignment issue; do not automatically call it a fabricated citation.
+13,Extraction completeness,Compare full generated synthesis to extracted atomic claims; note factual claims the extractor omitted or incorrectly segmented.,This is an independent error channel; agreement on extracted claims cannot assess missed claims.
+14,Blinding,Do not open the separate answer key before all human claim labels and extraction notes are final.,Primary/secondary classifications are hidden to limit anchoring and confirmation bias.

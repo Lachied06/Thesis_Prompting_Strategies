@@ -1,0 +1,10 @@
+Produce an initial academic synthesis for the task using the supplied material.
+
+SOURCE MATERIAL
+---------------
+{source_context}
+---------------
+
+TASK
+----
+{task_prompt}{output_contract}

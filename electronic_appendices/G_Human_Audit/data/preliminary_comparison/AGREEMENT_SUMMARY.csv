@@ -1,0 +1,19 @@
+source_row,Sample stream,Classifier,TP,FP,FN,TN,Assessable claims,Accuracy,Precision,Recall,Specificity,Cohen's kappa
+5,Random paired,Primary judge,13,13,11,275,312,0.9230769230769231,0.5,0.5416666666666666,0.9548611111111112,0.47826086956521785
+6,Random paired,Secondary judge,8,14,16,274,312,0.9038461538461539,0.36363636363636365,0.3333333333333333,0.9513888888888888,0.2960288808664259
+7,Random paired,Strict consensus flag,5,4,19,284,312,0.9262820512820513,0.5555555555555556,0.20833333333333334,0.9861111111111112,0.27250608272506116
+8,Random paired,Either judge flag,16,23,8,265,312,0.9006410256410257,0.41025641025641024,0.6666666666666666,0.9201388888888888,0.4561403508771931
+9,Random paired,Determinate consensus only,5,4,8,264,281,0.9572953736654805,0.5555555555555556,0.38461538461538464,0.9850746268656716,0.4330867518493613
+10,Targeted,Primary judge,3,17,1,96,117,0.8461538461538461,0.15,0.75,0.8495575221238938,0.20468277945619345
+11,Targeted,Secondary judge,1,15,3,98,117,0.8461538461538461,0.0625,0.25,0.8672566371681416,0.04792043399638333
+12,Targeted,Strict consensus flag,0,6,4,107,117,0.9145299145299145,0,0,0.9469026548672567,-0.042780748663101505
+13,Targeted,Either judge flag,4,26,0,87,117,0.7777777777777778,0.13333333333333333,1,0.7699115044247787,0.1861958266452649
+14,Targeted,Determinate consensus only,0,6,0,86,92,0.9347826086956522,0,,0.9347826086956522,0
+17,INTERPRETATION,WHAT THE STATISTIC MEANS,,,,,,,,,,
+18,Primary comparison,The strict consensus flag marks a claim unsupported only if both automated judges flag unsupported; uncertain claims are NOT treated as definitive supported judgements.,,,,,,,,,,
+19,Determinate-only comparison,The row excluding UNCERTAIN claims estimates agreement where judges reach a definitive consensus; lower denominator must be disclosed.,,,,,,,,,,
+20,Either-judge flag,Union flag increases sensitivity but generally creates more false positive judgements.,,,,,,,,,,
+21,Chance adjustment,Kappa is prevalence-sensitive and claim observations within a response/task are not independent.,,,,,,,,,,
+22,Validation unit,"433 extracted claims, but only 40 response clusters, 32 randomly selected responses and eight purposively selected responses.",,,,,,,,,,
+23,Bias limitation,Original human labels contain outstanding reviewed cases including extractor-introduced propositions. Not a final accuracy statement.,,,,,,,,,,
+24,Reporting,"Focus on TP/FP/FN/TN, recall and uncertainty; high overall agreement can be inflated by many supported claims.",,,,,,,,,,

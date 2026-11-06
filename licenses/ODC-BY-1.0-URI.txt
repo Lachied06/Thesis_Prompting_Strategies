@@ -1,0 +1,3 @@
+Open Data Commons Attribution License (ODC-By) v1.0
+https://opendatacommons.org/licenses/by/1-0/
+This file provides the canonical licence URI; it is not a substituted or abbreviated legal code.

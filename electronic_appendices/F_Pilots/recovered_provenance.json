@@ -1,0 +1,56 @@
+{
+  "source_archive_name": "Thesis_Harness_v3.7.zip",
+  "source_archive_sha256": "8dbf22995e4269b212bcf97f188daf37c3eff7579aecf02c6eec793b6b91074a",
+  "records": [
+    {
+      "path": "F_Pilots/recovered_halueval/results.jsonl",
+      "source_archive_name": "Thesis_Harness_v3.7.zip",
+      "source_member": "Code/outputs/halueval_synthesis_v3_1_pilot/results.jsonl",
+      "source_sha256": "19fb262ed4b93d64d5d4664491015eabe67186453d54422f225cc111003ef0e7",
+      "size": 1907237,
+      "method": "Byte-identical archive member; not regenerated"
+    },
+    {
+      "path": "F_Pilots/recovered_halueval/results.manifest.json",
+      "source_archive_name": "Thesis_Harness_v3.7.zip",
+      "source_member": "Code/outputs/halueval_synthesis_v3_1_pilot/results.manifest.json",
+      "source_sha256": "1663015934b1f8429ce08f38f4416d1f2837f21a985e836575a3d06311b8d13d",
+      "size": 15833,
+      "method": "Byte-identical archive member; not regenerated"
+    },
+    {
+      "path": "F_Pilots/recovered_halueval/evaluation_reviewed/manual_review.blinded.completed.csv",
+      "source_archive_name": "Thesis_Harness_v3.7.zip",
+      "source_member": "Code/outputs/halueval_synthesis_v3_1_pilot/evaluation_reviewed/manual_review.blinded.completed.csv",
+      "source_sha256": "f28d292244a8f80783e8df01173de76fb3a9bbba972d2d9e4fee78ff1e86faca",
+      "size": 113523,
+      "method": "Byte-identical archive member; not regenerated"
+    },
+    {
+      "path": "F_Pilots/recovered_halueval/evaluation_reviewed/manual_review.mapping.json",
+      "source_archive_name": "Thesis_Harness_v3.7.zip",
+      "source_member": "Code/outputs/halueval_synthesis_v3_1_pilot/evaluation_reviewed/manual_review.mapping.json",
+      "source_sha256": "ad20c6115b13c9a8ce290bf86c291d77a23ae8de4ddb6e391dc45e4a0685b339",
+      "size": 34191,
+      "method": "Byte-identical archive member; not regenerated"
+    },
+    {
+      "path": "F_Pilots/recovered_halueval/evaluation_reviewed/evaluation_summary.json",
+      "source_archive_name": "Thesis_Harness_v3.7.zip",
+      "source_member": "Code/outputs/halueval_synthesis_v3_1_pilot/evaluation_reviewed/evaluation_summary.json",
+      "source_sha256": "ac59e97c5793aa2c5aad6a8e8525a42e56caa6dfac6000a4c527333f06c24188",
+      "size": 8359,
+      "method": "Byte-identical archive member; not regenerated"
+    },
+    {
+      "path": "F_Pilots/recovered_halueval/evaluation_reviewed/evaluation_report.md",
+      "source_archive_name": "Thesis_Harness_v3.7.zip",
+      "source_member": "Code/outputs/halueval_synthesis_v3_1_pilot/evaluation_reviewed/evaluation_report.md",
+      "source_sha256": "45b52511b6c6382fe7386e306f608ec497f838b8c30f72bf45449128fe7a6f3d",
+      "size": 2186,
+      "method": "Byte-identical archive member; not regenerated"
+    }
+  ],
+  "licensing": "Recovered records contain passages from the already bundled HaluEval data; upstream redistribution permission remains unverified. No publication is authorised by this export.",
+  "judgment_scope": "Recovered reviewer CSV and summary are historical annotations, not a saved dual-judge atomic consensus. Do not infer independent human review."
+}

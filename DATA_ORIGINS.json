@@ -1,0 +1,198 @@
+{
+  "audit_date": "2026-11-06",
+  "identity_scope": "Official current source byte identity is verified. The original downloader, historical download route/time and original acquisition commit are not established. Recorded commits pin the sources inspected now.",
+  "datasets": {
+    "SciFact": {
+      "official_repository": "https://github.com/allenai/scifact",
+      "inspected_commit": "68b98a56d93e0f9da0d2aab4e6c3294699a0f72e",
+      "official_release_url": "https://scifact.s3-us-west-2.amazonaws.com/release/latest/data.tar.gz",
+      "release_sha256": "11c621288d41ac144d29b13b0f8503b3820b7d6e8b1f6ff24dff335c196d76be",
+      "release_size": 3115079,
+      "local_archive_public_status": "EXCLUDED_D4",
+      "archive_scientific_member_matches": [
+        {
+          "archive_member": "data/claims_dev.jsonl",
+          "local_path": "data/raw/scifact/data/claims_dev.jsonl",
+          "size": 65007,
+          "sha256": "86f0435d08fdb65d1aa41d1472684f57e6e71930626497bdf4d7a9ec1a632217"
+        },
+        {
+          "archive_member": "data/claims_train.jsonl",
+          "local_path": "data/raw/scifact/data/claims_train.jsonl",
+          "size": 175616,
+          "sha256": "f4c8fa82d8bd0653a9cc8d61a6ea48c25eacea64e90af5dbf390ebb1b74372f0"
+        },
+        {
+          "archive_member": "data/claims_test.jsonl",
+          "local_path": "data/raw/scifact/data/claims_test.jsonl",
+          "size": 33769,
+          "sha256": "558930d75215c73f84a28fe538307d6d397c9de1ec7239514cf45f80d75d2ca3"
+        },
+        {
+          "archive_member": "data/corpus.jsonl",
+          "local_path": "data/raw/scifact/data/corpus.jsonl",
+          "size": 8307875,
+          "sha256": "b8d6c89624cb2ed74dee8938effc4f5d8bd2086887880af8110d64be4ceade62"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_1/claims_dev_1.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_1/claims_dev_1.jsonl",
+          "size": 47736,
+          "sha256": "e30aaab11fbc94580514c83fe3778b76cac0b1b981f3fe941d7b4a33005e5653"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_1/claims_train_1.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_1/claims_train_1.jsonl",
+          "size": 192887,
+          "sha256": "32922d3690b6e867589ed9c672c00115eea7295845c91d13747ef07fa6fb3996"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_5/claims_train_5.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_5/claims_train_5.jsonl",
+          "size": 193241,
+          "sha256": "859ac5af4b2703d8feab737315b0d12c59d7cbc4c4265852a2c3f9dc93ef1177"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_5/claims_dev_5.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_5/claims_dev_5.jsonl",
+          "size": 47382,
+          "sha256": "a210668e95a02d8b2b67f2592db517476e22d6175309e5d643f2bf01eed5c97b"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_2/claims_dev_2.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_2/claims_dev_2.jsonl",
+          "size": 48999,
+          "sha256": "1db8e51cfa04f680ce6d256096ffe336ee74f1640f836e4d2bc0c711fb312f03"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_2/claims_train_2.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_2/claims_train_2.jsonl",
+          "size": 191624,
+          "sha256": "6d8ad6881a7d50cd05aad1baf62d68d68ae3168fe5e3049549bc430ffd7f09a3"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_3/claims_train_3.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_3/claims_train_3.jsonl",
+          "size": 192029,
+          "sha256": "8b16b208d9b42cbf882d480531090b23025689077f78aee60b6434a73c8b3d8b"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_3/claims_dev_3.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_3/claims_dev_3.jsonl",
+          "size": 48594,
+          "sha256": "25f3b19510216350db45cfd469a7d8c6131f948c7ce70976f01d6126682ee745"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_4/claims_dev_4.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_4/claims_dev_4.jsonl",
+          "size": 47912,
+          "sha256": "f6c91c02854739b476b145160c47beb9a123607da58b33b7ea240e0d51209142"
+        },
+        {
+          "archive_member": "data/cross_validation/fold_4/claims_train_4.jsonl",
+          "local_path": "data/raw/scifact/data/cross_validation/fold_4/claims_train_4.jsonl",
+          "size": 192711,
+          "sha256": "11444b9365c72eb6b497dc1a068ad11fa691e5c94cab2249b8969430704f0608"
+        }
+      ],
+      "licence_source": "https://raw.githubusercontent.com/allenai/scifact/68b98a56d93e0f9da0d2aab4e6c3294699a0f72e/LICENSE.md",
+      "licence_sha256": "56ee69bc639cbab8f0b2e4b67091ec5e9390aa99a1d65f0a35e4274686c9a806",
+      "components": {
+        "claims_and_annotations": "CC-BY-4.0",
+        "corpus_database": "ODC-By-1.0",
+        "individual_abstract_copyright": "Not cleared by database licence alone; withheld pending D2-SCI",
+        "upstream_code": "Apache-2.0, not a licence automatically assigned to thesis code"
+      },
+      "hf_card_conflict": "The inspected allenai/scifact card reports cc-by-nc-2.0; the component-specific official repository LICENSE.md is reported separately and takes priority as the direct upstream statement, without pretending the discrepancy or older S2ORC release history proves content clearance.",
+      "canonical_citation": "https://aclanthology.org/2020.emnlp-main.609/",
+      "underlying_corpus_citation": "https://aclanthology.org/2020.acl-main.447/"
+    },
+    "HaluEval_QA": {
+      "official_repository": "https://github.com/RUCAIBox/HaluEval",
+      "inspected_commit": "b7253db3cdaa0ab2c382f92b26b390109174f77e",
+      "official_file": "https://raw.githubusercontent.com/RUCAIBox/HaluEval/b7253db3cdaa0ab2c382f92b26b390109174f77e/data/qa_data.json",
+      "local_path": "data/raw/halueval/qa_data.json",
+      "size": 6164420,
+      "sha256": "89ed139ec5e3a3169a0b30e45569ac1283846f76f27f7bb5e908ee6deed57e88",
+      "format": "10000 newline-delimited JSON records despite .json extension",
+      "licence_source": "https://raw.githubusercontent.com/RUCAIBox/HaluEval/b7253db3cdaa0ab2c382f92b26b390109174f77e/LICENSE",
+      "licence_sha256": "2c33dad5fede86236b54db22e0be64e72095d151f324bcadd354ab88f40c52fe",
+      "upstream_project_licence": "MIT; Copyright (c) 2020 RUCAIBox retained verbatim",
+      "underlying_qa_source": "HotpotQA training data, documented in HaluEval paper section 2.1",
+      "underlying_terms": "HotpotQA dataset and processed Wikipedia: CC-BY-SA-4.0 per official HotpotQA site",
+      "component_clearance": "MIT does not by itself settle upstream HotpotQA/Wikipedia attribution/share-alike; no per-record original HotpotQA IDs/article revisions supplied in the frozen four-field file. Conditional D2-HAL.",
+      "canonical_citation": "https://aclanthology.org/2023.emnlp-main.397/",
+      "seed_citation": "https://aclanthology.org/D18-1259/"
+    },
+    "TruthfulQA": {
+      "official_repository": "https://github.com/sylinrl/TruthfulQA",
+      "inspected_commit": "d71c110897f5d31c5d7f309e7bc316c152f6f031",
+      "official_file": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/d71c110897f5d31c5d7f309e7bc316c152f6f031/TruthfulQA.csv",
+      "local_path": "data/raw/truthfulqa/TruthfulQA.csv",
+      "size": 503550,
+      "sha256": "b8d8ef1e12f98b4f2a9f47abc9765da0640b182b6c5d9b92f0c1a1f2f1e02e5c",
+      "rows": 790,
+      "upstream_project_licence": "Apache-2.0",
+      "licence_source": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/d71c110897f5d31c5d7f309e7bc316c152f6f031/LICENSE",
+      "licence_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "root_NOTICE_check": {
+        "url": "https://raw.githubusercontent.com/sylinrl/TruthfulQA/d71c110897f5d31c5d7f309e7bc316c152f6f031/NOTICE",
+        "status": 404,
+        "error": "HTTP Error 404: Not Found",
+        "meaning": "No file found at this exact checked URL; not proof about every path/history"
+      },
+      "canonical_citation": "https://aclanthology.org/2022.acl-long.229/",
+      "purpose": "Retained background/adapter input; not final confirmatory dataset",
+      "modification_status": "Original CSV redistributed unchanged in candidate; no new copyright owner/year invented"
+    }
+  },
+  "related_sources": {
+    "S2ORC": {
+      "commit": "ac522b5282520d330c433ee6908a4a08f4c33950",
+      "README": "https://raw.githubusercontent.com/allenai/s2orc/ac522b5282520d330c433ee6908a4a08f4c33950/README.md",
+      "release_warning": "Current README distinguishes old non-commercial release from current ODC-By and asks users to check intended use and underlying contents"
+    },
+    "HotpotQA": {
+      "commit": "3635853403a8735609ee997664e1528f4480762a",
+      "README": "https://raw.githubusercontent.com/hotpotqa/hotpot/3635853403a8735609ee997664e1528f4480762a/README.md",
+      "terms_page": "https://hotpotqa.github.io/",
+      "wiki_page": "https://hotpotqa.github.io/wiki-readme.html",
+      "processed_Wikipedia_terms": "CC-BY-SA-4.0 per official wiki-readme",
+      "original_Wikipedia_dump": "2017-10-01 English Wikipedia dump; CC-BY-SA-3.0 per the same official documentation",
+      "item_level_mapping_status": "HaluEval four-field records do not preserve original article URLs or revision IDs; documented general source chain is not a verified per-item provenance reconstruction"
+    }
+  },
+  "network_scope": "Read-only official public downloads and browsing; no Git command, model API call or experiment.",
+  "provider_terms_review": {
+    "source": "https://openai.com/policies/services-agreement/",
+    "source_sha256": "76fe41eee930aedcb72386f65fe57423e06524250371f5ba4823ab6875eb3101",
+    "inspected_effective_date": "2026-01-01",
+    "relevant_sections": [
+      "4.1 customer/output ownership as between parties",
+      "4.3 customer input rights and output responsibility"
+    ],
+    "limit": "Actual contracting customer, applicable order form/account agreement and institutional ownership cannot be established from saved model names/requests. Provider allocation does not grant third-party abstract/Wikipedia rights.",
+    "author_confirmation": {
+      "status": "AUTHOR_CONFIRMED_CURRENT_INSTRUCTION",
+      "API_account_output_arrangements_confirmed": true,
+      "independent_contract_evidence_supplied": false,
+      "underlying_third_party_clearance": false
+    }
+  },
+  "current_preparation": {
+    "date": "2026-11-06",
+    "D1_software": "AUTHOR_CONFIRMED_MIT_ONLY_LISTED_SOFTWARE",
+    "D2_complete_scope": "AUTHOR_SELECTED_COMPLETE; subject to actual third-party permissions",
+    "API_output": "AUTHOR_CONFIRMED; underlying content rights not resolved",
+    "SciFact_copyright_conditional_paths": 63,
+    "HaluEval_attribution_conditional_paths": 7,
+    "official_HotpotQA_training_source_attempt": "HTTPS and HTTP official curtis.ml.cmu.edu URL failed DNS in this audit; no guessed page attribution created",
+    "scientific_content_regenerated": false
+  },
+  "current_distribution_scope": {
+    "type": "INITIAL_INTERIM_PUBLIC_RELEASE",
+    "included_files": 225,
+    "withheld_original_files": 70,
+    "prior_source_statements": "Historical provenance retained; this field controls current inclusion scope"
+  }
+}

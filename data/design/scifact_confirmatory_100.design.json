@@ -1,0 +1,614 @@
+{
+  "design_version": "1.0.0",
+  "dataset_name": "SciFact_Confirmatory",
+  "design_seed": 20260924,
+  "design_note": "One hundred-task confirmatory design selected before final model generation. Selection uses only SciFact labels, source identities, and predeclared evidence transformations; no model output is consulted.",
+  "expected_categories": {
+    "direct_control": 25,
+    "near_match_distractors": 25,
+    "evidence_omission": 25,
+    "conflicting_or_partial_evidence": 25
+  },
+  "tasks": [
+    {
+      "source_item_id": "521",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "163",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "1320",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "921",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "219",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "1029",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "852",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "180",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "1352",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "399",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "832",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "100",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "985",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "50",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "1232",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "212",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "233",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "1336",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "208",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "42",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "1370",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "415",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "1274",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "882",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "770",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "Decisive gold evidence only; establishes basic synthesis and verdict competence."
+    },
+    {
+      "source_item_id": "692",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "133",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "1021",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "1146",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "982",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "811",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "274",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "261",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "1024",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "1110",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "756",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "759",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "598",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "1089",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "141",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "1339",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "960",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "49",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "533",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "903",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "3",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "1270",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "142",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "1130",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "54",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four lexically related documents precede the decisive source, testing source selection and attribution."
+    },
+    {
+      "source_item_id": "521",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "163",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1320",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "921",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "219",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1029",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "852",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "180",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1352",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "399",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "832",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "100",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "985",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "50",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1232",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "212",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "233",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1336",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "208",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "42",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1370",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "415",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1274",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "882",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "770",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "Decisive evidence is withheld while related documents remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "13",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "834",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "1014",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "502",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "1200",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "507",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "821",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "831",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "552",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "75",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "1279",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "1363",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "691",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "623",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "508",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "1272",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "1344",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "411",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "1179",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "684",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "312",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "1199",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "127",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "478",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    },
+    {
+      "source_item_id": "560",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The source packet is topically relevant but does not establish the full claim, testing qualification and overstatement."
+    }
+  ]
+}

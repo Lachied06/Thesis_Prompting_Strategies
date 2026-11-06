@@ -1,0 +1,53 @@
+{
+  "cited_evaluable_claims": 7380,
+  "cited_label_pairs": [
+    {
+      "claims": 24,
+      "primary": "NOT_APPLICABLE",
+      "secondary": "SUPPORTED"
+    },
+    {
+      "claims": 8,
+      "primary": "NOT_APPLICABLE",
+      "secondary": "UNSUPPORTED"
+    },
+    {
+      "claims": 1,
+      "primary": "SUPPORTED",
+      "secondary": "NO_CITATION"
+    },
+    {
+      "claims": 6938,
+      "primary": "SUPPORTED",
+      "secondary": "SUPPORTED"
+    },
+    {
+      "claims": 16,
+      "primary": "SUPPORTED",
+      "secondary": "UNSUPPORTED"
+    },
+    {
+      "claims": 1,
+      "primary": "UNSUPPORTED",
+      "secondary": "NO_CITATION"
+    },
+    {
+      "claims": 314,
+      "primary": "UNSUPPORTED",
+      "secondary": "SUPPORTED"
+    },
+    {
+      "claims": 78,
+      "primary": "UNSUPPORTED",
+      "secondary": "UNSUPPORTED"
+    }
+  ],
+  "cited_one_judge_non_factual_retained": 32,
+  "cited_one_judge_non_factual_with_other_unsupported": 8,
+  "evaluable_claims": 8320,
+  "excluded_both_non_factual": 6,
+  "extracted_claims": 8326,
+  "no_attached_id_with_either_unsupported_label_excluded_from_mismatch": 197,
+  "responses_without_cited_claims": 0,
+  "responses_without_evaluable_claims": 0
+}

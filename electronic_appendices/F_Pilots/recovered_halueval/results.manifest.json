@@ -1,0 +1,515 @@
+{
+  "schema_version": "3.1.0",
+  "experiment_id": "halueval_synthesis_v3_1_pilot-e07f917fdb82",
+  "experiment_name": "halueval_synthesis_v3_1_pilot",
+  "mode": "live_experiment",
+  "status": "completed",
+  "created_at_utc": "2026-09-22T08:30:42.620043+00:00",
+  "completed_at_utc": "2026-09-22T08:37:09.658187+00:00",
+  "config": {
+    "experiment_name": "halueval_synthesis_v3_1_pilot",
+    "repetitions": 1,
+    "shuffle_run_order": true,
+    "random_seed": 20260922,
+    "max_output_tokens": 1200,
+    "models": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.5-2026-04-23",
+        "settings": {
+          "reasoning_effort": "none"
+        }
+      }
+    ],
+    "strategies": [
+      {
+        "name": "baseline",
+        "version": "3.1.0"
+      },
+      {
+        "name": "structured",
+        "version": "3.1.0"
+      },
+      {
+        "name": "source_grounded",
+        "version": "3.1.0"
+      },
+      {
+        "name": "chain_of_verification",
+        "version": "3.1.0"
+      }
+    ]
+  },
+  "inputs": {
+    "config_path": "config_halueval_synthesis.json",
+    "config_sha256": "2914eb364788bbe953f1e3648043ce507fe4dcd9eecb86aec575e1bd44537ff3",
+    "data_path": "data/approved/halueval_synthesis_pilot_14.jsonl",
+    "data_sha256": "11aae2e6bd76de35c5bc7927e74e511036511197761aa8124adbe67bb3f64ae0",
+    "task_count": 14,
+    "dataset_counts": {
+      "HaluEval_Synthesis": 14
+    }
+  },
+  "planned_runs": 56,
+  "planned_api_requests": 84,
+  "planned_skipped_runs": 0,
+  "prompt_registry": {
+    "registry_version": "3.1.0",
+    "legacy_string_default": "1.0.0",
+    "strategies": {
+      "baseline": {
+        "1.0.0": {
+          "name": "baseline",
+          "version": "1.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": false,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_baseline_v1",
+              "template_version": "1.0.0",
+              "step": "initial_generation",
+              "components": [
+                "task_definition",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "2.0.0": {
+          "name": "baseline",
+          "version": "2.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "scifact_baseline_v2",
+              "template_version": "2.0.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "3.0.0": {
+          "name": "baseline",
+          "version": "3.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_synthesis_baseline_v3",
+              "template_version": "3.0.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "3.1.0": {
+          "name": "baseline",
+          "version": "3.1.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_synthesis_baseline_v3_1",
+              "template_version": "3.1.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        }
+      },
+      "chain_of_verification": {
+        "1.0.0": {
+          "name": "chain_of_verification",
+          "version": "1.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": false,
+          "request_count": 2,
+          "templates": [
+            {
+              "template_id": "academic_cov_draft_v1",
+              "template_version": "1.0.0",
+              "step": "initial_generation",
+              "components": [
+                "task_definition",
+                "anti-fabrication_instruction",
+                "shared_output_contract"
+              ]
+            },
+            {
+              "template_id": "academic_cov_verify_v1",
+              "template_version": "1.0.0",
+              "step": "verification_generation",
+              "components": [
+                "draft_review",
+                "claim_verification",
+                "correction_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "2.0.0": {
+          "name": "chain_of_verification",
+          "version": "2.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 3,
+          "templates": [
+            {
+              "template_id": "scifact_cov_draft_v2",
+              "template_version": "2.0.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "shared_output_contract"
+              ]
+            },
+            {
+              "template_id": "scifact_cov_verify_v2",
+              "template_version": "2.0.0",
+              "step": "verification_generation",
+              "components": [
+                "provided_evidence",
+                "draft_review",
+                "atomic_claim_checks",
+                "evidence_alignment",
+                "label_check"
+              ]
+            },
+            {
+              "template_id": "scifact_cov_final_v2",
+              "template_version": "2.0.0",
+              "step": "revision_generation",
+              "components": [
+                "provided_evidence",
+                "draft_review",
+                "verification_report",
+                "correction_instruction",
+                "evidence_only_constraint",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "3.0.0": {
+          "name": "chain_of_verification",
+          "version": "3.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 3,
+          "templates": [
+            {
+              "template_id": "academic_synthesis_cov_draft_v3",
+              "template_version": "3.0.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "shared_output_contract"
+              ]
+            },
+            {
+              "template_id": "academic_synthesis_cov_verify_v3",
+              "template_version": "3.0.0",
+              "step": "verification_generation",
+              "components": [
+                "provided_evidence",
+                "draft_review",
+                "atomic_claim_checks",
+                "citation_validation",
+                "evidence_alignment"
+              ]
+            },
+            {
+              "template_id": "academic_synthesis_cov_final_v3",
+              "template_version": "3.0.0",
+              "step": "revision_generation",
+              "components": [
+                "provided_evidence",
+                "draft_review",
+                "verification_report",
+                "correction_instruction",
+                "citation_validation",
+                "evidence_only_constraint",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "3.1.0": {
+          "name": "chain_of_verification",
+          "version": "3.1.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 3,
+          "templates": [
+            {
+              "template_id": "academic_synthesis_cov_draft_v3_1",
+              "template_version": "3.1.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "shared_output_contract"
+              ]
+            },
+            {
+              "template_id": "academic_synthesis_cov_verify_v3_1",
+              "template_version": "3.1.0",
+              "step": "verification_generation",
+              "components": [
+                "provided_evidence",
+                "draft_review",
+                "atomic_claim_checks",
+                "citation_validation",
+                "evidence_alignment"
+              ]
+            },
+            {
+              "template_id": "academic_synthesis_cov_final_v3_1",
+              "template_version": "3.1.0",
+              "step": "revision_generation",
+              "components": [
+                "provided_evidence",
+                "draft_review",
+                "verification_report",
+                "correction_instruction",
+                "citation_validation",
+                "evidence_only_constraint",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        }
+      },
+      "source_grounded": {
+        "1.0.0": {
+          "name": "source_grounded",
+          "version": "1.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_source_grounded_v1",
+              "template_version": "1.0.0",
+              "step": "initial_generation",
+              "components": [
+                "task_definition",
+                "provided_evidence",
+                "evidence_only_constraint",
+                "uncertainty_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "2.0.0": {
+          "name": "source_grounded",
+          "version": "2.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "scifact_source_grounded_v2",
+              "template_version": "2.0.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "evidence_only_constraint",
+                "claim_level_grounding",
+                "uncertainty_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "3.0.0": {
+          "name": "source_grounded",
+          "version": "3.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_synthesis_source_grounded_v3",
+              "template_version": "3.0.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "evidence_only_constraint",
+                "claim_level_grounding",
+                "citation_constraint",
+                "uncertainty_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "3.1.0": {
+          "name": "source_grounded",
+          "version": "3.1.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_synthesis_source_grounded_v3_1",
+              "template_version": "3.1.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "evidence_only_constraint",
+                "claim_level_grounding",
+                "citation_constraint",
+                "uncertainty_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        }
+      },
+      "structured": {
+        "1.0.0": {
+          "name": "structured",
+          "version": "1.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": false,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_structured_v1",
+              "template_version": "1.0.0",
+              "step": "initial_generation",
+              "components": [
+                "task_definition",
+                "explicit_requirements",
+                "uncertainty_instruction",
+                "anti-fabrication_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "2.0.0": {
+          "name": "structured",
+          "version": "2.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "scifact_structured_v2",
+              "template_version": "2.0.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "task_decomposition",
+                "uncertainty_instruction",
+                "anti-fabrication_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "3.0.0": {
+          "name": "structured",
+          "version": "3.0.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_synthesis_structured_v3",
+              "template_version": "3.0.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "task_decomposition",
+                "cross_source_comparison",
+                "anti_fabrication_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        },
+        "3.1.0": {
+          "name": "structured",
+          "version": "3.1.0",
+          "registry_version": "3.1.0",
+          "requires_evidence": true,
+          "request_count": 1,
+          "templates": [
+            {
+              "template_id": "academic_synthesis_structured_v3_1",
+              "template_version": "3.1.0",
+              "step": "initial_generation",
+              "components": [
+                "provided_evidence",
+                "task_definition",
+                "task_decomposition",
+                "cross_source_comparison",
+                "anti_fabrication_instruction",
+                "shared_output_contract"
+              ]
+            }
+          ]
+        }
+      }
+    }
+  },
+  "runtime": {
+    "python_version": "3.12.14",
+    "platform": "macOS-15.7.2-arm64-arm-64bit",
+    "dependency_versions": {
+      "openai": "3.16.2",
+      "anthropic": "1.7.0",
+      "google-genai": "2.24.0",
+      "mistralai": "2.10.1",
+      "python-dotenv": "1.2.3"
+    }
+  },
+  "artifacts": {
+    "results": "outputs/halueval_synthesis_v3_1_pilot/results.jsonl",
+    "prompts": "outputs/halueval_synthesis_v3_1_pilot/results.prompts.jsonl",
+    "preview": "outputs/halueval_synthesis_v3_1_pilot/results.prompt_preview.md",
+    "manifest": "outputs/halueval_synthesis_v3_1_pilot/results.manifest.json"
+  },
+  "summary": {
+    "preview": {
+      "tasks": 14,
+      "rendered_prompts": 84,
+      "skipped_conditions": 0
+    },
+    "runs": {
+      "total": 56,
+      "completed": 56,
+      "skipped": 0,
+      "errors": 0
+    }
+  }
+}

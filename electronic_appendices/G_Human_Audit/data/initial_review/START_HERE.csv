@@ -1,0 +1,15 @@
+source_row,COMPONENT,INSTRUCTIONS
+5,1. Response packets,Open RESPONSE_PACKETS and locate a Blind ID (HR01–HR40). Read the question and complete generated response.
+6,2. Source evidence,Read the corresponding source documents under EVIDENCE_DOCS or the full source context in RESPONSE_PACKETS.
+7,3. Atomic claim review,Filter CLAIM_ANNOTATIONS by Blind ID. Assess every extracted claim using the RUBRIC; fill in the mint-coloured human annotation fields.
+8,4. Extraction completeness,Compare the complete generated response to extracted claims. Record any omitted or incorrectly segmented factual claims in EXTRACTION_AUDIT.
+9,5. Consistency check,"Re-annotate four previously reviewed random-case responses after 48 hours, without viewing the original labels."
+10,6. Lock manual labels,Save a final copy of this workbook BEFORE opening the separate JUDGE_KEY file.
+11,7. Comparison,"After locking annotations, join human labels to the automated judgements using Blind ID and full Claim ID."
+12,Evidence standard,"Evaluate factual support against supplied task evidence, not external plausibility. Do not assume a plausible claim is supported."
+13,Label handling,"Use Supported, Unsupported, Contradicted, Cannot assess. Record subtype separately, and explain doubtful judgements."
+14,Citation caution,Do not classify every absent citation as fabricated. A fabricated citation must be demonstrated using a defined verification procedure.
+16,RESPONSE COUNT,40
+17,EXTRACTED CLAIMS,433
+18,HUMAN-LABELLED CLAIMS,433
+19,PROGRESS,1

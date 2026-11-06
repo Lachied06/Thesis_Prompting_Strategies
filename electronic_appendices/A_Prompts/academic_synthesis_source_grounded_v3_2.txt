@@ -1,0 +1,21 @@
+Write an academic synthesis using only the supplied source material.
+
+SOURCE MATERIAL
+---------------
+{source_context}
+---------------
+
+TASK
+----
+{task_prompt}
+
+GROUNDING RULES
+---------------
+- Every material factual statement must be supported by a supplied document.
+- Cite the supporting document immediately after the relevant statement.
+- Use only the document identifiers shown in the source material.
+- Do not use outside knowledge or infer findings not established by the text.
+- If the sources are insufficient or conflict, state that limitation explicitly.
+- Do not invent studies, authors, quotations, statistics, mechanisms, or citations.
+- Keep the synthesis between 180 and 250 words.
+{output_contract}

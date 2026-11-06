@@ -1,0 +1,18 @@
+source_row,STATE,PRELIMINARY — DO NOT CITE AS FINAL HUMAN VALIDATION
+5,Human claims captured,433
+6,Random response sample,32
+7,Targeted difficult cases,8
+8,Random claims,313
+9,Random claims human-assessable,312
+10,Targeted claims,120
+11,Targeted claims human-assessable,117
+12,Human 'Cannot assess' claims,4
+13,Judge-uncertain random claims,31
+14,Judge-uncertain targeted claims,28
+15,Methodological priority,Some originally unsupported human labels are source-supported or are artifacts of incorrect extracted wording.
+17,WORKSHEET,PURPOSE
+18,AGREEMENT_SUMMARY,"Formula-driven comparisons: primary judge, secondary judge, unanimous unsupported, either-judge flag, determinate-only consensus."
+19,MATCHED_CLAIMS,All 433 human/automated claim pairs; formulas encode support-status errors. QA flag column helps find suspect rows.
+20,CLAIM_DISCREPANCIES,"All apparent mismatches, judge uncertainty and human cannot-assess cases, with evidence notes."
+21,CONDITION_DESCRIPTIVE,Rates by the eight model–strategy cells (only four sampled responses per condition).
+22,WHAT TO DO,"Complete blind re-rating, resolve high priority items in adjudication workbook, freeze edited ratings, then rerun metrics on that frozen version."

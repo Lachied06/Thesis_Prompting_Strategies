@@ -1,0 +1,122 @@
+{
+  "member": "xl/worksheets/sheet1.xml",
+  "rows": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "FINAL HUMAN REVIEW | AUDIT & THESIS INTEGRATION",
+        "B1": "",
+        "C1": "",
+        "D1": "",
+        "E1": "",
+        "F1": "",
+        "G1": "",
+        "H1": ""
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "Based on the two newest completed workbooks, with the archived pre-adjudication copy used only to recover genuine first-versus-repeat reliability.",
+        "B2": "",
+        "C2": "",
+        "D2": "",
+        "E2": "",
+        "F2": "",
+        "G2": "",
+        "H2": ""
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Finding",
+        "B4": "Verified result / interpretation"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "Final claim annotations",
+        "B5": "433 extracted claims: 411 Supported, 19 Unsupported, 3 Cannot assess, 0 Contradicted."
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "Sampling",
+        "B6": "40 responses: 32 task-paired stratified random across 2 models × 4 strategies; 8 targeted difficult cases kept separate."
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "Repeat annotations",
+        "B7": "48 claims across 4 responses. Repeated assessment = 48 Supported; initial blinded agreement BEFORE changing earlier labels = 44/48 = 91.7%."
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "Adjudication provenance",
+        "B8": "4 discrepant first-pass labels were changed to the second-pass Supported labels in the latest audited workbook. Latest-file agreement 48/48 is not independent repeatability."
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "Random-sample binary measurement",
+        "B9": "313 assessable extracted claims: 297 human Supported; 16 human Unsupported. Strict consensus TP=2, FP=8, TN=289, FN=14."
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "Interpretation of binary comparison",
+        "B10": "Binary 1 = automated unsupported flag, binary 0 = not flagged under each rule. An automated UNCERTAIN flag is treated as not flagged under strict consensus."
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "Strict consensus final",
+        "B11": "Agreement 93.0%; precision 20.0%; recall 12.5%; Cohen's κ 0.119. Supported-majority baseline 297/313=94.9%."
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "Either-judge result",
+        "B12": "Agreement 90.4%; precision 32.5%; recall 81.3%; Cohen's κ 0.422."
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "Extraction caveat",
+        "B13": "Several flagged claims are meaning-changing extraction errors. The main comparison preserves frozen outputs, while exclusion sensitivity demonstrates dependence on the inclusion rules."
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "Human sample's limits",
+        "B14": "Single annotator; low positive-class prevalence; purposive cases excluded from general agreement; no human-validated strategy-level significance or subtype ranking."
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A15": "Automated results",
+        "B15": "All three prompting strategies have favourable point estimates compared with baseline under four judge rules; only source-grounded and CoV are consistently supported by source-cluster bootstrap intervals."
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "Thesis use",
+        "B16": "Report preliminary blinded and final adjudicated binary comparisons, preserve 91.7% repeat agreement, add extraction-fidelity audit and full-dataset judge-rule sensitivity."
+      }
+    }
+  ]
+}

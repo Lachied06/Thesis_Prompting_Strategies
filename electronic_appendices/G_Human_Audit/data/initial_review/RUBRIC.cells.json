@@ -1,0 +1,119 @@
+{
+  "member": "xl/worksheets/sheet6.xml",
+  "rows": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "MANUAL ANNOTATION RUBRIC",
+        "B1": "",
+        "C1": "",
+        "D1": "",
+        "E1": "",
+        "F1": "",
+        "G1": "",
+        "H1": ""
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "Finalise interpretation through two practice cases outside the sample before using this workbook for thesis data.",
+        "B2": "",
+        "C2": "",
+        "D2": "",
+        "E2": "",
+        "F2": "",
+        "G2": "",
+        "H2": ""
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Human label / issue",
+        "B4": "Annotation rule",
+        "C4": "Boundary example / caution"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "Supported",
+        "B5": "Provided evidence directly or reasonably establishes the factual claim without substantive distortion.",
+        "C5": "An accurate paraphrase may count even if wording is different."
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "Unsupported",
+        "B6": "Provided evidence does not establish the factual assertion, including unwarranted extrapolations or unsupported precision.",
+        "C6": "A claim's real-world plausibility does not make it supported by supplied sources."
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "Contradicted",
+        "B7": "One or more supplied sources directly contradict the factual assertion.",
+        "C7": "For a binary comparison, combine with Unsupported only if this matches the experiment's binary outcome definition."
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "Cannot assess",
+        "B8": "Insufficient interpretability or evidence to make a defensible human judgement.",
+        "C8": "Document frequency and exclude from binary accuracy denominators; do not force a yes/no."
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "Unsupported claim subtype",
+        "B9": "Unsupported factual addition or inference not primarily about misreporting a specified source.",
+        "C9": "Keep separate from source misrepresentation when using a mutually exclusive subtype table."
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "Source misrepresentation",
+        "B10": "Misreports the conclusion, direction, magnitude, population, outcome or methodological limits of a specific source.",
+        "C10": "Subtype assessment can overlap with unsupported status. Clearly distinguish substantive type from support label."
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "Fabricated citation",
+        "B11": "Cited source/reference does not exist or contains a fabricated bibliographic identifier under the stated verification procedure.",
+        "C11": "A missing citation or unsupported reference to a real document is NOT automatically a fabricated citation."
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "Citation mismatch",
+        "B12": "A valid document ID is cited but does not support the attached factual statement.",
+        "C12": "Record as a potential source-alignment issue; do not automatically call it a fabricated citation."
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "Extraction completeness",
+        "B13": "Compare full generated synthesis to extracted atomic claims; note factual claims the extractor omitted or incorrectly segmented.",
+        "C13": "This is an independent error channel; agreement on extracted claims cannot assess missed claims."
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "Blinding",
+        "B14": "Do not open the separate answer key before all human claim labels and extraction notes are final.",
+        "C14": "Primary/secondary classifications are hidden to limit anchoring and confirmation bias."
+      }
+    }
+  ]
+}

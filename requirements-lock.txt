@@ -1,0 +1,9 @@
+# These are recorded direct versions, not a full transitive dependency lock or verified cross-platform reproducible environment.
+# Source: outputs/scifact_confirmatory_v3_2/results.manifest.json -> runtime.dependency_versions
+# Recorded runtime: Python 3.12.14; no dependencies were installed during cleanup.
+# matplotlib is optional for plotting; its original installed version was not recorded.
+openai==3.19.2
+anthropic==1.8.0
+google-genai==2.25.0
+mistralai==2.10.1
+python-dotenv==1.2.3

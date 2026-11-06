@@ -1,0 +1,9 @@
+source_row,SELECTION FACT,DETAIL
+5,Selection seed,20261022
+6,Final study population,"800 responses, both judges parsed on all 800."
+7,Total audit cases,40: 32 random paired + 8 targeted difficult cases.
+8,Random selection,"For each generating model and each of four benchmark difficulty strata, randomly select one available task without reusing task IDs between models, then include its four prompt strategies."
+9,Targeted selection,"One distinct task per model-strategy condition, selected purposively by pre-existing automated difficulty indicators. Keep separate from random agreement metrics."
+10,Primary agreement estimates,Compute from Random paired responses only; targeted cases must remain separate.
+11,Clustering,Claims within response and responses within task are dependent. Report descriptive agreement with appropriate caveats.
+12,Unlock condition,"All manual labels and extraction audits finalised, saved, and timestamped in blinded file."

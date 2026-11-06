@@ -1,0 +1,13 @@
+
+
+OUTPUT FORMAT
+-------------
+Return exactly these three fields:
+VERDICT: SUPPORT | CONTRADICT | NO_EVIDENCE
+SYNTHESIS: <a 180–250 word academic paragraph>
+CITED_DOCUMENTS: <comma-separated supplied document IDs used, or NONE>
+
+Use NO_EVIDENCE when the complete claim cannot be established or contradicted
+from the supplied source material. Within the synthesis, cite supplied evidence
+as [Document ID]. Do not use a document identifier that is not present in the
+supplied evidence.

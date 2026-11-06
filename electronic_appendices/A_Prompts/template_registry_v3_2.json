@@ -1,0 +1,100 @@
+{
+  "registry_version": "3.2.0",
+  "templates": [
+    {
+      "strategy": "baseline",
+      "template_id": "academic_synthesis_baseline_v3_2",
+      "version": "3.2.0",
+      "step": "initial_generation",
+      "user_template": "SOURCE MATERIAL\n---------------\n{source_context}\n---------------\n\nTASK\n----\n{task_prompt}{output_contract}",
+      "components": [
+        "provided_evidence",
+        "task_definition",
+        "shared_output_contract"
+      ],
+      "system_template": null
+    },
+    {
+      "strategy": "structured",
+      "template_id": "academic_synthesis_structured_v3_2",
+      "version": "3.2.0",
+      "step": "initial_generation",
+      "user_template": "Write an academic synthesis addressing the task from the supplied source material.\n\nSOURCE MATERIAL\n---------------\n{source_context}\n---------------\n\nTASK\n----\n{task_prompt}\n\nREQUIREMENTS\n------------\n1. Identify the central proposition that must be evaluated.\n2. Compare the relevant findings across the supplied documents.\n3. Distinguish support, contradiction, and evidential limitations.\n4. Attribute material claims using the supplied document identifiers.\n5. Do not invent studies, citations, quotations, statistics, or findings.\n6. Keep the synthesis between 180 and 250 words.\n{output_contract}",
+      "components": [
+        "provided_evidence",
+        "task_definition",
+        "task_decomposition",
+        "cross_source_comparison",
+        "anti_fabrication_instruction",
+        "shared_output_contract"
+      ],
+      "system_template": null
+    },
+    {
+      "strategy": "source_grounded",
+      "template_id": "academic_synthesis_source_grounded_v3_2",
+      "version": "3.2.0",
+      "step": "initial_generation",
+      "user_template": "Write an academic synthesis using only the supplied source material.\n\nSOURCE MATERIAL\n---------------\n{source_context}\n---------------\n\nTASK\n----\n{task_prompt}\n\nGROUNDING RULES\n---------------\n- Every material factual statement must be supported by a supplied document.\n- Cite the supporting document immediately after the relevant statement.\n- Use only the document identifiers shown in the source material.\n- Do not use outside knowledge or infer findings not established by the text.\n- If the sources are insufficient or conflict, state that limitation explicitly.\n- Do not invent studies, authors, quotations, statistics, mechanisms, or citations.\n- Keep the synthesis between 180 and 250 words.\n{output_contract}",
+      "components": [
+        "provided_evidence",
+        "task_definition",
+        "evidence_only_constraint",
+        "claim_level_grounding",
+        "citation_constraint",
+        "uncertainty_instruction",
+        "shared_output_contract"
+      ],
+      "system_template": null
+    },
+    {
+      "strategy": "chain_of_verification",
+      "template_id": "academic_synthesis_cov_draft_v3_2",
+      "version": "3.2.0",
+      "step": "initial_generation",
+      "user_template": "Produce an initial academic synthesis for the task using the supplied material.\n\nSOURCE MATERIAL\n---------------\n{source_context}\n---------------\n\nTASK\n----\n{task_prompt}{output_contract}",
+      "components": [
+        "provided_evidence",
+        "task_definition",
+        "shared_output_contract"
+      ],
+      "system_template": null
+    },
+    {
+      "strategy": "chain_of_verification",
+      "template_id": "academic_synthesis_cov_verify_v3_2",
+      "version": "3.2.0",
+      "step": "verification_generation",
+      "user_template": "Audit the draft against the source material. Do not write the final synthesis yet.\n\nSOURCE MATERIAL\n---------------\n{source_context}\n---------------\n\nORIGINAL TASK\n-------------\n{task_prompt}\n\nDRAFT\n-----\n{draft}\n-----\n\nVERIFICATION PROCEDURE\n----------------------\n1. List every material factual claim in the draft.\n2. Identify the supplied document, if any, that supports each claim.\n3. Mark unsupported, overstated, contradictory, or ambiguous claims.\n4. Check every citation identifier against the supplied documents.\n5. Check whether each citation actually supports the statement attached to it.\n6. State the exact corrections needed without adding outside knowledge.\n\nReturn a concise verification report only.",
+      "components": [
+        "provided_evidence",
+        "draft_review",
+        "atomic_claim_checks",
+        "citation_validation",
+        "evidence_alignment"
+      ],
+      "system_template": null
+    },
+    {
+      "strategy": "chain_of_verification",
+      "template_id": "academic_synthesis_cov_final_v3_2",
+      "version": "3.2.0",
+      "step": "revision_generation",
+      "user_template": "Revise the draft using the verification report. Return the final synthesis only.\n\nSOURCE MATERIAL\n---------------\n{source_context}\n---------------\n\nORIGINAL TASK\n-------------\n{task_prompt}\n\nDRAFT\n-----\n{draft}\n-----\n\nVERIFICATION REPORT\n-------------------\n{verification_report}\n-------------------\n\nREVISION RULES\n--------------\n- Remove or qualify every unsupported, overstated, or contradictory claim.\n- Retain only citations whose identifiers and attributed findings are valid.\n- Add no factual claim unless a supplied document supports it.\n- State material evidential limitations clearly.\n- Keep the synthesis between 180 and 250 words.\n- Return only the requested output fields, not the verification notes.\n{output_contract}",
+      "components": [
+        "provided_evidence",
+        "draft_review",
+        "verification_report",
+        "correction_instruction",
+        "citation_validation",
+        "evidence_only_constraint",
+        "shared_output_contract"
+      ],
+      "system_template": null
+    }
+  ],
+  "verification": {
+    "saved_stage_prompts_matched": 1200,
+    "all_system_templates_null": true
+  }
+}

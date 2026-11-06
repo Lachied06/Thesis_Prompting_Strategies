@@ -1,0 +1,776 @@
+{
+  "member": "xl/worksheets/sheet2.xml",
+  "rows": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "INTRA-RATER REPEATABILITY | ORIGINAL VS SECOND",
+        "B1": "",
+        "C1": "",
+        "D1": "",
+        "E1": "",
+        "F1": "",
+        "G1": "",
+        "H1": ""
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "The first-pass value is recovered from the previously saved workbook before four post-repeat edits; the latest first-pass workbook already matches all 48.",
+        "B2": "",
+        "C2": "",
+        "D2": "",
+        "E2": "",
+        "F2": "",
+        "G2": "",
+        "H2": ""
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Repeat ID",
+        "B4": "Original response ID",
+        "C4": "Full Claim ID",
+        "D4": "Claim #",
+        "E4": "Original pre-adjudication",
+        "F4": "Second review",
+        "G4": "Current adjudicated",
+        "H4": "Original match?",
+        "I4": "Post-adjudication match?",
+        "J4": "Claim text",
+        "L4": "Repeat metric",
+        "M4": "Value"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "RC01",
+        "B5": "HR03",
+        "C5": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:001",
+        "D5": "1",
+        "E5": "Supported",
+        "F5": "Supported",
+        "G5": "Supported",
+        "H5": "1",
+        "I5": "1",
+        "J5": "The source addresses cord blood graft recipients rather than isolated UCB T cells as a mechanistic exposure.",
+        "L5": "Claims rereviewed",
+        "M5": "48"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "RC01",
+        "B6": "HR03",
+        "C6": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:002",
+        "D6": "2",
+        "E6": "Supported",
+        "F6": "Supported",
+        "G6": "Supported",
+        "H6": "1",
+        "I6": "1",
+        "J6": "Delayed T cell recovery and restricted TCR diversity after allogeneic hematopoietic stem cell transplantation are associated with increased risks of infection and cancer relapse.",
+        "L6": "Original matches",
+        "M6": "44"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "RC01",
+        "B7": "HR03",
+        "C7": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:003",
+        "D7": "3",
+        "E7": "Supported",
+        "F7": "Supported",
+        "G7": "Supported",
+        "H7": "1",
+        "I7": "1",
+        "J7": "Investigators quantified TCR diversity in 28 recipients of allogeneic hematopoietic stem cell transplantation using 5′ rapid amplification of cDNA ends PCR combined with deep sequencing.",
+        "L7": "Original match %",
+        "M7": "0.9166666666666666"
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "RC01",
+        "B8": "HR03",
+        "C8": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:004",
+        "D8": "4",
+        "E8": "Supported",
+        "F8": "Supported",
+        "G8": "Supported",
+        "H8": "1",
+        "I8": "1",
+        "J8": "Duplicate blood samples confirmed accurate estimation of individual TCR frequencies.",
+        "L8": "Post-adjudication matches",
+        "M8": "48"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "RC01",
+        "B9": "HR03",
+        "C9": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:005",
+        "D9": "5",
+        "E9": "Supported",
+        "F9": "Supported",
+        "G9": "Supported",
+        "H9": "1",
+        "I9": "1",
+        "J9": "The key exposure comparison was between cord blood-graft recipients and recipients of T-cell-depleted peripheral-blood stem cell grafts."
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "RC01",
+        "B10": "HR03",
+        "C10": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:006",
+        "D10": "6",
+        "E10": "Supported",
+        "F10": "Supported",
+        "G10": "Supported",
+        "H10": "1",
+        "I10": "1",
+        "J10": "At 6 months after transplantation, cord blood-graft recipients approximated the TCR diversity of healthy individuals."
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "RC01",
+        "B11": "HR03",
+        "C11": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:007",
+        "D11": "7",
+        "E11": "Supported",
+        "F11": "Supported",
+        "G11": "Supported",
+        "H11": "1",
+        "I11": "1",
+        "J11": "At 6 months after transplantation, recipients of T-cell-depleted peripheral-blood stem cell grafts had 28-fold lower CD4+ T cell diversity and 14-fold lower CD8+ T cell diversity."
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "RC01",
+        "B12": "HR03",
+        "C12": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:008",
+        "D12": "8",
+        "E12": "Supported",
+        "F12": "Supported",
+        "G12": "Supported",
+        "H12": "1",
+        "I12": "1",
+        "J12": "At 12 months after transplantation, TCR diversity deficiencies in recipients of T-cell-depleted peripheral-blood stem cell grafts improved for CD4+ T cells but not for CD8+ T cells."
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "RC01",
+        "B13": "HR03",
+        "C13": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:009",
+        "D13": "9",
+        "E13": "Supported",
+        "F13": "Supported",
+        "G13": "Supported",
+        "H13": "1",
+        "I13": "1",
+        "J13": "Cord blood grafts were associated with comparatively favorable TCR repertoire recovery after transplantation."
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "RC01",
+        "B14": "HR03",
+        "C14": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:010",
+        "D14": "10",
+        "E14": "Supported",
+        "F14": "Supported",
+        "G14": "Supported",
+        "H14": "1",
+        "I14": "1",
+        "J14": "The cohort included 28 recipients."
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A15": "RC01",
+        "B15": "HR03",
+        "C15": "66e86ae8-d175-459e-bd37-e686d3a73b3a:claim:011",
+        "D15": "11",
+        "E15": "Unsupported",
+        "F15": "Supported",
+        "G15": "Supported",
+        "H15": "0",
+        "I15": "1",
+        "J15": "The study did not directly test purified UCB T cells."
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "RC02",
+        "B16": "HR31",
+        "C16": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:001",
+        "D16": "1",
+        "E16": "Supported",
+        "F16": "Supported",
+        "G16": "Supported",
+        "H16": "1",
+        "I16": "1",
+        "J16": "A study in human peripheral blood developed a microRNA age model."
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A17": "RC02",
+        "B17": "HR31",
+        "C17": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:002",
+        "D17": "2",
+        "E17": "Supported",
+        "F17": "Supported",
+        "G17": "Supported",
+        "H17": "1",
+        "I17": "1",
+        "J17": "In human peripheral blood, the difference between microRNA age and chronological age was associated with all-cause mortality and cardiometabolic traits."
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A18": "RC02",
+        "B18": "HR31",
+        "C18": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:003",
+        "D18": "3",
+        "E18": "Supported",
+        "F18": "Supported",
+        "G18": "Supported",
+        "H18": "1",
+        "I18": "1",
+        "J18": "MicroRNA age correlated modestly with predicted age from DNA methylation at r = 0.3."
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A19": "RC02",
+        "B19": "HR31",
+        "C19": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:004",
+        "D19": "4",
+        "E19": "Supported",
+        "F19": "Supported",
+        "G19": "Supported",
+        "H19": "1",
+        "I19": "1",
+        "J19": "MicroRNA age and DNA methylation age are related but not interchangeable."
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A20": "RC02",
+        "B20": "HR31",
+        "C20": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:005",
+        "D20": "5",
+        "E20": "Supported",
+        "F20": "Supported",
+        "G20": "Supported",
+        "H20": "1",
+        "I20": "1",
+        "J20": "Mouse intestine shows extensive age-related DNA methylation changes, including both hypermethylation and hypomethylation."
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A21": "RC02",
+        "B21": "HR31",
+        "C21": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:006",
+        "D21": "6",
+        "E21": "Supported",
+        "F21": "Supported",
+        "G21": "Supported",
+        "H21": "1",
+        "I21": "1",
+        "J21": "Age-related DNA methylation changes show strong tissue specificity in mice."
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A22": "RC02",
+        "B22": "HR31",
+        "C22": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:007",
+        "D22": "7",
+        "E22": "Supported",
+        "F22": "Supported",
+        "G22": "Supported",
+        "H22": "1",
+        "I22": "1",
+        "J22": "Age-related DNA methylation changes in mouse intestine are partially conserved across species."
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A23": "RC02",
+        "B23": "HR31",
+        "C23": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:008",
+        "D23": "8",
+        "E23": "Supported",
+        "F23": "Supported",
+        "G23": "Supported",
+        "H23": "1",
+        "I23": "1",
+        "J23": "A human sperm methylation study identified age-associated methylation changes in human sperm."
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "A24": "RC02",
+        "B24": "HR31",
+        "C24": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:009",
+        "D24": "9",
+        "E24": "Supported",
+        "F24": "Supported",
+        "G24": "Supported",
+        "H24": "1",
+        "I24": "1",
+        "J24": "Some age-associated methylation changes in human sperm are located at genes previously associated with neuropsychiatric disease risk."
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "A25": "RC02",
+        "B25": "HR31",
+        "C25": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:010",
+        "D25": "10",
+        "E25": "Supported",
+        "F25": "Supported",
+        "G25": "Supported",
+        "H25": "1",
+        "I25": "1",
+        "J25": "A nematode transcriptomic study measured gene expression rather than methylation."
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "A26": "RC02",
+        "B26": "HR31",
+        "C26": "5a1088a4-ec94-4cfe-b684-a36debbd3980:claim:011",
+        "D26": "11",
+        "E26": "Supported",
+        "F26": "Supported",
+        "G26": "Supported",
+        "H26": "1",
+        "I26": "1",
+        "J26": "A nematode transcriptomic study examined biomarkers of aging and age-associated expression profiles."
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "A27": "RC03",
+        "B27": "HR04",
+        "C27": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:001",
+        "D27": "1",
+        "E27": "Supported",
+        "F27": "Supported",
+        "G27": "Supported",
+        "H27": "1",
+        "I27": "1",
+        "J27": "A national universal prestorage leukoreduction program was evaluated in 14,786 transfused patients across Canadian hospitals."
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "A28": "RC03",
+        "B28": "HR04",
+        "C28": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:002",
+        "D28": "2",
+        "E28": "Supported",
+        "F28": "Supported",
+        "G28": "Supported",
+        "H28": "1",
+        "I28": "1",
+        "J28": "The patients in the leukoreduction study included cardiac surgery, hip fracture repair, intensive care, and trauma populations."
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "A29": "RC03",
+        "B29": "HR04",
+        "C29": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:003",
+        "D29": "3",
+        "E29": "Supported",
+        "F29": "Supported",
+        "G29": "Supported",
+        "H29": "1",
+        "I29": "1",
+        "J29": "Introducing leukoreduced red blood cell products was associated with lower unadjusted in-hospital mortality."
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "A30": "RC03",
+        "B30": "HR04",
+        "C30": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:004",
+        "D30": "4",
+        "E30": "Supported",
+        "F30": "Supported",
+        "G30": "Supported",
+        "H30": "1",
+        "I30": "1",
+        "J30": "Introducing leukoreduced red blood cell products was associated with a modest reduction in adjusted odds of death."
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "A31": "RC03",
+        "B31": "HR04",
+        "C31": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:005",
+        "D31": "5",
+        "E31": "Supported",
+        "F31": "Supported",
+        "G31": "Supported",
+        "H31": "1",
+        "I31": "1",
+        "J31": "Serious nosocomial infections did not decrease significantly after leukoreduction in the Canadian before-and-after cohort."
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "A32": "RC03",
+        "B32": "HR04",
+        "C32": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:006",
+        "D32": "6",
+        "E32": "Supported",
+        "F32": "Supported",
+        "G32": "Supported",
+        "H32": "1",
+        "I32": "1",
+        "J32": "Posttransfusion fever was reduced after leukoreduction."
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "A33": "RC03",
+        "B33": "HR04",
+        "C33": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:007",
+        "D33": "7",
+        "E33": "Supported",
+        "F33": "Supported",
+        "G33": "Supported",
+        "H33": "1",
+        "I33": "1",
+        "J33": "Antibiotic use was reduced after leukoreduction."
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "A34": "RC03",
+        "B34": "HR04",
+        "C34": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:008",
+        "D34": "8",
+        "E34": "Cannot assess",
+        "F34": "Supported",
+        "G34": "Supported",
+        "H34": "0",
+        "I34": "1",
+        "J34": "Higher leukocyte content does not worsen infectious outcomes."
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "A35": "RC03",
+        "B35": "HR04",
+        "C35": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:009",
+        "D35": "9",
+        "E35": "Unsupported",
+        "F35": "Supported",
+        "G35": "Supported",
+        "H35": "0",
+        "I35": "1",
+        "J35": "Leukoreduction may improve some noninfectious transfusion reactions without clear infection benefit."
+      }
+    },
+    {
+      "row": 36,
+      "cells": {
+        "A36": "RC03",
+        "B36": "HR04",
+        "C36": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:010",
+        "D36": "10",
+        "E36": "Supported",
+        "F36": "Supported",
+        "G36": "Supported",
+        "H36": "1",
+        "I36": "1",
+        "J36": "Document 3899896 concerns rectal cancer prognosis."
+      }
+    },
+    {
+      "row": 37,
+      "cells": {
+        "A37": "RC03",
+        "B37": "HR04",
+        "C37": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:011",
+        "D37": "11",
+        "E37": "Supported",
+        "F37": "Supported",
+        "G37": "Supported",
+        "H37": "1",
+        "I37": "1",
+        "J37": "Document 27049238 concerns red blood cell membrane deformation."
+      }
+    },
+    {
+      "row": 38,
+      "cells": {
+        "A38": "RC03",
+        "B38": "HR04",
+        "C38": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:012",
+        "D38": "12",
+        "E38": "Supported",
+        "F38": "Supported",
+        "G38": "Supported",
+        "H38": "1",
+        "I38": "1",
+        "J38": "Document 9787715 concerns malaria-related B cell changes."
+      }
+    },
+    {
+      "row": 39,
+      "cells": {
+        "A39": "RC03",
+        "B39": "HR04",
+        "C39": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:013",
+        "D39": "13",
+        "E39": "Supported",
+        "F39": "Supported",
+        "G39": "Supported",
+        "H39": "1",
+        "I39": "1",
+        "J39": "Document 11071351 concerns hypertension prevention."
+      }
+    },
+    {
+      "row": 40,
+      "cells": {
+        "A40": "RC03",
+        "B40": "HR04",
+        "C40": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:014",
+        "D40": "14",
+        "E40": "Supported",
+        "F40": "Supported",
+        "G40": "Supported",
+        "H40": "1",
+        "I40": "1",
+        "J40": "The transfusion study was observational."
+      }
+    },
+    {
+      "row": 41,
+      "cells": {
+        "A41": "RC03",
+        "B41": "HR04",
+        "C41": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:015",
+        "D41": "15",
+        "E41": "Supported",
+        "F41": "Supported",
+        "G41": "Supported",
+        "H41": "1",
+        "I41": "1",
+        "J41": "The transfusion study assessed a leukoreduction policy change rather than random allocation."
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "A42": "RC03",
+        "B42": "HR04",
+        "C42": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:016",
+        "D42": "16",
+        "E42": "Unsupported",
+        "F42": "Supported",
+        "G42": "Supported",
+        "H42": "0",
+        "I42": "1",
+        "J42": "Confounding and temporal changes could influence the transfusion study results."
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "A43": "RC03",
+        "B43": "HR04",
+        "C43": "091e8e12-8b9c-4031-af2a-fbf942c924e9:claim:017",
+        "D43": "17",
+        "E43": "Supported",
+        "F43": "Supported",
+        "G43": "Supported",
+        "H43": "1",
+        "I43": "1",
+        "J43": "The transfusion study did not directly compare leuko-increased units versus leukoreduced units as the exposure phrased in the claim."
+      }
+    },
+    {
+      "row": 44,
+      "cells": {
+        "A44": "RC04",
+        "B44": "HR20",
+        "C44": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:001",
+        "D44": "1",
+        "E44": "Supported",
+        "F44": "Supported",
+        "G44": "Supported",
+        "H44": "1",
+        "I44": "1",
+        "J44": "Cellular senescence is a permanent withdrawal from the cell cycle induced by stresses such as telomere dysfunction, DNA damage, strong mitogenic signaling, and chromatin disruption."
+      }
+    },
+    {
+      "row": 45,
+      "cells": {
+        "A45": "RC04",
+        "B45": "HR20",
+        "C45": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:002",
+        "D45": "2",
+        "E45": "Supported",
+        "F45": "Supported",
+        "G45": "Supported",
+        "H45": "1",
+        "I45": "1",
+        "J45": "Cellular senescence is controlled by the p53 and RB tumor suppressor proteins."
+      }
+    },
+    {
+      "row": 46,
+      "cells": {
+        "A46": "RC04",
+        "B46": "HR20",
+        "C46": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:003",
+        "D46": "3",
+        "E46": "Supported",
+        "F46": "Supported",
+        "G46": "Supported",
+        "H46": "1",
+        "I46": "1",
+        "J46": "Cellular senescence is a potent anticancer mechanism that can curtail cancer development early in life."
+      }
+    },
+    {
+      "row": 47,
+      "cells": {
+        "A47": "RC04",
+        "B47": "HR20",
+        "C47": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:004",
+        "D47": "4",
+        "E47": "Supported",
+        "F47": "Supported",
+        "G47": "Supported",
+        "H47": "1",
+        "I47": "1",
+        "J47": "Senescent cells acquire phenotypic changes that may contribute to aging and age-related diseases, including late-life cancer."
+      }
+    },
+    {
+      "row": 48,
+      "cells": {
+        "A48": "RC04",
+        "B48": "HR20",
+        "C48": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:005",
+        "D48": "5",
+        "E48": "Supported",
+        "F48": "Supported",
+        "G48": "Supported",
+        "H48": "1",
+        "I48": "1",
+        "J48": "Senescence may be antagonistically pleiotropic."
+      }
+    },
+    {
+      "row": 49,
+      "cells": {
+        "A49": "RC04",
+        "B49": "HR20",
+        "C49": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:006",
+        "D49": "6",
+        "E49": "Supported",
+        "F49": "Supported",
+        "G49": "Supported",
+        "H49": "1",
+        "I49": "1",
+        "J49": "Circulating tumor-cell profiling in metastatic breast cancer predicts therapy response and survival."
+      }
+    },
+    {
+      "row": 50,
+      "cells": {
+        "A50": "RC04",
+        "B50": "HR20",
+        "C50": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:007",
+        "D50": "7",
+        "E50": "Supported",
+        "F50": "Supported",
+        "G50": "Supported",
+        "H50": "1",
+        "I50": "1",
+        "J50": "CDX2 suppresses colon cancer proliferation through Wnt/β-catenin inhibition."
+      }
+    },
+    {
+      "row": 51,
+      "cells": {
+        "A51": "RC04",
+        "B51": "HR20",
+        "C51": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:008",
+        "D51": "8",
+        "E51": "Supported",
+        "F51": "Supported",
+        "G51": "Supported",
+        "H51": "1",
+        "I51": "1",
+        "J51": "PTEN loss mediates gefitinib resistance via constitutive PI3K/Akt signaling."
+      }
+    },
+    {
+      "row": 52,
+      "cells": {
+        "A52": "RC04",
+        "B52": "HR20",
+        "C52": "28ccdfe0-1521-4101-a40f-3f01ec3893be:claim:009",
+        "D52": "9",
+        "E52": "Supported",
+        "F52": "Supported",
+        "G52": "Supported",
+        "H52": "1",
+        "I52": "1",
+        "J52": "β1 integrin supports lapatinib resistance in HER2-positive breast cancer cells."
+      }
+    }
+  ]
+}

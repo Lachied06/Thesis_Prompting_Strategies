@@ -1,0 +1,13 @@
+source_row,Model,Strategy,Responses,Assessable human claims,Human unsupported,Automated consensus unsupported,Judge-uncertain claims,Human unsupported rate,Consensus unsupported rate
+5,gpt-5.4-mini-2026-03-17,baseline,4,43,2,2,2,0.046511627906976744,0.046511627906976744
+6,gpt-5.4-mini-2026-03-17,chain_of_verification,4,29,6,0,1,0.20689655172413793,0
+7,gpt-5.4-mini-2026-03-17,source_grounded,4,38,1,1,8,0.02631578947368421,0.02631578947368421
+8,gpt-5.4-mini-2026-03-17,structured,4,41,4,2,3,0.0975609756097561,0.04878048780487805
+9,gpt-5.5-2026-04-23,baseline,4,40,2,2,3,0.05,0.05
+10,gpt-5.5-2026-04-23,chain_of_verification,4,41,5,1,5,0.12195121951219512,0.024390243902439025
+11,gpt-5.5-2026-04-23,source_grounded,4,45,4,1,3,0.08888888888888889,0.022222222222222223
+12,gpt-5.5-2026-04-23,structured,4,35,0,0,6,0,0
+15,DESIGN CAUTION,"The random audit is stratified across two models, prompting conditions and four difficulty strata.",,,,,,,
+16,UNIT OF INFERENCE,The 313 random claims arise from only 32 responses and a small number of paired task IDs. Rates are descriptive.,,,,,,,
+17,ORIGINAL DESIGN,"Results here are ancillary checks, not a rerun of the confirmatory experiment and not a replacement for primary statistical analysis.",,,,,,,
+18,FABRICATED CITATIONS,No human-fabricated-citation events were annotated; no meaningful detection performance can be estimated for this type.,,,,,,,

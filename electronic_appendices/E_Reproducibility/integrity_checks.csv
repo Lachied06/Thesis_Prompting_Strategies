@@ -1,0 +1,11 @@
+check_id,description,status,evidence,scope
+EA-01,100 unique frozen tasks,PASS,data/approved/scifact_confirmatory_100.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-02,"Four evidence strata, 25 each",PASS,data/approved/scifact_confirmatory_100.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-03,75 original source items,PASS,data/approved/scifact_confirmatory_100.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-04,800 unique completed responses,PASS,outputs/scifact_confirmatory_v3_2/results.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-05,1200 generation trace steps,PASS,outputs/scifact_confirmatory_v3_2/results.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-06,800 aligned consensus records,PASS,outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-07,"8326 extracted, 8320 evaluable items",PASS,outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-08,Six dual-NOT_FACTUAL excluded claims,PASS,outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-09,Six source templates match all saved stage prompts,PASS,src/prompting.py; outputs/scifact_confirmatory_v3_2/results.jsonl,New read-only verification of saved records; not a claimed historical numbered check
+EA-10,Seven incomplete intermediate audit steps; all final rows complete,PASS,outputs/scifact_confirmatory_v3_2/results.jsonl,New read-only verification of saved records; not a claimed historical numbered check

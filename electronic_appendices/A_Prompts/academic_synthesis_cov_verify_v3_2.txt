@@ -1,0 +1,26 @@
+Audit the draft against the source material. Do not write the final synthesis yet.
+
+SOURCE MATERIAL
+---------------
+{source_context}
+---------------
+
+ORIGINAL TASK
+-------------
+{task_prompt}
+
+DRAFT
+-----
+{draft}
+-----
+
+VERIFICATION PROCEDURE
+----------------------
+1. List every material factual claim in the draft.
+2. Identify the supplied document, if any, that supports each claim.
+3. Mark unsupported, overstated, contradictory, or ambiguous claims.
+4. Check every citation identifier against the supplied documents.
+5. Check whether each citation actually supports the statement attached to it.
+6. State the exact corrections needed without adding outside knowledge.
+
+Return a concise verification report only.

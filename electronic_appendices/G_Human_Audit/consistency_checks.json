@@ -1,0 +1,311 @@
+{
+  "full_800_four_rule_point_estimates_match_saved": true,
+  "scope": "Read-only reproduction of saved human-audit consistency metrics; no new inferential analysis or label corrections",
+  "status": "PASS",
+  "responses": 40,
+  "claims": 433,
+  "random_responses": 32,
+  "random_claims": 313,
+  "purposive_responses": 8,
+  "purposive_claims": 120,
+  "initial_workbook_labels": {
+    "Supported": 401,
+    "Unsupported": 27,
+    "Cannot assess": 4,
+    "Contradicted": 1
+  },
+  "comparison_archived_reference_labels": {
+    "Supported": 407,
+    "Unsupported": 22,
+    "Cannot assess": 4
+  },
+  "final_labels": {
+    "Supported": 411,
+    "Unsupported": 19,
+    "Cannot assess": 3
+  },
+  "comparison_archived_is_not_identical_to_initial_workbook": [
+    {
+      "claim_id": "4b06221f-63d8-4a44-8323-8cae1c5b62b9:claim:007",
+      "blind_id": "HR10",
+      "claim_number": "7",
+      "initial_workbook_label": "Contradicted",
+      "comparison_archived_label": "Supported"
+    },
+    {
+      "claim_id": "d4f006ad-b9a2-472b-9651-dd1eb51fc922:claim:008",
+      "blind_id": "HR29",
+      "claim_number": "8",
+      "initial_workbook_label": "Unsupported",
+      "comparison_archived_label": "Supported"
+    },
+    {
+      "claim_id": "d4f006ad-b9a2-472b-9651-dd1eb51fc922:claim:009",
+      "blind_id": "HR29",
+      "claim_number": "9",
+      "initial_workbook_label": "Unsupported",
+      "comparison_archived_label": "Supported"
+    },
+    {
+      "claim_id": "d4f006ad-b9a2-472b-9651-dd1eb51fc922:claim:010",
+      "blind_id": "HR29",
+      "claim_number": "10",
+      "initial_workbook_label": "Unsupported",
+      "comparison_archived_label": "Supported"
+    },
+    {
+      "claim_id": "d4f006ad-b9a2-472b-9651-dd1eb51fc922:claim:011",
+      "blind_id": "HR29",
+      "claim_number": "11",
+      "initial_workbook_label": "Unsupported",
+      "comparison_archived_label": "Supported"
+    },
+    {
+      "claim_id": "a3647959-fbcd-4928-8b05-0b7dcaba4822:claim:008",
+      "blind_id": "HR37",
+      "claim_number": "8",
+      "initial_workbook_label": "Unsupported",
+      "comparison_archived_label": "Supported"
+    }
+  ],
+  "repeat_claims": 48,
+  "initial_vs_repeat_matches": 44,
+  "repeat_labels": {
+    "Supported": 48
+  },
+  "all_12_saved_metric_rows_reproduced": [
+    {
+      "scenario": "Pre-adjudication reference",
+      "rule": "strict",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 5,
+        "FP": 4,
+        "TN": 289,
+        "FN": 14,
+        "Evaluable N": 312,
+        "Agreement": 0.9423076923076923,
+        "Precision": 0.5555555555555556,
+        "Recall": 0.2631578947368421,
+        "Specificity": 0.9863481228668942,
+        "Cohen's κ": 0.3309506790564685,
+        "Human positives": 19
+      },
+      "saved_source_row": "5"
+    },
+    {
+      "scenario": "Pre-adjudication reference",
+      "rule": "primary",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 13,
+        "FP": 13,
+        "TN": 280,
+        "FN": 6,
+        "Evaluable N": 312,
+        "Agreement": 0.9391025641025641,
+        "Precision": 0.5,
+        "Recall": 0.6842105263157895,
+        "Specificity": 0.9556313993174061,
+        "Cohen's κ": 0.5458167330677289,
+        "Human positives": 19
+      },
+      "saved_source_row": "6"
+    },
+    {
+      "scenario": "Pre-adjudication reference",
+      "rule": "secondary",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 8,
+        "FP": 14,
+        "TN": 279,
+        "FN": 11,
+        "Evaluable N": 312,
+        "Agreement": 0.9198717948717948,
+        "Precision": 0.36363636363636365,
+        "Recall": 0.42105263157894735,
+        "Specificity": 0.9522184300341296,
+        "Cohen's κ": 0.3476078956172627,
+        "Human positives": 19
+      },
+      "saved_source_row": "7"
+    },
+    {
+      "scenario": "Pre-adjudication reference",
+      "rule": "either",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 16,
+        "FP": 23,
+        "TN": 270,
+        "FN": 3,
+        "Evaluable N": 312,
+        "Agreement": 0.9166666666666666,
+        "Precision": 0.41025641025641024,
+        "Recall": 0.8421052631578947,
+        "Specificity": 0.9215017064846417,
+        "Cohen's κ": 0.5117370892018775,
+        "Human positives": 19
+      },
+      "saved_source_row": "8"
+    },
+    {
+      "scenario": "Final adjudicated reference",
+      "rule": "strict",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 2,
+        "FP": 8,
+        "TN": 289,
+        "FN": 14,
+        "Evaluable N": 313,
+        "Agreement": 0.9297124600638977,
+        "Precision": 0.2,
+        "Recall": 0.125,
+        "Specificity": 0.9730639730639731,
+        "Cohen's κ": 0.11921207469941099,
+        "Human positives": 16
+      },
+      "saved_source_row": "9"
+    },
+    {
+      "scenario": "Final adjudicated reference",
+      "rule": "primary",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 10,
+        "FP": 17,
+        "TN": 280,
+        "FN": 6,
+        "Evaluable N": 313,
+        "Agreement": 0.9265175718849841,
+        "Precision": 0.37037037037037035,
+        "Recall": 0.625,
+        "Specificity": 0.9427609427609428,
+        "Cohen's κ": 0.42842397776895624,
+        "Human positives": 16
+      },
+      "saved_source_row": "10"
+    },
+    {
+      "scenario": "Final adjudicated reference",
+      "rule": "secondary",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 5,
+        "FP": 18,
+        "TN": 279,
+        "FN": 11,
+        "Evaluable N": 313,
+        "Agreement": 0.9073482428115016,
+        "Precision": 0.21739130434782608,
+        "Recall": 0.3125,
+        "Specificity": 0.9393939393939394,
+        "Cohen's κ": 0.2087002005056229,
+        "Human positives": 16
+      },
+      "saved_source_row": "11"
+    },
+    {
+      "scenario": "Final adjudicated reference",
+      "rule": "either",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 13,
+        "FP": 27,
+        "TN": 270,
+        "FN": 3,
+        "Evaluable N": 313,
+        "Agreement": 0.9041533546325878,
+        "Precision": 0.325,
+        "Recall": 0.8125,
+        "Specificity": 0.9090909090909091,
+        "Cohen's κ": 0.42208271787296886,
+        "Human positives": 16
+      },
+      "saved_source_row": "12"
+    },
+    {
+      "scenario": "Extraction-aware sensitivity (6 invalid claims excluded)",
+      "rule": "strict",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 1,
+        "FP": 7,
+        "TN": 289,
+        "FN": 10,
+        "Evaluable N": 307,
+        "Agreement": 0.9446254071661238,
+        "Precision": 0.125,
+        "Recall": 0.09090909090909091,
+        "Specificity": 0.9763513513513513,
+        "Cohen's κ": 0.07742619763125269,
+        "Human positives": 11
+      },
+      "saved_source_row": "13"
+    },
+    {
+      "scenario": "Extraction-aware sensitivity (6 invalid claims excluded)",
+      "rule": "primary",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 5,
+        "FP": 16,
+        "TN": 280,
+        "FN": 6,
+        "Evaluable N": 307,
+        "Agreement": 0.9283387622149837,
+        "Precision": 0.23809523809523808,
+        "Recall": 0.45454545454545453,
+        "Specificity": 0.9459459459459459,
+        "Cohen's κ": 0.2785729544969024,
+        "Human positives": 11
+      },
+      "saved_source_row": "14"
+    },
+    {
+      "scenario": "Extraction-aware sensitivity (6 invalid claims excluded)",
+      "rule": "secondary",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 4,
+        "FP": 17,
+        "TN": 279,
+        "FN": 7,
+        "Evaluable N": 307,
+        "Agreement": 0.9218241042345277,
+        "Precision": 0.19047619047619047,
+        "Recall": 0.36363636363636365,
+        "Specificity": 0.9425675675675675,
+        "Cohen's κ": 0.21298867763298443,
+        "Human positives": 11
+      },
+      "saved_source_row": "15"
+    },
+    {
+      "scenario": "Extraction-aware sensitivity (6 invalid claims excluded)",
+      "rule": "either",
+      "status": "PASS",
+      "recomputed": {
+        "TP": 8,
+        "FP": 26,
+        "TN": 270,
+        "FN": 3,
+        "Evaluable N": 307,
+        "Agreement": 0.9055374592833876,
+        "Precision": 0.23529411764705882,
+        "Recall": 0.7272727272727273,
+        "Specificity": 0.9121621621621622,
+        "Cohen's κ": 0.31866534016989334,
+        "Human positives": 11
+      },
+      "saved_source_row": "16"
+    }
+  ],
+  "unverified": [
+    "Actual reviewer compliance with blinding and elapsed repeat interval cannot be independently established from workbooks.",
+    "Original sampling/workbook generation code not located.",
+    "Saved 5000-resample sensitivity intervals are preserved, not newly generated or claimed exactly reproduced."
+  ]
+}

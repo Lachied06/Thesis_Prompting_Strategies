@@ -1,0 +1,29 @@
+{
+  "record_type": "Canonical file pointers; subsequent secondary analysis",
+  "files": [
+    {
+      "path": "outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/response_metrics.csv",
+      "sha256": "4f4d44747fc3c79248e1f03824e1095ddaae4d733ce81599924458d3c42a6b82"
+    },
+    {
+      "path": "outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/condition_summary.csv",
+      "sha256": "d864f5efed41207319849ae4e3af6c2fac169bef5ebb80d6d0c636bede161fea"
+    },
+    {
+      "path": "outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/paired_contrasts.csv",
+      "sha256": "809f4acef2157d7e9960df0a824784381705ada5f5590e44078e01d018b5ff46"
+    },
+    {
+      "path": "outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/measurement_diagnostics.json",
+      "sha256": "b60d9a97afe5de558cabade379d097f0108dc07e6c16035351e0dc055df5bed1"
+    },
+    {
+      "path": "outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/analysis_summary.json",
+      "sha256": "68d86550cfb6b084b1b325a98ce7199306ae758aa1c8d196a7e6b36e54f8045f"
+    },
+    {
+      "path": "outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/analysis_report.md",
+      "sha256": "b8ea2d5ca69c83b91f21b46db81578d71ecbe58d88c598f3b3ef059b40314140"
+    }
+  ]
+}

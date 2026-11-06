@@ -1,0 +1,22 @@
+{
+  "experiment_name": "halueval_qa_pilot",
+  "repetitions": 1,
+  "shuffle_run_order": true,
+  "random_seed": 42,
+  "max_output_tokens": 1200,
+  "models": [
+    {
+      "provider": "openai",
+      "model": "gpt-5.5-2026-04-23",
+      "settings": {
+        "reasoning_effort": "none"
+      }
+    }
+  ],
+  "strategies": [
+    "baseline",
+    "structured",
+    "source_grounded",
+    "chain_of_verification"
+  ]
+}

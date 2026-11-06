@@ -1,0 +1,12 @@
+source_row,Model,Difficulty,Selected task ID,Eligible task choices
+5,gpt-5.4-mini-2026-03-17,direct_control,scifact_difficulty_852_direct_control,25
+6,gpt-5.4-mini-2026-03-17,evidence_omission,scifact_difficulty_212_evidence_omission,25
+7,gpt-5.4-mini-2026-03-17,near_match_distractors,scifact_difficulty_692_near_match_distractors,25
+8,gpt-5.4-mini-2026-03-17,conflicting_or_partial_evidence,scifact_difficulty_13_conflicting_or_partial_evidence,25
+9,gpt-5.5-2026-04-23,direct_control,scifact_difficulty_1336_direct_control,24
+10,gpt-5.5-2026-04-23,evidence_omission,scifact_difficulty_1029_evidence_omission,24
+11,gpt-5.5-2026-04-23,near_match_distractors,scifact_difficulty_1339_near_match_distractors,24
+12,gpt-5.5-2026-04-23,conflicting_or_partial_evidence,scifact_difficulty_1344_conflicting_or_partial_evidence,24
+14,Sampling seed,20261022,,
+15,Random-selection protocol,"For each generating model and each of four benchmark difficulty strata, randomly select one available task without reusing task IDs between models, then include its four prompt strategies.",,
+16,Targeted-selection protocol,"One distinct task per model-strategy condition, selected purposively by pre-existing automated difficulty indicators. Keep separate from random agreement metrics.",,

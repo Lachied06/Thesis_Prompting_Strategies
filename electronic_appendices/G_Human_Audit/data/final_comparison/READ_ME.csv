@@ -1,0 +1,13 @@
+source_row,Finding,Verified result / interpretation
+5,Final claim annotations,"433 extracted claims: 411 Supported, 19 Unsupported, 3 Cannot assess, 0 Contradicted."
+6,Sampling,40 responses: 32 task-paired stratified random across 2 models × 4 strategies; 8 targeted difficult cases kept separate.
+7,Repeat annotations,48 claims across 4 responses. Repeated assessment = 48 Supported; initial blinded agreement BEFORE changing earlier labels = 44/48 = 91.7%.
+8,Adjudication provenance,4 discrepant first-pass labels were changed to the second-pass Supported labels in the latest audited workbook. Latest-file agreement 48/48 is not independent repeatability.
+9,Random-sample binary measurement,"313 assessable extracted claims: 297 human Supported; 16 human Unsupported. Strict consensus TP=2, FP=8, TN=289, FN=14."
+10,Interpretation of binary comparison,"Binary 1 = automated unsupported flag, binary 0 = not flagged under each rule. An automated UNCERTAIN flag is treated as not flagged under strict consensus."
+11,Strict consensus final,Agreement 93.0%; precision 20.0%; recall 12.5%; Cohen's κ 0.119. Supported-majority baseline 297/313=94.9%.
+12,Either-judge result,Agreement 90.4%; precision 32.5%; recall 81.3%; Cohen's κ 0.422.
+13,Extraction caveat,"Several flagged claims are meaning-changing extraction errors. The main comparison preserves frozen outputs, while exclusion sensitivity demonstrates dependence on the inclusion rules."
+14,Human sample's limits,Single annotator; low positive-class prevalence; purposive cases excluded from general agreement; no human-validated strategy-level significance or subtype ranking.
+15,Automated results,All three prompting strategies have favourable point estimates compared with baseline under four judge rules; only source-grounded and CoV are consistently supported by source-cluster bootstrap intervals.
+16,Thesis use,"Report preliminary blinded and final adjudicated binary comparisons, preserve 91.7% repeat agreement, add extraction-fidelity audit and full-dataset judge-rule sensitivity."

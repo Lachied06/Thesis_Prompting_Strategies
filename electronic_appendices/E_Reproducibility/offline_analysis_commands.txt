@@ -1,0 +1,26 @@
+Run from the Code repository root. These POSIX-shell commands use the recorded
+Python 3.12.14 environment. On Windows set PYTHONDONTWRITEBYTECODE=1 using the
+shell's syntax, select the installed interpreter and use an external temporary
+directory. Never use shipped output paths as destinations. No API key is needed.
+
+PYTHONDONTWRITEBYTECODE=1 python3.12 -m unittest discover -s tests
+PYTHONDONTWRITEBYTECODE=1 python3.12 run_confirmatory_study.py validate
+export THESIS_REPRO_DIR="$(mktemp -d)"
+PYTHONDONTWRITEBYTECODE=1 python3.12 evaluate_results.py --results outputs/scifact_confirmatory_v3_2/results.jsonl --output-dir "$THESIS_REPRO_DIR/objective"
+PYTHONDONTWRITEBYTECODE=1 python3.12 build_study_report.py --results outputs/scifact_confirmatory_v3_2/results.jsonl --consensus outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus.jsonl --output-dir "$THESIS_REPRO_DIR/study"
+PYTHONDONTWRITEBYTECODE=1 python3.12 analyse_source_misrepresentation.py --output-dir "$THESIS_REPRO_DIR/source_misrepresentation"
+
+Compare reproduced bytes with:
+objective/ -> outputs/scifact_confirmatory_v3_2/objective_evaluation/
+  evaluation_summary.json, evaluation_report.md, manual_review.csv
+study/ -> outputs/scifact_confirmatory_v3_2/study_analysis/
+  study_summary.json, study_report.md, strategy_results.csv
+source_misrepresentation/ -> outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/
+  response_metrics.csv, condition_summary.csv, paired_contrasts.csv,
+  measurement_diagnostics.json, analysis_report.md, analysis_summary.json
+
+On Python 3.12.14 all 12 files reproduce byte-for-byte. analysis_summary.json
+records python_version; other differences must be investigated, not ignored.
+The root README contains an executable comparison block and portable checksum
+fallback. These commands reproduce summaries of saved responses/judge labels,
+not original model generation, judging, or independent scientific truth.

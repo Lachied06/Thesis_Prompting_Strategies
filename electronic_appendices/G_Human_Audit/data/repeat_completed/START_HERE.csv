@@ -1,0 +1,13 @@
+source_row,PURPOSE,Independently reassess the same four responses and extracted claims to estimate intra-rater consistency.
+5,WHAT IS INCLUDED,"REPEAT_RESPONSES: original task, answer and full evidence; EVIDENCE_DOCS: source abstracts; REPEAT_CLAIMS: blank manual annotation fields."
+6,STEP 1,"Open REPEAT_RESPONSES and read the task, generated synthesis and source context for RC01."
+7,STEP 2,Use EVIDENCE_DOCS to inspect the evidence for the relevant Repeat ID.
+8,STEP 3,"Open REPEAT_CLAIMS; enter human support label, subtype, confidence, evidence document ID and justification in the mint columns."
+9,STEP 4,"Repeat independently for RC02, RC03 and RC04. Do not consult your first-pass labels or the automated judge comparison."
+10,STEP 5,Save and return this workbook. The results can be joined to your original annotations via the unchanged Full Claim ID.
+11,IMPORTANT,"Do not edit the generated response or extracted claim text. Flag extraction issues in the written justification, if relevant."
+12,STATISTICAL NOTE,"This assesses intra-rater repeatability (same reviewer twice), not agreement between independent human reviewers."
+14,PROGRESS,SECOND-PASS CLAIMS COMPLETED
+15,Completed / total,48
+16,Total claims,48
+17,Percent complete,1

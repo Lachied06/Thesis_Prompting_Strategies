@@ -1,0 +1,7 @@
+model,stage,requests,mean_input_tokens,mean_output_tokens,mean_total_tokens
+gpt-5.4-mini-2026-03-17,initial_generation,100,1665.03,334.48,1999.51
+gpt-5.4-mini-2026-03-17,verification_generation,100,1990.51,806.03,2796.54
+gpt-5.4-mini-2026-03-17,revision_generation,100,2891.93,326.13,3218.06
+gpt-5.5-2026-04-23,initial_generation,100,1665.03,371.22,2036.25
+gpt-5.5-2026-04-23,verification_generation,100,2027.25,1215.45,3242.7
+gpt-5.5-2026-04-23,revision_generation,100,3339.84,372.34,3712.18

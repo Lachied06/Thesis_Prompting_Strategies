@@ -1,0 +1,646 @@
+{
+  "member": "xl/worksheets/sheet5.xml",
+  "rows": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "EXTRACTION AUDIT | 40 RESPONSES",
+        "B1": "",
+        "C1": "",
+        "D1": "",
+        "E1": "",
+        "F1": "",
+        "G1": "",
+        "H1": ""
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "30 original 'No' completeness entries are not confirmed extractor failures: evidence-gap verdicts were often excluded by protocol. Five last-stage decisions are recorded.",
+        "B2": "",
+        "C2": "",
+        "D2": "",
+        "E2": "",
+        "F2": "",
+        "G2": "",
+        "H2": ""
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Blind ID",
+        "B4": "Original audit complete?",
+        "C4": "Expected omission",
+        "D4": "Clear rewrite",
+        "E4": "Possible rewrite",
+        "F4": "Potential omitted factual claim",
+        "G4": "Overlap",
+        "H4": "Initial triage",
+        "I4": "Justification",
+        "J4": "Your final decision"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "HR01",
+        "B5": "No",
+        "C5": "Yes",
+        "D5": "No",
+        "E5": "No",
+        "F5": "No",
+        "G5": "No",
+        "H5": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I5": "Omitted evidence-absence rationale is an intentionally excluded source-scope conclusion.",
+        "J5": ""
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "HR02",
+        "B6": "No",
+        "C6": "Yes",
+        "D6": "Yes",
+        "E6": "No",
+        "F6": "No",
+        "G6": "No",
+        "H6": "Clear rewriting problem — requires human adjudication",
+        "I6": "Claim 6 drops 'possibly'; claims 7–10 turn 'these studies do not test X' into broad 'biological process does not involve X'.",
+        "J6": ""
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "HR03",
+        "B7": "No",
+        "C7": "Yes",
+        "D7": "No",
+        "E7": "No",
+        "F7": "No",
+        "G7": "Yes",
+        "H7": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I7": "Source limitation and missing covariates are excluded meta-statements; claim repetition is nonmaterial.",
+        "J7": ""
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "HR04",
+        "B8": "No",
+        "C8": "Yes",
+        "D8": "Yes",
+        "E8": "No",
+        "F8": "No",
+        "G8": "No",
+        "H8": "Clear rewriting problem — requires human adjudication",
+        "I8": "Claim 8 changes 'do not indicate worsening' to 'does not worsen'; loss of statistical uncertainty.",
+        "J8": ""
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "HR05",
+        "B9": "Yes",
+        "C9": "Yes",
+        "D9": "No",
+        "E9": "No",
+        "F9": "No",
+        "G9": "No",
+        "H9": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I9": "Original 'Yes' and limitations appear consistent with extraction rules.",
+        "J9": ""
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "HR06",
+        "B10": "No",
+        "C10": "Yes",
+        "D10": "No",
+        "E10": "No",
+        "F10": "No",
+        "G10": "No",
+        "H10": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I10": "Omitted absence of combined CR/methylation-age study is source-scope assessment.",
+        "J10": ""
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "HR07",
+        "B11": "No",
+        "C11": "Yes",
+        "D11": "No",
+        "E11": "No",
+        "F11": "No",
+        "G11": "No",
+        "H11": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I11": "Omitted evidence-gap/mediator statements are excluded source assessment.",
+        "J11": ""
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "HR08",
+        "B12": "Yes",
+        "C12": "No",
+        "D12": "No",
+        "E12": "No",
+        "F12": "No",
+        "G12": "Yes",
+        "H12": "No material extraction issue identified",
+        "I12": "Source-topic aggregation is acceptable when claims remain supported.",
+        "J12": ""
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "HR09",
+        "B13": "Yes",
+        "C13": "Yes",
+        "D13": "No",
+        "E13": "No",
+        "F13": "No",
+        "G13": "No",
+        "H13": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I13": "Overall evaluative conclusion should be excluded.",
+        "J13": ""
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "HR10",
+        "B14": "No",
+        "C14": "Yes",
+        "D14": "No",
+        "E14": "No",
+        "F14": "No",
+        "G14": "Yes",
+        "H14": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I14": "Verdict exclusion intentional; independently inspect causal interpretation in original response.",
+        "J14": ""
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A15": "HR11",
+        "B15": "No",
+        "C15": "Yes",
+        "D15": "No",
+        "E15": "No",
+        "F15": "No",
+        "G15": "Yes",
+        "H15": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I15": "Response itself says 'abolished invasion'; possible source overstatement is a generation/judging issue, not necessarily extractor fabrication.",
+        "J15": ""
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "HR12",
+        "B16": "No",
+        "C16": "Yes",
+        "D16": "No",
+        "E16": "No",
+        "F16": "No",
+        "G16": "No",
+        "H16": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I16": "Missing source-scope rationale is intentionally excluded.",
+        "J16": ""
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A17": "HR13",
+        "B17": "No",
+        "C17": "Yes",
+        "D17": "No",
+        "E17": "No",
+        "F17": "No",
+        "G17": "No",
+        "H17": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I17": "Missing IL-2/T1D measurement statements are source-scope exclusions.",
+        "J17": ""
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A18": "HR14",
+        "B18": "No",
+        "C18": "Yes",
+        "D18": "Yes",
+        "E18": "No",
+        "F18": "No",
+        "G18": "No",
+        "H18": "Clear rewriting problem — requires human adjudication",
+        "I18": "Claim 13 reverses 'does not demonstrate an effect in humans' to 'demonstrates an effect in humans'; claim 9 drops 'suggesting'.",
+        "J18": ""
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A19": "HR15",
+        "B19": "Yes",
+        "C19": "No",
+        "D19": "No",
+        "E19": "No",
+        "F19": "No",
+        "G19": "Yes",
+        "H19": "No material extraction issue identified",
+        "I19": "No meaning-changing extraction issue documented.",
+        "J19": ""
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A20": "HR16",
+        "B20": "No",
+        "C20": "Yes",
+        "D20": "Yes",
+        "E20": "No",
+        "F20": "No",
+        "G20": "No",
+        "H20": "Clear rewriting problem — requires human adjudication",
+        "I20": "Claim 7 restates absence of statistically significant increase as categorical no increase.",
+        "J20": ""
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A21": "HR17",
+        "B21": "Yes",
+        "C21": "No",
+        "D21": "No",
+        "E21": "No",
+        "F21": "No",
+        "G21": "No",
+        "H21": "No material extraction issue identified",
+        "I21": "No meaning-changing issue documented.",
+        "J21": ""
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A22": "HR18",
+        "B22": "Yes",
+        "C22": "No",
+        "D22": "No",
+        "E22": "No",
+        "F22": "No",
+        "G22": "Yes",
+        "H22": "No material extraction issue identified",
+        "I22": "Duplication is nonmaterial.",
+        "J22": ""
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A23": "HR19",
+        "B23": "No",
+        "C23": "Yes",
+        "D23": "No",
+        "E23": "No",
+        "F23": "No",
+        "G23": "No",
+        "H23": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I23": "Verdict inferred from source is excluded; potential overconfident conclusion belongs to generation/output evaluation.",
+        "J23": ""
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "A24": "HR20",
+        "B24": "No",
+        "C24": "Yes",
+        "D24": "No",
+        "E24": "No",
+        "F24": "No",
+        "G24": "No",
+        "H24": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I24": "Source limitations excluded.",
+        "J24": ""
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "A25": "HR21",
+        "B25": "No",
+        "C25": "Yes",
+        "D25": "No",
+        "E25": "No",
+        "F25": "No",
+        "G25": "No",
+        "H25": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I25": "Evidence-generalisation and nonresponder test gaps are source-scope statements.",
+        "J25": ""
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "A26": "HR22",
+        "B26": "No",
+        "C26": "Yes",
+        "D26": "Yes",
+        "E26": "No",
+        "F26": "No",
+        "G26": "No",
+        "H26": "Clear rewriting problem — requires human adjudication",
+        "I26": "Claim 10 reverses 'does not directly test' into 'directly tested'.",
+        "J26": ""
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "A27": "HR23",
+        "B27": "No",
+        "C27": "Yes",
+        "D27": "No",
+        "E27": "No",
+        "F27": "No",
+        "G27": "No",
+        "H27": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I27": "Absent attributable fraction is an evidence-gap judgement.",
+        "J27": ""
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "A28": "HR24",
+        "B28": "Yes",
+        "C28": "No",
+        "D28": "No",
+        "E28": "No",
+        "F28": "No",
+        "G28": "Yes",
+        "H28": "No material extraction issue identified",
+        "I28": "Minor repetition not a material extraction error.",
+        "J28": ""
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "A29": "HR25",
+        "B29": "No",
+        "C29": "Yes",
+        "D29": "No",
+        "E29": "No",
+        "F29": "No",
+        "G29": "No",
+        "H29": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I29": "Missing quantified outcomes/source relevance intentionally excluded.",
+        "J29": ""
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "A30": "HR26",
+        "B30": "Yes",
+        "C30": "No",
+        "D30": "No",
+        "E30": "No",
+        "F30": "No",
+        "G30": "Yes",
+        "H30": "No material extraction issue identified",
+        "I30": "Numeric aggregation appears faithful.",
+        "J30": ""
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "A31": "HR27",
+        "B31": "No",
+        "C31": "Yes",
+        "D31": "No",
+        "E31": "Yes",
+        "F31": "No",
+        "G31": "No",
+        "H31": "Possible rewriting problem — examine",
+        "I31": "Claim 6 loses 'modelled'; conditional forecast may read as established outcome.",
+        "J31": "Confirmed extraction error"
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "A32": "HR28",
+        "B32": "No",
+        "C32": "Yes",
+        "D32": "No",
+        "E32": "No",
+        "F32": "No",
+        "G32": "No",
+        "H32": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I32": "Main omissions are evidence-gap judgements.",
+        "J32": ""
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "A33": "HR29",
+        "B33": "No",
+        "C33": "Yes",
+        "D33": "No",
+        "E33": "No",
+        "F33": "No",
+        "G33": "No",
+        "H33": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I33": "Missing causal/source-relevance evaluation excluded; original output's interpretation should be analysed separately.",
+        "J33": ""
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "A34": "HR30",
+        "B34": "No",
+        "C34": "No",
+        "D34": "Yes",
+        "E34": "No",
+        "F34": "No",
+        "G34": "No",
+        "H34": "Clear rewriting problem — requires human adjudication",
+        "I34": "Claim 1 drops 'interpreted here as', converting a tentative UCB interpretation into an unconditional identity.",
+        "J34": ""
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "A35": "HR31",
+        "B35": "No",
+        "C35": "Yes",
+        "D35": "No",
+        "E35": "No",
+        "F35": "No",
+        "G35": "No",
+        "H35": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I35": "Missing untested joint CR/methylation-age statement is source-scope.",
+        "J35": ""
+      }
+    },
+    {
+      "row": 36,
+      "cells": {
+        "A36": "HR32",
+        "B36": "No",
+        "C36": "Yes",
+        "D36": "No",
+        "E36": "No",
+        "F36": "No",
+        "G36": "No",
+        "H36": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I36": "Unmeasured IL-2/T1D phenotypes are source-scope.",
+        "J36": ""
+      }
+    },
+    {
+      "row": 37,
+      "cells": {
+        "A37": "HR33",
+        "B37": "Yes",
+        "C37": "Yes",
+        "D37": "No",
+        "E37": "Yes",
+        "F37": "No",
+        "G37": "Yes",
+        "H37": "Possible rewriting problem — examine",
+        "I37": "Claim 10 potentially broadens 'this effect' to several outcomes; check original syntactic antecedent.",
+        "J37": "No material error"
+      }
+    },
+    {
+      "row": 38,
+      "cells": {
+        "A38": "HR34",
+        "B38": "No",
+        "C38": "Yes",
+        "D38": "No",
+        "E38": "No",
+        "F38": "No",
+        "G38": "Yes",
+        "H38": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I38": "Nonresponder test limitation excluded; repeated outcome details nonmaterial.",
+        "J38": ""
+      }
+    },
+    {
+      "row": 39,
+      "cells": {
+        "A39": "HR35",
+        "B39": "No",
+        "C39": "Yes",
+        "D39": "No",
+        "E39": "No",
+        "F39": "No",
+        "G39": "No",
+        "H39": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I39": "Unmeasured lifespan and p53 effect are source-scope statements.",
+        "J39": ""
+      }
+    },
+    {
+      "row": 40,
+      "cells": {
+        "A40": "HR36",
+        "B40": "No",
+        "C40": "Yes",
+        "D40": "No",
+        "E40": "No",
+        "F40": "No",
+        "G40": "No",
+        "H40": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I40": "Missing absence of attribution percentage is source-scope.",
+        "J40": ""
+      }
+    },
+    {
+      "row": 41,
+      "cells": {
+        "A41": "HR37",
+        "B41": "No",
+        "C41": "Yes",
+        "D41": "No",
+        "E41": "No",
+        "F41": "No",
+        "G41": "No",
+        "H41": "No demonstrated in-scope omission; mainly expected exclusions",
+        "I41": "Missing joint intervention/outcome test is source-scope.",
+        "J41": ""
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "A42": "HR38",
+        "B42": "Yes",
+        "C42": "Yes",
+        "D42": "No",
+        "E42": "Yes",
+        "F42": "No",
+        "G42": "Yes",
+        "H42": "Possible rewriting problem — examine",
+        "I42": "Claim 2 converts hypothesised broad regulatory capacity into declarative fact; check how far findings substantiate it.",
+        "J42": "Confirmed extraction error"
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "A43": "HR39",
+        "B43": "No",
+        "C43": "Yes",
+        "D43": "No",
+        "E43": "Yes",
+        "F43": "No",
+        "G43": "No",
+        "H43": "Possible rewriting problem — examine",
+        "I43": "Claim 2 adds specifics absent from original response; claim 10's 'unchanged' inference originates substantially in the response itself.",
+        "J43": "Confirmed extraction error"
+      }
+    },
+    {
+      "row": 44,
+      "cells": {
+        "A44": "HR40",
+        "B44": "No",
+        "C44": "Yes",
+        "D44": "No",
+        "E44": "No",
+        "F44": "Yes",
+        "G44": "Yes",
+        "H44": "Potential in-scope omission — verify original response",
+        "I44": "The generated response asserts that low birth weight is 'often studied' in neonatal morbidity/mortality research; this generalisation appears absent from extracted claims.",
+        "J44": "Confirmed extraction error"
+      }
+    }
+  ]
+}

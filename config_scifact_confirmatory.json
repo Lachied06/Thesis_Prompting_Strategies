@@ -1,0 +1,29 @@
+{
+  "experiment_name": "scifact_confirmatory_v3_2",
+  "repetitions": 1,
+  "shuffle_run_order": true,
+  "random_seed": 20260924,
+  "max_output_tokens": 1600,
+  "models": [
+    {
+      "provider": "openai",
+      "model": "gpt-5.5-2026-04-23",
+      "settings": {
+        "reasoning_effort": "none"
+      }
+    },
+    {
+      "provider": "openai",
+      "model": "gpt-5.4-mini-2026-03-17",
+      "settings": {
+        "reasoning_effort": "none"
+      }
+    }
+  ],
+  "strategies": [
+    {"name": "baseline", "version": "3.2.0"},
+    {"name": "structured", "version": "3.2.0"},
+    {"name": "source_grounded", "version": "3.2.0"},
+    {"name": "chain_of_verification", "version": "3.2.0"}
+  ]
+}

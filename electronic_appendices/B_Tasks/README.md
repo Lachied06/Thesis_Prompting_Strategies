@@ -1,0 +1,19 @@
+> Distribution note, 6 November 2026: this interim public release omits the 70 conditional files; full-archive claims and commands below require lawful private restoration. See the withheld-file register linked below.
+
+# B — Task construction and source mapping
+
+Correspondence: Appendix B, §3.2 and the worked example in §3.3. **VERIFIED** for saved construction/identities; semantic insufficiency of transformed packets is not independently verified.
+
+[task_to_source_mapping.csv](task_to_source_mapping.csv) exports all 100 frozen tasks, 75 source items, four 25-task strata, original/base and transformed labels, ordered supplied IDs, annotated/omitted evidence IDs and input hashes. `original_scifact_label` is the saved `base_reference_label`, not an invented raw-record top-level label. Canonical records are [approved tasks — original path `../../data/approved/scifact_confirmatory_100.jsonl`; withheld](../../rights/WITHHELD_FILES.csv), [base packets — original path `../../data/processed/scifact_confirmatory_base_75.jsonl`; withheld](../../rights/WITHHELD_FILES.csv), [design](../../data/design/scifact_confirmatory_100.design.json), [raw claims](../../data/raw/scifact/data/claims_dev.jsonl) and [corpus — original path `../../data/raw/scifact/data/corpus.jsonl`; withheld](../../rights/WITHHELD_FILES.csv).
+
+The [builder](../../prepare_benchmarks.py) identifies evidence IDs from raw `evidence` keys (599–605), selects supplementary abstracts by weighted lexical overlap (204–239), creates paired direct/omission entries (334–389), and performs packet transformations (749–776). `gold_only` retains annotated abstracts; `full_distractor_first` places supplementary abstracts first; `omit_gold` filters evidence IDs from the existing base packet and explicitly assigns NO_EVIDENCE without new selection/replenishment. Retained abstract sections preserve existing order and text.
+
+Of the omission packets, 24 retain four abstracts and claim 1029 retains two after three evidence abstracts are removed. Of near-match packets, 24 have one evidence plus four supplementary abstracts; claim 261 has two evidence plus three supplementary abstracts. The partial/conflicting category uses native empty-evidence claims plus four lexical matches and the original cited abstract, with NO_EVIDENCE inherited. The code does not construct synthetic conflicts or semantically verify insufficiency of those expanded/omission packets. No confirmatory pre-run audit CSV is supplied; historical “pre-audited” metadata do not establish an expert check.
+
+## Complete worked task 212
+
+[complete_example_task_212.json — original path `complete_example_task_212.json`; withheld](../../rights/WITHHELD_FILES.csv) is a parsed-record copy of `scifact_difficulty_212_direct_control` from the approved JSONL (line 16). It asks “CR is associated with higher methylation age.” Document 22038539 is the supplied abstract. `reference_answer: CONTRADICT` is analysis metadata, not an answer inserted into the generator's task prompt.
+
+[complete_example_packet_212.txt — original path `complete_example_packet_212.txt`; withheld](../../rights/WITHHELD_FILES.csv) preserves the complete task prompt and source packet with an explicitly added separator. The shared output contract is in [Appendix A](../A_Prompts/shared_output_contract.txt); actual full rendered generation requests remain in canonical prompt/trace records. Thus the packet text is labelled as task-plus-evidence, not misrepresented as every treatment's full prompt. The [caloric extraction example — original path `../C_Evaluation/extraction_fidelity_example.json`; withheld](../../rights/WITHHELD_FILES.csv) is a separate saved response to this same task.
+
+Source hashes and extraction methods are recorded in [export_provenance.json](../export_provenance.json). These mappings establish implemented transformations, not independent scientific correctness of assigned verdicts.

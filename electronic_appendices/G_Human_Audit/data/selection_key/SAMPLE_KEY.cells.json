@@ -1,0 +1,646 @@
+{
+  "member": "xl/worksheets/sheet2.xml",
+  "rows": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "SAMPLE KEY | UNBLINDED",
+        "B1": "",
+        "C1": "",
+        "D1": "",
+        "E1": "",
+        "F1": "",
+        "G1": "",
+        "H1": ""
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "Join to blinded worksheets by Blind ID. Targeted selection rationale MUST NOT enter primary quantitative agreement calculations.",
+        "B2": "",
+        "C2": "",
+        "D2": "",
+        "E2": "",
+        "F2": "",
+        "G2": "",
+        "H2": ""
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Blind ID",
+        "B4": "Selection stream",
+        "C4": "Generating model",
+        "D4": "Prompt strategy",
+        "E4": "Difficulty stratum",
+        "F4": "Task ID",
+        "G4": "Run ID",
+        "H4": "Reason for selection",
+        "I4": "N claims",
+        "J4": "Judge disagreement count"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "HR01",
+        "B5": "Targeted",
+        "C5": "gpt-5.5-2026-04-23",
+        "D5": "source_grounded",
+        "E5": "conflicting_or_partial_evidence",
+        "F5": "scifact_difficulty_502_conflicting_or_partial_evidence",
+        "G5": "dca0840f-27f2-443b-99f7-062428cb7a5d",
+        "H5": "Extraction completeness / complex claim list",
+        "I5": "21",
+        "J5": "1"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "HR02",
+        "B6": "Random paired",
+        "C6": "gpt-5.5-2026-04-23",
+        "D6": "chain_of_verification",
+        "E6": "conflicting_or_partial_evidence",
+        "F6": "scifact_difficulty_1344_conflicting_or_partial_evidence",
+        "G6": "e6c28a1a-3507-462e-aa27-41fc49e18500",
+        "H6": "Stratified random task selection; all four strategies for same task",
+        "I6": "10",
+        "J6": "5"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "HR03",
+        "B7": "Random paired",
+        "C7": "gpt-5.5-2026-04-23",
+        "D7": "chain_of_verification",
+        "E7": "direct_control",
+        "F7": "scifact_difficulty_1336_direct_control",
+        "G7": "66e86ae8-d175-459e-bd37-e686d3a73b3a",
+        "H7": "Stratified random task selection; all four strategies for same task",
+        "I7": "11",
+        "J7": "0"
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "HR04",
+        "B8": "Random paired",
+        "C8": "gpt-5.4-mini-2026-03-17",
+        "D8": "baseline",
+        "E8": "near_match_distractors",
+        "F8": "scifact_difficulty_692_near_match_distractors",
+        "G8": "091e8e12-8b9c-4031-af2a-fbf942c924e9",
+        "H8": "Stratified random task selection; all four strategies for same task",
+        "I8": "17",
+        "J8": "1"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "HR05",
+        "B9": "Targeted",
+        "C9": "gpt-5.5-2026-04-23",
+        "D9": "structured",
+        "E9": "direct_control",
+        "F9": "scifact_difficulty_50_direct_control",
+        "G9": "bbc0fd0b-090b-44b9-8dc4-cc1e12c34122",
+        "H9": "Automated judge disagreement",
+        "I9": "16",
+        "J9": "5"
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "HR06",
+        "B10": "Random paired",
+        "C10": "gpt-5.4-mini-2026-03-17",
+        "D10": "structured",
+        "E10": "evidence_omission",
+        "F10": "scifact_difficulty_212_evidence_omission",
+        "G10": "2e6dc2e1-8591-40a5-8fd6-01438134d282",
+        "H10": "Stratified random task selection; all four strategies for same task",
+        "I10": "10",
+        "J10": "1"
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "HR07",
+        "B11": "Random paired",
+        "C11": "gpt-5.5-2026-04-23",
+        "D11": "baseline",
+        "E11": "evidence_omission",
+        "F11": "scifact_difficulty_1029_evidence_omission",
+        "G11": "228f2549-c1b1-4d52-80c8-a45218943d80",
+        "H11": "Stratified random task selection; all four strategies for same task",
+        "I11": "7",
+        "J11": "0"
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "HR08",
+        "B12": "Random paired",
+        "C12": "gpt-5.5-2026-04-23",
+        "D12": "chain_of_verification",
+        "E12": "near_match_distractors",
+        "F12": "scifact_difficulty_1339_near_match_distractors",
+        "G12": "fbe64038-a206-4f03-8381-673e101b9e39",
+        "H12": "Stratified random task selection; all four strategies for same task",
+        "I12": "12",
+        "J12": "0"
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "HR09",
+        "B13": "Random paired",
+        "C13": "gpt-5.5-2026-04-23",
+        "D13": "source_grounded",
+        "E13": "evidence_omission",
+        "F13": "scifact_difficulty_1029_evidence_omission",
+        "G13": "961f4b17-a0e3-4045-a646-03356be72919",
+        "H13": "Stratified random task selection; all four strategies for same task",
+        "I13": "17",
+        "J13": "0"
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "HR10",
+        "B14": "Targeted",
+        "C14": "gpt-5.4-mini-2026-03-17",
+        "D14": "source_grounded",
+        "E14": "near_match_distractors",
+        "F14": "scifact_difficulty_1110_near_match_distractors",
+        "G14": "4b06221f-63d8-4a44-8323-8cae1c5b62b9",
+        "H14": "Potential source misrepresentation",
+        "I14": "16",
+        "J14": "4"
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A15": "HR11",
+        "B15": "Targeted",
+        "C15": "gpt-5.4-mini-2026-03-17",
+        "D15": "chain_of_verification",
+        "E15": "near_match_distractors",
+        "F15": "scifact_difficulty_133_near_match_distractors",
+        "G15": "7c45b4a5-4637-402a-909e-7f77ba3f6f79",
+        "H15": "Multiple consensus-unsupported claims",
+        "I15": "10",
+        "J15": "1"
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "HR12",
+        "B16": "Random paired",
+        "C16": "gpt-5.4-mini-2026-03-17",
+        "D16": "source_grounded",
+        "E16": "evidence_omission",
+        "F16": "scifact_difficulty_212_evidence_omission",
+        "G16": "7b4df7b8-5f59-4e71-b6cc-503acfaaf2b7",
+        "H16": "Stratified random task selection; all four strategies for same task",
+        "I16": "8",
+        "J16": "1"
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A17": "HR13",
+        "B17": "Random paired",
+        "C17": "gpt-5.5-2026-04-23",
+        "D17": "structured",
+        "E17": "evidence_omission",
+        "F17": "scifact_difficulty_1029_evidence_omission",
+        "G17": "ca4d08ba-26cc-4089-b0e9-e64cc3063e2f",
+        "H17": "Stratified random task selection; all four strategies for same task",
+        "I17": "6",
+        "J17": "0"
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A18": "HR14",
+        "B18": "Targeted",
+        "C18": "gpt-5.5-2026-04-23",
+        "D18": "chain_of_verification",
+        "E18": "direct_control",
+        "F18": "scifact_difficulty_212_direct_control",
+        "G18": "a9878133-5915-4f1d-9ca2-4207b8ce7954",
+        "H18": "Potential source misrepresentation",
+        "I18": "13",
+        "J18": "2"
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A19": "HR15",
+        "B19": "Random paired",
+        "C19": "gpt-5.5-2026-04-23",
+        "D19": "structured",
+        "E19": "near_match_distractors",
+        "F19": "scifact_difficulty_1339_near_match_distractors",
+        "G19": "322ca2a9-f463-42ae-bc0f-360227ad1a79",
+        "H19": "Stratified random task selection; all four strategies for same task",
+        "I19": "8",
+        "J19": "1"
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A20": "HR16",
+        "B20": "Random paired",
+        "C20": "gpt-5.4-mini-2026-03-17",
+        "D20": "source_grounded",
+        "E20": "near_match_distractors",
+        "F20": "scifact_difficulty_692_near_match_distractors",
+        "G20": "71b493a2-a9c9-47d7-a486-e20536f6cf68",
+        "H20": "Stratified random task selection; all four strategies for same task",
+        "I20": "15",
+        "J20": "7"
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A21": "HR17",
+        "B21": "Random paired",
+        "C21": "gpt-5.5-2026-04-23",
+        "D21": "structured",
+        "E21": "direct_control",
+        "F21": "scifact_difficulty_1336_direct_control",
+        "G21": "4ce0c1f4-a707-400b-9467-9f45a4ec5569",
+        "H21": "Stratified random task selection; all four strategies for same task",
+        "I21": "12",
+        "J21": "5"
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A22": "HR18",
+        "B22": "Random paired",
+        "C22": "gpt-5.5-2026-04-23",
+        "D22": "baseline",
+        "E22": "direct_control",
+        "F22": "scifact_difficulty_1336_direct_control",
+        "G22": "9a0c2721-f0fd-4683-a956-23d9ee87c240",
+        "H22": "Stratified random task selection; all four strategies for same task",
+        "I22": "15",
+        "J22": "2"
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A23": "HR19",
+        "B23": "Targeted",
+        "C23": "gpt-5.4-mini-2026-03-17",
+        "D23": "structured",
+        "E23": "direct_control",
+        "F23": "scifact_difficulty_1320_direct_control",
+        "G23": "4d321776-1482-4453-9f27-d41d119e8ce5",
+        "H23": "Citation-support uncertainty / discrepancy",
+        "I23": "13",
+        "J23": "5"
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "A24": "HR20",
+        "B24": "Random paired",
+        "C24": "gpt-5.5-2026-04-23",
+        "D24": "structured",
+        "E24": "conflicting_or_partial_evidence",
+        "F24": "scifact_difficulty_1344_conflicting_or_partial_evidence",
+        "G24": "28ccdfe0-1521-4101-a40f-3f01ec3893be",
+        "H24": "Stratified random task selection; all four strategies for same task",
+        "I24": "9",
+        "J24": "0"
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "A25": "HR21",
+        "B25": "Random paired",
+        "C25": "gpt-5.4-mini-2026-03-17",
+        "D25": "chain_of_verification",
+        "E25": "direct_control",
+        "F25": "scifact_difficulty_852_direct_control",
+        "G25": "3e08bda8-ad10-4e9c-8b26-b572025c598a",
+        "H25": "Stratified random task selection; all four strategies for same task",
+        "I25": "6",
+        "J25": "0"
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "A26": "HR22",
+        "B26": "Random paired",
+        "C26": "gpt-5.4-mini-2026-03-17",
+        "D26": "source_grounded",
+        "E26": "direct_control",
+        "F26": "scifact_difficulty_852_direct_control",
+        "G26": "8343ee5a-2ac4-493c-976a-c776c015ffa6",
+        "H26": "Stratified random task selection; all four strategies for same task",
+        "I26": "10",
+        "J26": "0"
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "A27": "HR23",
+        "B27": "Random paired",
+        "C27": "gpt-5.4-mini-2026-03-17",
+        "D27": "source_grounded",
+        "E27": "conflicting_or_partial_evidence",
+        "F27": "scifact_difficulty_13_conflicting_or_partial_evidence",
+        "G27": "6eb90f53-b731-4263-a681-bfbf18c5a0e6",
+        "H27": "Stratified random task selection; all four strategies for same task",
+        "I27": "5",
+        "J27": "0"
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "A28": "HR24",
+        "B28": "Random paired",
+        "C28": "gpt-5.5-2026-04-23",
+        "D28": "baseline",
+        "E28": "near_match_distractors",
+        "F28": "scifact_difficulty_1339_near_match_distractors",
+        "G28": "0fdccbe6-2367-4b14-8b57-b8a5cff7c526",
+        "H28": "Stratified random task selection; all four strategies for same task",
+        "I28": "11",
+        "J28": "1"
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "A29": "HR25",
+        "B29": "Random paired",
+        "C29": "gpt-5.5-2026-04-23",
+        "D29": "source_grounded",
+        "E29": "conflicting_or_partial_evidence",
+        "F29": "scifact_difficulty_1344_conflicting_or_partial_evidence",
+        "G29": "cde59101-eb4b-44f5-989f-1fd6a61406d0",
+        "H29": "Stratified random task selection; all four strategies for same task",
+        "I29": "9",
+        "J29": "0"
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "A30": "HR26",
+        "B30": "Random paired",
+        "C30": "gpt-5.5-2026-04-23",
+        "D30": "source_grounded",
+        "E30": "near_match_distractors",
+        "F30": "scifact_difficulty_1339_near_match_distractors",
+        "G30": "20d0979c-396f-4e9a-849d-f171ac51ff44",
+        "H30": "Stratified random task selection; all four strategies for same task",
+        "I30": "7",
+        "J30": "0"
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "A31": "HR27",
+        "B31": "Random paired",
+        "C31": "gpt-5.4-mini-2026-03-17",
+        "D31": "structured",
+        "E31": "direct_control",
+        "F31": "scifact_difficulty_852_direct_control",
+        "G31": "39fd7676-b903-45b7-ac48-acba734b6424",
+        "H31": "Stratified random task selection; all four strategies for same task",
+        "I31": "9",
+        "J31": "1"
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "A32": "HR28",
+        "B32": "Random paired",
+        "C32": "gpt-5.4-mini-2026-03-17",
+        "D32": "chain_of_verification",
+        "E32": "conflicting_or_partial_evidence",
+        "F32": "scifact_difficulty_13_conflicting_or_partial_evidence",
+        "G32": "6e6ac75b-267b-4961-8ed6-68fca8d92733",
+        "H32": "Stratified random task selection; all four strategies for same task",
+        "I32": "4",
+        "J32": "0"
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "A33": "HR29",
+        "B33": "Random paired",
+        "C33": "gpt-5.4-mini-2026-03-17",
+        "D33": "chain_of_verification",
+        "E33": "near_match_distractors",
+        "F33": "scifact_difficulty_692_near_match_distractors",
+        "G33": "d4f006ad-b9a2-472b-9651-dd1eb51fc922",
+        "H33": "Stratified random task selection; all four strategies for same task",
+        "I33": "11",
+        "J33": "1"
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "A34": "HR30",
+        "B34": "Random paired",
+        "C34": "gpt-5.5-2026-04-23",
+        "D34": "source_grounded",
+        "E34": "direct_control",
+        "F34": "scifact_difficulty_1336_direct_control",
+        "G34": "54913161-6e69-463a-933b-39d268e07ec7",
+        "H34": "Stratified random task selection; all four strategies for same task",
+        "I34": "12",
+        "J34": "3"
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "A35": "HR31",
+        "B35": "Random paired",
+        "C35": "gpt-5.4-mini-2026-03-17",
+        "D35": "baseline",
+        "E35": "evidence_omission",
+        "F35": "scifact_difficulty_212_evidence_omission",
+        "G35": "5a1088a4-ec94-4cfe-b684-a36debbd3980",
+        "H35": "Stratified random task selection; all four strategies for same task",
+        "I35": "11",
+        "J35": "1"
+      }
+    },
+    {
+      "row": 36,
+      "cells": {
+        "A36": "HR32",
+        "B36": "Random paired",
+        "C36": "gpt-5.5-2026-04-23",
+        "D36": "chain_of_verification",
+        "E36": "evidence_omission",
+        "F36": "scifact_difficulty_1029_evidence_omission",
+        "G36": "c47f5d4c-2402-40ad-8b18-79682764e60d",
+        "H36": "Stratified random task selection; all four strategies for same task",
+        "I36": "8",
+        "J36": "0"
+      }
+    },
+    {
+      "row": 37,
+      "cells": {
+        "A37": "HR33",
+        "B37": "Targeted",
+        "C37": "gpt-5.5-2026-04-23",
+        "D37": "baseline",
+        "E37": "direct_control",
+        "F37": "scifact_difficulty_882_direct_control",
+        "G37": "504243da-b22f-4465-9b74-ce4f256d924a",
+        "H37": "Citation-support uncertainty / discrepancy",
+        "I37": "16",
+        "J37": "4"
+      }
+    },
+    {
+      "row": 38,
+      "cells": {
+        "A38": "HR34",
+        "B38": "Random paired",
+        "C38": "gpt-5.4-mini-2026-03-17",
+        "D38": "baseline",
+        "E38": "direct_control",
+        "F38": "scifact_difficulty_852_direct_control",
+        "G38": "648301c1-18f1-4ca6-9218-aa327ce8f813",
+        "H38": "Stratified random task selection; all four strategies for same task",
+        "I38": "11",
+        "J38": "0"
+      }
+    },
+    {
+      "row": 39,
+      "cells": {
+        "A39": "HR35",
+        "B39": "Random paired",
+        "C39": "gpt-5.5-2026-04-23",
+        "D39": "baseline",
+        "E39": "conflicting_or_partial_evidence",
+        "F39": "scifact_difficulty_1344_conflicting_or_partial_evidence",
+        "G39": "0f95f61f-8640-4460-a7cd-447d58100e9a",
+        "H39": "Stratified random task selection; all four strategies for same task",
+        "I39": "7",
+        "J39": "0"
+      }
+    },
+    {
+      "row": 40,
+      "cells": {
+        "A40": "HR36",
+        "B40": "Random paired",
+        "C40": "gpt-5.4-mini-2026-03-17",
+        "D40": "structured",
+        "E40": "conflicting_or_partial_evidence",
+        "F40": "scifact_difficulty_13_conflicting_or_partial_evidence",
+        "G40": "c3ba52cb-b002-46a8-9d75-484c4af3b7c6",
+        "H40": "Stratified random task selection; all four strategies for same task",
+        "I40": "5",
+        "J40": "0"
+      }
+    },
+    {
+      "row": 41,
+      "cells": {
+        "A41": "HR37",
+        "B41": "Random paired",
+        "C41": "gpt-5.4-mini-2026-03-17",
+        "D41": "chain_of_verification",
+        "E41": "evidence_omission",
+        "F41": "scifact_difficulty_212_evidence_omission",
+        "G41": "a3647959-fbcd-4928-8b05-0b7dcaba4822",
+        "H41": "Stratified random task selection; all four strategies for same task",
+        "I41": "8",
+        "J41": "0"
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "A42": "HR38",
+        "B42": "Targeted",
+        "C42": "gpt-5.4-mini-2026-03-17",
+        "D42": "baseline",
+        "E42": "direct_control",
+        "F42": "scifact_difficulty_985_direct_control",
+        "G42": "07312033-556b-4b34-8723-2b17dd1c1c3c",
+        "H42": "Automated judge disagreement",
+        "I42": "15",
+        "J42": "6"
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "A43": "HR39",
+        "B43": "Random paired",
+        "C43": "gpt-5.4-mini-2026-03-17",
+        "D43": "structured",
+        "E43": "near_match_distractors",
+        "F43": "scifact_difficulty_692_near_match_distractors",
+        "G43": "453c4bab-fc25-40f2-9f16-3ae8856518c6",
+        "H43": "Stratified random task selection; all four strategies for same task",
+        "I43": "17",
+        "J43": "1"
+      }
+    },
+    {
+      "row": 44,
+      "cells": {
+        "A44": "HR40",
+        "B44": "Random paired",
+        "C44": "gpt-5.4-mini-2026-03-17",
+        "D44": "baseline",
+        "E44": "conflicting_or_partial_evidence",
+        "F44": "scifact_difficulty_13_conflicting_or_partial_evidence",
+        "G44": "6ced3290-6c3f-49b9-8726-4e6140ec159e",
+        "H44": "Stratified random task selection; all four strategies for same task",
+        "I44": "5",
+        "J44": "0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "design_version": "1.0.0",
+  "design_note": "Twelve-task pre-run stress pilot. Three pre-audited SciFact source items are assigned to each difficulty category. No model outputs were used to choose items or transformations.",
+  "expected_categories": {
+    "direct_control": 3,
+    "near_match_distractors": 3,
+    "evidence_omission": 3,
+    "conflicting_or_partial_evidence": 3
+  },
+  "tasks": [
+    {
+      "source_item_id": "143",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "One directly relevant gold abstract and no supplementary distractors."
+    },
+    {
+      "source_item_id": "1140",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "One directly relevant gold abstract and no supplementary distractors."
+    },
+    {
+      "source_item_id": "516",
+      "difficulty_category": "direct_control",
+      "document_mode": "gold_only",
+      "difficulty_description": "One directly relevant gold abstract and no supplementary distractors."
+    },
+    {
+      "source_item_id": "619",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four topically related distractors precede the gold abstract, increasing source-selection pressure."
+    },
+    {
+      "source_item_id": "859",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "Four oncology-related distractors precede the gold abstract and include nearby tumour-promoting concepts."
+    },
+    {
+      "source_item_id": "1019",
+      "difficulty_category": "near_match_distractors",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "A competing two-component-system account based on binding affinity precedes the gold phosphotransfer study."
+    },
+    {
+      "source_item_id": "143",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "The decisive kidney-transplant abstract is withheld while related and unrelated abstracts remain; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1140",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "The decisive prostate-cancer trial is withheld while biologically related but nonresponsive material remains; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "516",
+      "difficulty_category": "evidence_omission",
+      "document_mode": "omit_gold",
+      "difficulty_description": "The decisive exacerbation-risk abstract is withheld while other COPD material remains; the correct verdict becomes NO_EVIDENCE."
+    },
+    {
+      "source_item_id": "1266",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "reference_label_override": "NO_EVIDENCE",
+      "difficulty_description": "The claim combines a supported placental-weight association with a narrower menopausal-status statement that requires careful qualification."
+    },
+    {
+      "source_item_id": "1132",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The packet discusses TCR/CD3 organisation and synapse formation, while the claim's strict necessity wording requires scope control."
+    },
+    {
+      "source_item_id": "1213",
+      "difficulty_category": "conflicting_or_partial_evidence",
+      "document_mode": "full_distractor_first",
+      "difficulty_description": "The sources describe related myeloid and inflammatory mechanisms but do not directly establish prolonged monocyte activation as stated."
+    }
+  ]
+}

@@ -1,0 +1,264 @@
+{
+  "A_Prompts/academic_synthesis_baseline_v3_2.txt": {
+    "sources": [
+      {
+        "path": "src/prompting.py",
+        "sha256": "c584eb740e85d263cda9d3a8279d709896dfc5795103ea4ffd0e75af1be9c943"
+      }
+    ],
+    "locator": "academic_synthesis_baseline_v3_2",
+    "method": "Verbatim text extraction"
+  },
+  "A_Prompts/academic_synthesis_structured_v3_2.txt": {
+    "sources": [
+      {
+        "path": "src/prompting.py",
+        "sha256": "c584eb740e85d263cda9d3a8279d709896dfc5795103ea4ffd0e75af1be9c943"
+      }
+    ],
+    "locator": "academic_synthesis_structured_v3_2",
+    "method": "Verbatim text extraction"
+  },
+  "A_Prompts/academic_synthesis_source_grounded_v3_2.txt": {
+    "sources": [
+      {
+        "path": "src/prompting.py",
+        "sha256": "c584eb740e85d263cda9d3a8279d709896dfc5795103ea4ffd0e75af1be9c943"
+      }
+    ],
+    "locator": "academic_synthesis_source_grounded_v3_2",
+    "method": "Verbatim text extraction"
+  },
+  "A_Prompts/academic_synthesis_cov_draft_v3_2.txt": {
+    "sources": [
+      {
+        "path": "src/prompting.py",
+        "sha256": "c584eb740e85d263cda9d3a8279d709896dfc5795103ea4ffd0e75af1be9c943"
+      }
+    ],
+    "locator": "academic_synthesis_cov_draft_v3_2",
+    "method": "Verbatim text extraction"
+  },
+  "A_Prompts/academic_synthesis_cov_verify_v3_2.txt": {
+    "sources": [
+      {
+        "path": "src/prompting.py",
+        "sha256": "c584eb740e85d263cda9d3a8279d709896dfc5795103ea4ffd0e75af1be9c943"
+      }
+    ],
+    "locator": "academic_synthesis_cov_verify_v3_2",
+    "method": "Verbatim text extraction"
+  },
+  "A_Prompts/academic_synthesis_cov_final_v3_2.txt": {
+    "sources": [
+      {
+        "path": "src/prompting.py",
+        "sha256": "c584eb740e85d263cda9d3a8279d709896dfc5795103ea4ffd0e75af1be9c943"
+      }
+    ],
+    "locator": "academic_synthesis_cov_final_v3_2",
+    "method": "Verbatim text extraction"
+  },
+  "A_Prompts/template_registry_v3_2.json": {
+    "sources": [
+      {
+        "path": "src/prompting.py",
+        "sha256": "c584eb740e85d263cda9d3a8279d709896dfc5795103ea4ffd0e75af1be9c943"
+      },
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/results.jsonl",
+        "sha256": "a204ffdcdeb5528ab1f444b7a89ff3685e6d79d8a32ede86cd9feb20679cf54c"
+      }
+    ],
+    "locator": "All six templates, checked against all 1,200 saved trace prompts",
+    "method": "Parsed-record extraction; no label changes"
+  },
+  "A_Prompts/shared_output_contract.txt": {
+    "sources": [
+      {
+        "path": "src/prompting.py",
+        "sha256": "c584eb740e85d263cda9d3a8279d709896dfc5795103ea4ffd0e75af1be9c943"
+      }
+    ],
+    "locator": "SYNTHESIS_STRESS_OUTPUT_CONTRACT",
+    "method": "Verbatim text extraction"
+  },
+  "B_Tasks/task_to_source_mapping.csv": {
+    "sources": [
+      {
+        "path": "data/approved/scifact_confirmatory_100.jsonl",
+        "sha256": "2abf849fa91665c053850ded38aa3271372b276abff0c14ca16ea72f0ded40f9"
+      }
+    ],
+    "locator": "100 tasks; original label = saved base_reference_label",
+    "method": "Field extraction; saved numeric values without rerounding"
+  },
+  "B_Tasks/complete_example_task_212.json": {
+    "sources": [
+      {
+        "path": "data/approved/scifact_confirmatory_100.jsonl",
+        "sha256": "2abf849fa91665c053850ded38aa3271372b276abff0c14ca16ea72f0ded40f9"
+      }
+    ],
+    "locator": "scifact_difficulty_212_direct_control",
+    "method": "Parsed-record extraction; no label changes"
+  },
+  "B_Tasks/complete_example_packet_212.txt": {
+    "sources": [
+      {
+        "path": "data/approved/scifact_confirmatory_100.jsonl",
+        "sha256": "2abf849fa91665c053850ded38aa3271372b276abff0c14ca16ea72f0ded40f9"
+      }
+    ],
+    "locator": "scifact_difficulty_212_direct_control",
+    "method": "Verbatim prompt and source_context with labelled separator; reference label not inserted into prompt"
+  },
+  "C_Evaluation/six_excluded_items.csv": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus.jsonl",
+        "sha256": "8f97313e9f0fb64738c9a3145cbe95b2d94c55c930d914b729b3147744cc8287"
+      }
+    ],
+    "locator": "Both original support labels NOT_FACTUAL",
+    "method": "Field extraction; saved numeric values without rerounding"
+  },
+  "C_Evaluation/extraction_fidelity_example.json": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/results.jsonl",
+        "sha256": "a204ffdcdeb5528ab1f444b7a89ff3685e6d79d8a32ede86cd9feb20679cf54c"
+      },
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus.jsonl",
+        "sha256": "8f97313e9f0fb64738c9a3145cbe95b2d94c55c930d914b729b3147744cc8287"
+      }
+    ],
+    "locator": "a41c8273-a0a6-4410-af4a-72870698aabb; claim 013",
+    "method": "Parsed-record extraction; no label changes"
+  },
+  "C_Evaluation/saved_primary_judge_request.json": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_primary_prompts.jsonl",
+        "sha256": "6dc3f44cbdb80d196812c6630842d4a0d7efc6acd7b38d72b2247beb1af61c66"
+      }
+    ],
+    "locator": "a41c8273-a0a6-4410-af4a-72870698aabb; saved attempt 1",
+    "method": "Parsed-record extraction; no label changes"
+  },
+  "C_Evaluation/saved_secondary_judge_request.json": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_secondary_prompts.jsonl",
+        "sha256": "9c3155d0b213fe1dfe8cf89886103acf226e62dd83856a467febfba0bdff90d8"
+      }
+    ],
+    "locator": "a41c8273-a0a6-4410-af4a-72870698aabb; saved attempt 1",
+    "method": "Parsed-record extraction; no label changes"
+  },
+  "D_Results/primary_and_sensitivity_effects.csv": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus_summary.json",
+        "sha256": "bf342b26a2c24660343436bb0df44211288c5462d51a562544e0503beccf6d18"
+      }
+    ],
+    "locator": "paired_strategy_effects_vs_baseline",
+    "method": "Field extraction; saved numeric values without rerounding"
+  },
+  "D_Results/exploratory_evidence_condition_effects.csv": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus_summary.json",
+        "sha256": "bf342b26a2c24660343436bb0df44211288c5462d51a562544e0503beccf6d18"
+      }
+    ],
+    "locator": "paired_strategy_effects_vs_baseline_by_difficulty",
+    "method": "Field extraction; saved numeric values without rerounding"
+  },
+  "D_Results/evidence_condition_means.csv": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus_summary.json",
+        "sha256": "bf342b26a2c24660343436bb0df44211288c5462d51a562544e0503beccf6d18"
+      }
+    ],
+    "locator": "conditions.*.by_difficulty; source values for manuscript Figure D2",
+    "method": "Field extraction; saved numeric values without rerounding"
+  },
+  "D_Results/verdict_and_agreement_outcomes.csv": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/results.jsonl",
+        "sha256": "a204ffdcdeb5528ab1f444b7a89ff3685e6d79d8a32ede86cd9feb20679cf54c"
+      },
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus_summary.json",
+        "sha256": "bf342b26a2c24660343436bb0df44211288c5462d51a562544e0503beccf6d18"
+      }
+    ],
+    "locator": "Exact saved response counts; agreement from saved summary",
+    "method": "Read-only consistency aggregation, not a new endpoint"
+  },
+  "D_Results/cov_stage_tokens.csv": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/results.jsonl",
+        "sha256": "a204ffdcdeb5528ab1f444b7a89ff3685e6d79d8a32ede86cd9feb20679cf54c"
+      }
+    ],
+    "locator": "Saved CoV trace response token counts; 100 requests per model-stage",
+    "method": "Read-only resource accounting, no monetary-cost estimate"
+  },
+  "D_Results/canonical_source_misrepresentation_index.json": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/analysis_summary.json",
+        "sha256": "68d86550cfb6b084b1b325a98ce7199306ae758aa1c8d196a7e6b36e54f8045f"
+      }
+    ],
+    "locator": "",
+    "method": "Parsed-record extraction; no label changes"
+  },
+  "E_Reproducibility/saved_request_audit.json": {
+    "sources": [
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/results.jsonl",
+        "sha256": "a204ffdcdeb5528ab1f444b7a89ff3685e6d79d8a32ede86cd9feb20679cf54c"
+      },
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_primary_judgments.jsonl",
+        "sha256": "ca05a9d0a348e434e4dd31df6da00a7356f882c4bb3656facf871140589bf91a"
+      },
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_secondary_judgments.jsonl",
+        "sha256": "07a690047aa07b6bc41111d59709e142d0307ffd72e1f9eaf8fe4544bce020c6"
+      },
+      {
+        "path": "config_scifact_confirmatory.json",
+        "sha256": "ea923b4c61ba6e21f58a2e39b3c2b1bda0cc76b7468e901d7927228dda9b08e6"
+      }
+    ],
+    "locator": "",
+    "method": "Parsed-record extraction; no label changes"
+  },
+  "E_Reproducibility/integrity_checks.csv": {
+    "sources": [
+      {
+        "path": "data/approved/scifact_confirmatory_100.jsonl",
+        "sha256": "2abf849fa91665c053850ded38aa3271372b276abff0c14ca16ea72f0ded40f9"
+      },
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/results.jsonl",
+        "sha256": "a204ffdcdeb5528ab1f444b7a89ff3685e6d79d8a32ede86cd9feb20679cf54c"
+      },
+      {
+        "path": "outputs/scifact_confirmatory_v3_2/atomic_consensus_v3_9/atomic_consensus.jsonl",
+        "sha256": "8f97313e9f0fb64738c9a3145cbe95b2d94c55c930d914b729b3147744cc8287"
+      }
+    ],
+    "locator": "EA-numbered checks performed now; manuscript original 1–19 checklist not located",
+    "method": "Field extraction; saved numeric values without rerounding"
+  }
+}

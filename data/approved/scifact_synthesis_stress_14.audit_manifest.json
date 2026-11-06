@@ -1,0 +1,19 @@
+{
+  "audit_schema_version": "1.0.0",
+  "created_at_utc": "2026-09-22T04:14:45.637969+00:00",
+  "source_data": "data/processed/scifact_synthesis_stress_candidates_18.jsonl",
+  "source_data_sha256": "8be20603d6425a2f40a97c8423c00ffcff8a7c2f36d2609d73273b15cd3ecde1",
+  "audit_csv": "audits/scifact_synthesis_stress_candidates_18.audit.ai_assisted.csv",
+  "audit_csv_sha256": "29dd34a022563df8d32aade43d3b88059cd586502066ac9def2584b801758b77",
+  "output_data": "data/approved/scifact_synthesis_stress_14.jsonl",
+  "output_data_sha256": "9188cc91f9e925e1e1756ca3be45dd35d5497a3ccfccc167be8b451d21d08fe8",
+  "total_tasks": 18,
+  "included_tasks": 14,
+  "excluded_tasks": 4,
+  "exclusion_reasons": {
+    "evidence_mismatch": 2,
+    "label_mismatch": 1,
+    "ambiguous_claim": 1
+  },
+  "selection_note": "Tasks were selected from pre-run benchmark audit decisions only. No model responses are present in the audit template."
+}

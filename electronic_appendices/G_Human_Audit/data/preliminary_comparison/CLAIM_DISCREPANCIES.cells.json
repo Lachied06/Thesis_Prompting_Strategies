@@ -1,0 +1,1295 @@
+{
+  "member": "xl/worksheets/sheet3.xml",
+  "rows": [
+    {
+      "row": 1,
+      "cells": {
+        "A1": "DISCREPANCIES / UNCERTAINTY | NEEDS ADJUDICATION",
+        "B1": "",
+        "C1": "",
+        "D1": "",
+        "E1": "",
+        "F1": "",
+        "G1": "",
+        "H1": ""
+      }
+    },
+    {
+      "row": 2,
+      "cells": {
+        "A2": "Cases here are exploratory discrepancies, not verified errors. Extraction-origin and human-label problems can mimic judge mistakes.",
+        "B2": "",
+        "C2": "",
+        "D2": "",
+        "E2": "",
+        "F2": "",
+        "G2": "",
+        "H2": ""
+      }
+    },
+    {
+      "row": 4,
+      "cells": {
+        "A4": "Blind ID",
+        "B4": "Selection stream",
+        "C4": "Claim #",
+        "D4": "Atomic factual claim",
+        "E4": "Human support",
+        "F4": "Consensus label",
+        "G4": "Primary label",
+        "H4": "Secondary label",
+        "I4": "QA flag?",
+        "J4": "Human evidence explanation",
+        "K4": "Why it appears"
+      }
+    },
+    {
+      "row": 5,
+      "cells": {
+        "A5": "HR01",
+        "B5": "Targeted",
+        "C5": "9",
+        "D5": "The assessed interventions include adherence.",
+        "E5": "Supported",
+        "F5": "UNCERTAIN",
+        "G5": "SUPPORTED",
+        "H5": "NOT_IN_SOURCES",
+        "I5": "No",
+        "J5": "N/A",
+        "K5": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 6,
+      "cells": {
+        "A6": "HR02",
+        "B6": "Random paired",
+        "C6": "6",
+        "D6": "Dysfunctional senescent cells accumulate and eventually limit longevity.",
+        "E6": "Supported",
+        "F6": "UNCERTAIN",
+        "G6": "NOT_IN_SOURCES",
+        "H6": "SUPPORTED",
+        "I6": "Yes",
+        "J6": "N/A",
+        "K6": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 7,
+      "cells": {
+        "A7": "HR02",
+        "B7": "Random paired",
+        "C7": "7",
+        "D7": "Metastatic breast cancer circulating tumor cells do not involve p53-driven senescence, lifespan, or organismal aging.",
+        "E7": "Unsupported",
+        "F7": "UNCERTAIN",
+        "G7": "NOT_IN_SOURCES",
+        "H7": "SUPPORTED",
+        "I7": "Yes",
+        "J7": "No mention or discussion of the described evidence, particularly the specific p53-driven, lifespan and optimal aging.",
+        "K7": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 8,
+      "cells": {
+        "A8": "HR02",
+        "B8": "Random paired",
+        "C8": "8",
+        "D8": "CDX2/Wnt signaling in colon cancer does not involve p53-driven senescence, lifespan, or organismal aging.",
+        "E8": "Unsupported",
+        "F8": "UNCERTAIN",
+        "G8": "NOT_IN_SOURCES",
+        "H8": "SUPPORTED",
+        "I8": "Yes",
+        "J8": "No mention or discussion of the provided claim within the evidence doc",
+        "K8": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 9,
+      "cells": {
+        "A9": "HR02",
+        "B9": "Random paired",
+        "C9": "9",
+        "D9": "PTEN/Akt-mediated gefitinib resistance does not involve p53-driven senescence, lifespan, or organismal aging.",
+        "E9": "Unsupported",
+        "F9": "UNCERTAIN",
+        "G9": "NOT_IN_SOURCES",
+        "H9": "SUPPORTED",
+        "I9": "Yes",
+        "J9": "No mention or discussion of the provided claim within the evidence doc",
+        "K9": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 10,
+      "cells": {
+        "A10": "HR02",
+        "B10": "Random paired",
+        "C10": "10",
+        "D10": "β1-integrin-mediated lapatinib resistance does not involve p53-driven senescence, lifespan, or organismal aging.",
+        "E10": "Unsupported",
+        "F10": "UNCERTAIN",
+        "G10": "NOT_IN_SOURCES",
+        "H10": "SUPPORTED",
+        "I10": "Yes",
+        "J10": "No mention or discussion of the provided claim within the evidence doc",
+        "K10": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 11,
+      "cells": {
+        "A11": "HR04",
+        "B11": "Random paired",
+        "C11": "8",
+        "D11": "Higher leukocyte content does not worsen infectious outcomes.",
+        "E11": "Cannot assess",
+        "F11": "CONSENSUS_UNSUPPORTED",
+        "G11": "NOT_IN_SOURCES",
+        "H11": "NOT_IN_SOURCES",
+        "I11": "Yes",
+        "J11": "The response does not actually claim that this is a fact, it says that the sources do not state this occurs.",
+        "K11": "Human cannot assess"
+      }
+    },
+    {
+      "row": 12,
+      "cells": {
+        "A12": "HR04",
+        "B12": "Random paired",
+        "C12": "17",
+        "D12": "The transfusion study did not directly compare leuko-increased units versus leukoreduced units as the exposure phrased in the claim.",
+        "E12": "Supported",
+        "F12": "UNCERTAIN",
+        "G12": "SUPPORTED",
+        "H12": "NOT_IN_SOURCES",
+        "I12": "No",
+        "J12": "While this is not a evidential claim itself, it is supported by the sources such that it doesn't discuss the described comparison of the two units",
+        "K12": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 13,
+      "cells": {
+        "A13": "HR05",
+        "B13": "Targeted",
+        "C13": "1",
+        "D13": "AIRE is expressed in at least some skin tumors.",
+        "E13": "Supported",
+        "F13": "UNCERTAIN",
+        "G13": "NOT_IN_SOURCES",
+        "H13": "SUPPORTED",
+        "I13": "No",
+        "J13": "N/A",
+        "K13": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 14,
+      "cells": {
+        "A14": "HR05",
+        "B14": "Targeted",
+        "C14": "5",
+        "D14": "The relevant system is not melanoma or non-keratinocyte tumors.",
+        "E14": "Supported",
+        "F14": "CONSENSUS_UNSUPPORTED",
+        "G14": "NOT_IN_SOURCES",
+        "H14": "NOT_IN_SOURCES",
+        "I14": "No",
+        "J14": "N/A",
+        "K14": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 15,
+      "cells": {
+        "A15": "HR05",
+        "B15": "Targeted",
+        "C15": "13",
+        "D15": "Only one abstract is available.",
+        "E15": "Cannot assess",
+        "F15": "UNCERTAIN",
+        "G15": "SUPPORTED",
+        "H15": "NOT_IN_SOURCES",
+        "I15": "Yes",
+        "J15": "Irrelevant to claim.",
+        "K15": "Human cannot assess"
+      }
+    },
+    {
+      "row": 16,
+      "cells": {
+        "A16": "HR05",
+        "B16": "Targeted",
+        "C16": "14",
+        "D16": "Tumor types are not exhaustively characterized.",
+        "E16": "Cannot assess",
+        "F16": "UNCERTAIN",
+        "G16": "SUPPORTED",
+        "H16": "NOT_IN_SOURCES",
+        "I16": "Yes",
+        "J16": "Shown claim is not stating or claiming evidence, rather saying what cannot be deduced from the abstract.",
+        "K16": "Human cannot assess"
+      }
+    },
+    {
+      "row": 17,
+      "cells": {
+        "A17": "HR05",
+        "B17": "Targeted",
+        "C17": "15",
+        "D17": "Expression prevalence is not quantified.",
+        "E17": "Cannot assess",
+        "F17": "UNCERTAIN",
+        "G17": "SUPPORTED",
+        "H17": "NOT_IN_SOURCES",
+        "I17": "Yes",
+        "J17": "Shown claim is not stating or claiming evidence, rather saying what cannot be deduced from the abstract.",
+        "K17": "Human cannot assess"
+      }
+    },
+    {
+      "row": 18,
+      "cells": {
+        "A18": "HR05",
+        "B18": "Targeted",
+        "C18": "16",
+        "D18": "The findings are centered on K17-dependent tumor keratinocytes rather than all skin tumors.",
+        "E18": "Supported",
+        "F18": "UNCERTAIN",
+        "G18": "SUPPORTED",
+        "H18": "NOT_IN_SOURCES",
+        "I18": "No",
+        "J18": "N/A",
+        "K18": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 19,
+      "cells": {
+        "A19": "HR06",
+        "B19": "Random paired",
+        "C19": "6",
+        "D19": "Epigenetic aging measures are related but not identical.",
+        "E19": "Supported",
+        "F19": "UNCERTAIN",
+        "G19": "NOT_IN_SOURCES",
+        "H19": "SUPPORTED",
+        "I19": "No",
+        "J19": "Yes - demonstarted in the correlation data (r=0.3 and 0.2)",
+        "K19": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 20,
+      "cells": {
+        "A20": "HR10",
+        "B20": "Targeted",
+        "C20": "3",
+        "D20": "Nutritional deficits are measurable determinants of population health burden.",
+        "E20": "Supported",
+        "F20": "UNCERTAIN",
+        "G20": "NOT_IN_SOURCES",
+        "H20": "SUPPORTED",
+        "I20": "No",
+        "J20": "N/A",
+        "K20": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 21,
+      "cells": {
+        "A21": "HR10",
+        "B21": "Targeted",
+        "C21": "5",
+        "D21": "The Global Burden of Disease comparative risk assessment covered 195 countries and territories from 1990 to 2015.",
+        "E21": "Unsupported",
+        "F21": "UNCERTAIN",
+        "G21": "NOT_IN_SOURCES",
+        "H21": "SUPPORTED",
+        "I21": "Yes",
+        "J21": "Does not state # of countries and territories as 195.Instead gives a lower count of countries for other specificities.",
+        "K21": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 22,
+      "cells": {
+        "A22": "HR10",
+        "B22": "Targeted",
+        "C22": "7",
+        "D22": "Childhood undernutrition and unsafe water/sanitation contributed to declines in attributable DALYs.",
+        "E22": "Contradicted",
+        "F22": "UNCERTAIN",
+        "G22": "CONTRADICTED",
+        "H22": "SUPPORTED",
+        "I22": "Yes",
+        "J22": "Source says the opposite of the claim in question.",
+        "K22": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 23,
+      "cells": {
+        "A23": "HR10",
+        "B23": "Targeted",
+        "C23": "10",
+        "D23": "Nutrition-related risks are linked to both communicable and chronic disease burdens.",
+        "E23": "Supported",
+        "F23": "UNCERTAIN",
+        "G23": "NOT_IN_SOURCES",
+        "H23": "SUPPORTED",
+        "I23": "No",
+        "J23": "N/A",
+        "K23": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 24,
+      "cells": {
+        "A24": "HR10",
+        "B24": "Targeted",
+        "C24": "13",
+        "D24": "High BMI and metabolic risks are nutrition-related exposures.",
+        "E24": "Supported",
+        "F24": "CONSENSUS_UNSUPPORTED",
+        "G24": "NOT_IN_SOURCES",
+        "H24": "NOT_IN_SOURCES",
+        "I24": "No",
+        "J24": "N/A",
+        "K24": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 25,
+      "cells": {
+        "A25": "HR10",
+        "B25": "Targeted",
+        "C25": "14",
+        "D25": "High BMI and metabolic risks are directly connected to chronic disease burden.",
+        "E25": "Supported",
+        "F25": "CONSENSUS_UNSUPPORTED",
+        "G25": "NOT_IN_SOURCES",
+        "H25": "NOT_IN_SOURCES",
+        "I25": "No",
+        "J25": "N/A",
+        "K25": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 26,
+      "cells": {
+        "A26": "HR11",
+        "B26": "Targeted",
+        "C26": "1",
+        "D26": "Podosome assembly is triggered by localized phosphoinositide signaling together with Src activation in transformed fibroblasts and related cancer-cell systems.",
+        "E26": "Supported",
+        "F26": "UNCERTAIN",
+        "G26": "NOT_IN_SOURCES",
+        "H26": "SUPPORTED",
+        "I26": "No",
+        "J26": "N/A",
+        "K26": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 27,
+      "cells": {
+        "A27": "HR11",
+        "B27": "Targeted",
+        "C27": "6",
+        "D27": "Src-linked signaling acts upstream of actin-remodeling machinery.",
+        "E27": "Supported",
+        "F27": "CONSENSUS_UNSUPPORTED",
+        "G27": "NOT_IN_SOURCES",
+        "H27": "NOT_IN_SOURCES",
+        "I27": "No",
+        "J27": "N/A",
+        "K27": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 28,
+      "cells": {
+        "A28": "HR11",
+        "B28": "Targeted",
+        "C28": "10",
+        "D28": "The evidence is strongest for podosomes in Src-transformed fibroblasts and invasive cancer cells.",
+        "E28": "Supported",
+        "F28": "CONSENSUS_UNSUPPORTED",
+        "G28": "NOT_IN_SOURCES",
+        "H28": "NOT_IN_SOURCES",
+        "I28": "No",
+        "J28": "N/A",
+        "K28": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 29,
+      "cells": {
+        "A29": "HR12",
+        "B29": "Random paired",
+        "C29": "5",
+        "D29": "Different molecular aging measures may relate but are not interchangeable.",
+        "E29": "Supported",
+        "F29": "UNCERTAIN",
+        "G29": "NOT_IN_SOURCES",
+        "H29": "SUPPORTED",
+        "I29": "No",
+        "J29": "N/A",
+        "K29": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 30,
+      "cells": {
+        "A30": "HR14",
+        "B30": "Targeted",
+        "C30": "9",
+        "D30": "The epigenetic changes caused by caloric restriction have biological relevance.",
+        "E30": "Supported",
+        "F30": "UNCERTAIN",
+        "G30": "NOT_IN_SOURCES",
+        "H30": "SUPPORTED",
+        "I30": "Yes",
+        "J30": "N/A",
+        "K30": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 31,
+      "cells": {
+        "A31": "HR14",
+        "B31": "Targeted",
+        "C31": "13",
+        "D31": "The intervention evidence demonstrates a methylation-age effect in humans.",
+        "E31": "Unsupported",
+        "F31": "UNCERTAIN",
+        "G31": "CONTRADICTED",
+        "H31": "SUPPORTED",
+        "I31": "Yes",
+        "J31": "N/A",
+        "K31": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 32,
+      "cells": {
+        "A32": "HR15",
+        "B32": "Random paired",
+        "C32": "6",
+        "D32": "Ultrasound imaging suggested improved technical performance rather than greater procedural trauma.",
+        "E32": "Supported",
+        "F32": "UNCERTAIN",
+        "G32": "NOT_IN_SOURCES",
+        "H32": "SUPPORTED",
+        "I32": "No",
+        "J32": "N/A",
+        "K32": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 33,
+      "cells": {
+        "A33": "HR16",
+        "B33": "Random paired",
+        "C33": "7",
+        "D33": "Leukoreduced blood does not increase infection risk.",
+        "E33": "Supported",
+        "F33": "UNCERTAIN",
+        "G33": "NOT_IN_SOURCES",
+        "H33": "SUPPORTED",
+        "I33": "Yes",
+        "J33": "N/A",
+        "K33": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 34,
+      "cells": {
+        "A34": "HR16",
+        "B34": "Random paired",
+        "C34": "10",
+        "D34": "The transfusion study does not establish causality.",
+        "E34": "Supported",
+        "F34": "UNCERTAIN",
+        "G34": "NOT_IN_SOURCES",
+        "H34": "SUPPORTED",
+        "I34": "No",
+        "J34": "N/A",
+        "K34": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 35,
+      "cells": {
+        "A35": "HR16",
+        "B35": "Random paired",
+        "C35": "11",
+        "D35": "The transfusion study does not address all transfusion settings.",
+        "E35": "Supported",
+        "F35": "UNCERTAIN",
+        "G35": "NOT_IN_SOURCES",
+        "H35": "SUPPORTED",
+        "I35": "No",
+        "J35": "N/A",
+        "K35": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 36,
+      "cells": {
+        "A36": "HR16",
+        "B36": "Random paired",
+        "C36": "12",
+        "D36": "Document 3899896 concerns rectal cancer prognosis.",
+        "E36": "Supported",
+        "F36": "UNCERTAIN",
+        "G36": "SUPPORTED",
+        "H36": "NOT_IN_SOURCES",
+        "I36": "No",
+        "J36": "N/A",
+        "K36": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 37,
+      "cells": {
+        "A37": "HR16",
+        "B37": "Random paired",
+        "C37": "13",
+        "D37": "Document 27049238 concerns red blood cell mechanics.",
+        "E37": "Supported",
+        "F37": "UNCERTAIN",
+        "G37": "SUPPORTED",
+        "H37": "NOT_IN_SOURCES",
+        "I37": "No",
+        "J37": "N/A",
+        "K37": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 38,
+      "cells": {
+        "A38": "HR16",
+        "B38": "Random paired",
+        "C38": "14",
+        "D38": "Document 9787715 concerns malaria-associated B-cell changes.",
+        "E38": "Supported",
+        "F38": "UNCERTAIN",
+        "G38": "SUPPORTED",
+        "H38": "NOT_IN_SOURCES",
+        "I38": "No",
+        "J38": "N/A",
+        "K38": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 39,
+      "cells": {
+        "A39": "HR16",
+        "B39": "Random paired",
+        "C39": "15",
+        "D39": "Document 11071351 concerns hypertension prevention.",
+        "E39": "Supported",
+        "F39": "UNCERTAIN",
+        "G39": "SUPPORTED",
+        "H39": "NOT_IN_SOURCES",
+        "I39": "No",
+        "J39": "N/A",
+        "K39": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 40,
+      "cells": {
+        "A40": "HR17",
+        "B40": "Random paired",
+        "C40": "8",
+        "D40": "UCB graft recipients showed comparatively preserved TCR repertoire diversity after transplantation.",
+        "E40": "Supported",
+        "F40": "UNCERTAIN",
+        "G40": "SUPPORTED",
+        "H40": "NOT_IN_SOURCES",
+        "I40": "No",
+        "J40": "N/A",
+        "K40": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 41,
+      "cells": {
+        "A41": "HR17",
+        "B41": "Random paired",
+        "C41": "9",
+        "D41": "Only one document is supplied.",
+        "E41": "Supported",
+        "F41": "UNCERTAIN",
+        "G41": "SUPPORTED",
+        "H41": "NOT_FACTUAL",
+        "I41": "No",
+        "J41": "N/A",
+        "K41": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 42,
+      "cells": {
+        "A42": "HR17",
+        "B42": "Random paired",
+        "C42": "10",
+        "D42": "The cohort in Document 27910499 was small.",
+        "E42": "Supported",
+        "F42": "UNCERTAIN",
+        "G42": "NOT_FACTUAL",
+        "H42": "NOT_IN_SOURCES",
+        "I42": "No",
+        "J42": "N/A",
+        "K42": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 43,
+      "cells": {
+        "A43": "HR17",
+        "B43": "Random paired",
+        "C43": "11",
+        "D43": "The abstract of Document 27910499 does not specify all clinical covariates.",
+        "E43": "Supported",
+        "F43": "UNCERTAIN",
+        "G43": "SUPPORTED",
+        "H43": "NOT_IN_SOURCES",
+        "I43": "No",
+        "J43": "N/A",
+        "K43": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 44,
+      "cells": {
+        "A44": "HR17",
+        "B44": "Random paired",
+        "C44": "12",
+        "D44": "Document 27910499 reports graft-level associations rather than proving a causal effect of UCB T cells themselves.",
+        "E44": "Supported",
+        "F44": "UNCERTAIN",
+        "G44": "SUPPORTED",
+        "H44": "NOT_IN_SOURCES",
+        "I44": "No",
+        "J44": "N/A",
+        "K44": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 45,
+      "cells": {
+        "A45": "HR18",
+        "B45": "Random paired",
+        "C45": "5",
+        "D45": "The intervention was not specifically an isolated cellular product of UCB T cells.",
+        "E45": "Supported",
+        "F45": "UNCERTAIN",
+        "G45": "NOT_IN_SOURCES",
+        "H45": "SUPPORTED",
+        "I45": "No",
+        "J45": "N/A",
+        "K45": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 46,
+      "cells": {
+        "A46": "HR18",
+        "B46": "Random paired",
+        "C46": "13",
+        "D46": "Only the abstract of the study is available.",
+        "E46": "Supported",
+        "F46": "CONSENSUS_UNSUPPORTED",
+        "G46": "NOT_IN_SOURCES",
+        "H46": "NOT_IN_SOURCES",
+        "I46": "No",
+        "J46": "N/A",
+        "K46": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 47,
+      "cells": {
+        "A47": "HR18",
+        "B47": "Random paired",
+        "C47": "14",
+        "D47": "The cohort was small.",
+        "E47": "Supported",
+        "F47": "UNCERTAIN",
+        "G47": "NOT_FACTUAL",
+        "H47": "NOT_IN_SOURCES",
+        "I47": "No",
+        "J47": "N/A",
+        "K47": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 48,
+      "cells": {
+        "A48": "HR18",
+        "B48": "Random paired",
+        "C48": "15",
+        "D48": "Causal effects of UCB-derived T cells per se cannot be isolated from graft type and transplant context.",
+        "E48": "Supported",
+        "F48": "CONSENSUS_UNSUPPORTED",
+        "G48": "NOT_IN_SOURCES",
+        "H48": "NOT_IN_SOURCES",
+        "I48": "No",
+        "J48": "N/A",
+        "K48": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 49,
+      "cells": {
+        "A49": "HR19",
+        "B49": "Targeted",
+        "C49": "3",
+        "D49": "The engrafted human glia were integrated into the host forebrain environment.",
+        "E49": "Supported",
+        "F49": "UNCERTAIN",
+        "G49": "NOT_IN_SOURCES",
+        "H49": "SUPPORTED",
+        "I49": "No",
+        "J49": "N/A",
+        "K49": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 50,
+      "cells": {
+        "A50": "HR19",
+        "B50": "Targeted",
+        "C50": "5",
+        "D50": "Gap-junction coupling of engrafted human glia to host astroglia showed direct intercellular connectivity rather than isolation from host neural tissue.",
+        "E50": "Supported",
+        "F50": "UNCERTAIN",
+        "G50": "NOT_IN_SOURCES",
+        "H50": "SUPPORTED",
+        "I50": "No",
+        "J50": "N/A",
+        "K50": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 51,
+      "cells": {
+        "A51": "HR19",
+        "B51": "Targeted",
+        "C51": "7",
+        "D51": "Engrafted human glia actively participated in brain signaling.",
+        "E51": "Supported",
+        "F51": "UNCERTAIN",
+        "G51": "NOT_IN_SOURCES",
+        "H51": "SUPPORTED",
+        "I51": "No",
+        "J51": "N/A",
+        "K51": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 52,
+      "cells": {
+        "A52": "HR19",
+        "B52": "Targeted",
+        "C52": "11",
+        "D52": "The evidence is limited to a mouse chimeric model.",
+        "E52": "Supported",
+        "F52": "UNCERTAIN",
+        "G52": "SUPPORTED",
+        "H52": "NOT_IN_SOURCES",
+        "I52": "No",
+        "J52": "N/A",
+        "K52": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 53,
+      "cells": {
+        "A53": "HR19",
+        "B53": "Targeted",
+        "C53": "12",
+        "D53": "The evidence primarily demonstrates glial integration and functional effects on host neural circuitry, not direct synaptic network formation by human glial progenitor cells with neurons in the strict sense.",
+        "E53": "Supported",
+        "F53": "CONSENSUS_UNSUPPORTED",
+        "G53": "NOT_IN_SOURCES",
+        "H53": "NOT_IN_SOURCES",
+        "I53": "No",
+        "J53": "N/A",
+        "K53": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 54,
+      "cells": {
+        "A54": "HR19",
+        "B54": "Targeted",
+        "C54": "13",
+        "D54": "Documented functional coupling and enhancement of host brain activity occurred after human glial engraftment.",
+        "E54": "Supported",
+        "F54": "UNCERTAIN",
+        "G54": "NOT_IN_SOURCES",
+        "H54": "SUPPORTED",
+        "I54": "No",
+        "J54": "N/A",
+        "K54": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 55,
+      "cells": {
+        "A55": "HR24",
+        "B55": "Random paired",
+        "C55": "11",
+        "D55": "The aggregated randomized trials may vary in operator skill, patient anatomy, and procedural setting.",
+        "E55": "Unsupported",
+        "F55": "UNCERTAIN",
+        "G55": "NOT_IN_SOURCES",
+        "H55": "SUPPORTED",
+        "I55": "Yes",
+        "J55": "Not supported by the evidence",
+        "K55": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 56,
+      "cells": {
+        "A56": "HR27",
+        "B56": "Random paired",
+        "C56": "8",
+        "D56": "The effect of non-invasive ventilation in other causes of poor response to conventional treatment or in more severe respiratory failure was not established.",
+        "E56": "Unsupported",
+        "F56": "UNCERTAIN",
+        "G56": "NOT_FACTUAL",
+        "H56": "NOT_IN_SOURCES",
+        "I56": "No",
+        "J56": "Not supported by the evidence",
+        "K56": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 57,
+      "cells": {
+        "A57": "HR29",
+        "B57": "Random paired",
+        "C57": "7",
+        "D57": "The Canadian study cannot establish causality with the certainty of a randomized trial.",
+        "E57": "Unsupported",
+        "F57": "UNCERTAIN",
+        "G57": "NOT_IN_SOURCES",
+        "H57": "SUPPORTED",
+        "I57": "Yes",
+        "J57": "N/A",
+        "K57": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 58,
+      "cells": {
+        "A58": "HR29",
+        "B58": "Random paired",
+        "C58": "8",
+        "D58": "Document 3899896 addresses rectal cancer prognosis by red blood cell distribution width.",
+        "E58": "Unsupported",
+        "F58": "CONSENSUS_SUPPORTED",
+        "G58": "SUPPORTED",
+        "H58": "SUPPORTED",
+        "I58": "Yes",
+        "J58": "N/A",
+        "K58": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 59,
+      "cells": {
+        "A59": "HR29",
+        "B59": "Random paired",
+        "C59": "9",
+        "D59": "Document 9787715 addresses malaria-related B-cell changes.",
+        "E59": "Unsupported",
+        "F59": "CONSENSUS_SUPPORTED",
+        "G59": "SUPPORTED",
+        "H59": "SUPPORTED",
+        "I59": "Yes",
+        "J59": "N/A",
+        "K59": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 60,
+      "cells": {
+        "A60": "HR29",
+        "B60": "Random paired",
+        "C60": "10",
+        "D60": "Document 11071351 addresses hypertension prevention.",
+        "E60": "Unsupported",
+        "F60": "CONSENSUS_SUPPORTED",
+        "G60": "SUPPORTED",
+        "H60": "SUPPORTED",
+        "I60": "Yes",
+        "J60": "N/A",
+        "K60": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 61,
+      "cells": {
+        "A61": "HR29",
+        "B61": "Random paired",
+        "C61": "11",
+        "D61": "Document 27049238 addresses red blood cell mechanics.",
+        "E61": "Unsupported",
+        "F61": "CONSENSUS_SUPPORTED",
+        "G61": "SUPPORTED",
+        "H61": "SUPPORTED",
+        "I61": "Yes",
+        "J61": "N/A",
+        "K61": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 62,
+      "cells": {
+        "A62": "HR30",
+        "B62": "Random paired",
+        "C62": "10",
+        "D62": "The supplied evidence consists of one abstract.",
+        "E62": "Unsupported",
+        "F62": "UNCERTAIN",
+        "G62": "SUPPORTED",
+        "H62": "NOT_IN_SOURCES",
+        "I62": "Yes",
+        "J62": "N/A",
+        "K62": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 63,
+      "cells": {
+        "A63": "HR30",
+        "B63": "Random paired",
+        "C63": "11",
+        "D63": "The study sample size is small.",
+        "E63": "Unsupported",
+        "F63": "UNCERTAIN",
+        "G63": "NOT_FACTUAL",
+        "H63": "NOT_IN_SOURCES",
+        "I63": "Yes",
+        "J63": "N/A",
+        "K63": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 64,
+      "cells": {
+        "A64": "HR30",
+        "B64": "Random paired",
+        "C64": "12",
+        "D64": "The study did not isolate UCB T cells as a mechanistic intervention distinct from cord blood graft transplantation.",
+        "E64": "Unsupported",
+        "F64": "UNCERTAIN",
+        "G64": "NOT_IN_SOURCES",
+        "H64": "SUPPORTED",
+        "I64": "Yes",
+        "J64": "N/A",
+        "K64": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 65,
+      "cells": {
+        "A65": "HR31",
+        "B65": "Random paired",
+        "C65": "4",
+        "D65": "MicroRNA age and DNA methylation age are related but not interchangeable.",
+        "E65": "Supported",
+        "F65": "UNCERTAIN",
+        "G65": "NOT_IN_SOURCES",
+        "H65": "SUPPORTED",
+        "I65": "No",
+        "J65": "N/A",
+        "K65": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 66,
+      "cells": {
+        "A66": "HR33",
+        "B66": "Targeted",
+        "C66": "6",
+        "D66": "Habitual diet and microbiota composition modify L-carnitine-to-trimethylamine N-oxide metabolism.",
+        "E66": "Supported",
+        "F66": "UNCERTAIN",
+        "G66": "NOT_IN_SOURCES",
+        "H66": "SUPPORTED",
+        "I66": "No",
+        "J66": "N/A",
+        "K66": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 67,
+      "cells": {
+        "A67": "HR33",
+        "B67": "Targeted",
+        "C67": "12",
+        "D67": "The abstract lacks detailed effect sizes for the human comparison of trimethylamine N-oxide production after L-carnitine ingestion.",
+        "E67": "Supported",
+        "F67": "UNCERTAIN",
+        "G67": "SUPPORTED",
+        "H67": "NOT_IN_SOURCES",
+        "I67": "No",
+        "J67": "N/A",
+        "K67": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 68,
+      "cells": {
+        "A68": "HR33",
+        "B68": "Targeted",
+        "C68": "13",
+        "D68": "The abstract lacks a detailed sampling protocol for the human comparison of trimethylamine N-oxide production after L-carnitine ingestion.",
+        "E68": "Supported",
+        "F68": "UNCERTAIN",
+        "G68": "SUPPORTED",
+        "H68": "NOT_IN_SOURCES",
+        "I68": "No",
+        "J68": "N/A",
+        "K68": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 69,
+      "cells": {
+        "A69": "HR33",
+        "B69": "Targeted",
+        "C69": "14",
+        "D69": "The abstract lacks subgroup characterization for the human comparison of trimethylamine N-oxide production after L-carnitine ingestion.",
+        "E69": "Supported",
+        "F69": "UNCERTAIN",
+        "G69": "SUPPORTED",
+        "H69": "NOT_IN_SOURCES",
+        "I69": "No",
+        "J69": "N/A",
+        "K69": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 70,
+      "cells": {
+        "A70": "HR35",
+        "B70": "Random paired",
+        "C70": "1",
+        "D70": "The relevant system for p53/RB-associated senescence is renewable mammalian tissues and their cellular stress responses.",
+        "E70": "Unsupported",
+        "F70": "CONSENSUS_SUPPORTED",
+        "G70": "SUPPORTED",
+        "H70": "SUPPORTED",
+        "I70": "Yes",
+        "J70": "N/A",
+        "K70": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 71,
+      "cells": {
+        "A71": "HR36",
+        "B71": "Random paired",
+        "C71": "1",
+        "D71": "In 2015, childhood undernutrition and other risks contributed substantially to deaths and DALYs.",
+        "E71": "Unsupported",
+        "F71": "CONSENSUS_SUPPORTED",
+        "G71": "SUPPORTED",
+        "H71": "SUPPORTED",
+        "I71": "Yes",
+        "J71": "No mention of substantially increasing death",
+        "K71": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 72,
+      "cells": {
+        "A72": "HR36",
+        "B72": "Random paired",
+        "C72": "2",
+        "D72": "Group 1 causes remained important in some settings.",
+        "E72": "Unsupported",
+        "F72": "CONSENSUS_SUPPORTED",
+        "G72": "SUPPORTED",
+        "H72": "SUPPORTED",
+        "I72": "Yes",
+        "J72": "",
+        "K72": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 73,
+      "cells": {
+        "A73": "HR37",
+        "B73": "Random paired",
+        "C73": "8",
+        "D73": "Methylation patterns change with age in mammals.",
+        "E73": "Unsupported",
+        "F73": "CONSENSUS_SUPPORTED",
+        "G73": "SUPPORTED",
+        "H73": "SUPPORTED",
+        "I73": "Yes",
+        "J73": "No evidence within the source points to this conclusion.",
+        "K73": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 74,
+      "cells": {
+        "A74": "HR38",
+        "B74": "Targeted",
+        "C74": "1",
+        "D74": "The evidence about PTENP1 and PTEN originates from a single study in a cancer-relevant system.",
+        "E74": "Supported",
+        "F74": "UNCERTAIN",
+        "G74": "NOT_IN_SOURCES",
+        "H74": "SUPPORTED",
+        "I74": "No",
+        "J74": "N/A",
+        "K74": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 75,
+      "cells": {
+        "A75": "HR38",
+        "B75": "Targeted",
+        "C75": "10",
+        "D75": "Selective loss of the PTENP1 locus in human cancer does not by itself prove causality in all contexts.",
+        "E75": "Unsupported",
+        "F75": "UNCERTAIN",
+        "G75": "NOT_FACTUAL",
+        "H75": "NOT_IN_SOURCES",
+        "I75": "Yes",
+        "J75": "No evidence within the source points to this conclusion.",
+        "K75": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 76,
+      "cells": {
+        "A76": "HR38",
+        "B76": "Targeted",
+        "C76": "11",
+        "D76": "The supplied source is an abstract summary rather than full experimental data.",
+        "E76": "Supported",
+        "F76": "UNCERTAIN",
+        "G76": "NOT_FACTUAL",
+        "H76": "SUPPORTED",
+        "I76": "No",
+        "J76": "N/A",
+        "K76": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 77,
+      "cells": {
+        "A77": "HR38",
+        "B77": "Targeted",
+        "C77": "12",
+        "D77": "Specific miRNAs involved in PTENP1 regulation of PTEN are not available in the supplied material.",
+        "E77": "Supported",
+        "F77": "UNCERTAIN",
+        "G77": "NOT_FACTUAL",
+        "H77": "NOT_IN_SOURCES",
+        "I77": "No",
+        "J77": "N/A",
+        "K77": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 78,
+      "cells": {
+        "A78": "HR38",
+        "B78": "Targeted",
+        "C78": "13",
+        "D78": "Effect sizes for PTENP1 regulation of PTEN are not available in the supplied material.",
+        "E78": "Supported",
+        "F78": "UNCERTAIN",
+        "G78": "NOT_FACTUAL",
+        "H78": "NOT_IN_SOURCES",
+        "I78": "No",
+        "J78": "N/A",
+        "K78": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 79,
+      "cells": {
+        "A79": "HR38",
+        "B79": "Targeted",
+        "C79": "14",
+        "D79": "Experimental controls for PTENP1 regulation of PTEN are not available in the supplied material.",
+        "E79": "Supported",
+        "F79": "UNCERTAIN",
+        "G79": "NOT_FACTUAL",
+        "H79": "NOT_IN_SOURCES",
+        "I79": "No",
+        "J79": "N/A",
+        "K79": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 80,
+      "cells": {
+        "A80": "HR39",
+        "B80": "Random paired",
+        "C80": "8",
+        "D80": "Leukoreduction removes leukocytes from transfused blood.",
+        "E80": "Unsupported",
+        "F80": "UNCERTAIN",
+        "G80": "NOT_IN_SOURCES",
+        "H80": "SUPPORTED",
+        "I80": "No",
+        "J80": "No mention of this within the abstract",
+        "K80": "Automated judge disagreement"
+      }
+    },
+    {
+      "row": 81,
+      "cells": {
+        "A81": "HR39",
+        "B81": "Random paired",
+        "C81": "9",
+        "D81": "Retaining leukocytes in transfused blood was not associated with a demonstrable excess of infectious complications in the Canadian study setting.",
+        "E81": "Supported",
+        "F81": "CONSENSUS_UNSUPPORTED",
+        "G81": "NOT_IN_SOURCES",
+        "H81": "NOT_IN_SOURCES",
+        "I81": "No",
+        "J81": "N/A",
+        "K81": "Human vs consensus flag"
+      }
+    },
+    {
+      "row": 82,
+      "cells": {
+        "A82": "HR39",
+        "B82": "Random paired",
+        "C82": "12",
+        "D82": "The Canadian study was potentially confounded by temporal changes in care.",
+        "E82": "Supported",
+        "F82": "CONSENSUS_UNSUPPORTED",
+        "G82": "NOT_IN_SOURCES",
+        "H82": "NOT_IN_SOURCES",
+        "I82": "No",
+        "J82": "N/A",
+        "K82": "Human vs consensus flag"
+      }
+    }
+  ]
+}

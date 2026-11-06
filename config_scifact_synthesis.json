@@ -1,0 +1,22 @@
+{
+  "experiment_name": "scifact_synthesis_pilot",
+  "repetitions": 1,
+  "shuffle_run_order": true,
+  "random_seed": 42,
+  "max_output_tokens": 1200,
+  "models": [
+    {
+      "provider": "openai",
+      "model": "gpt-5.5-2026-04-23",
+      "settings": {
+        "reasoning_effort": "none"
+      }
+    }
+  ],
+  "strategies": [
+    {"name": "baseline", "version": "3.0.0"},
+    {"name": "structured", "version": "3.0.0"},
+    {"name": "source_grounded", "version": "3.0.0"},
+    {"name": "chain_of_verification", "version": "3.0.0"}
+  ]
+}

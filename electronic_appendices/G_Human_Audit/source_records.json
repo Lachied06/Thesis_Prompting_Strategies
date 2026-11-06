@@ -1,0 +1,270 @@
+{
+  "initial_review": {
+    "source_id": "initial_review",
+    "sha256": "7bbf13f8349ca1dcd8801b600c8bc62556874016f11d52988b7d7f07709e9b48",
+    "size": 170355,
+    "derivation": "OOXML worksheet values only; no document properties, author metadata or filesystem path; no formula evaluation",
+    "sheets": {
+      "START_HERE": {
+        "ooxml_member": "xl/worksheets/sheet1.xml",
+        "rows": 17,
+        "table_rows_after_row_4": 14,
+        "cells_path": "data/initial_review/START_HERE.cells.json"
+      },
+      "RESPONSE_PACKETS": {
+        "ooxml_member": "xl/worksheets/sheet2.xml",
+        "rows": 43,
+        "table_rows_after_row_4": 40,
+        "cells_path": "data/initial_review/RESPONSE_PACKETS.cells.json"
+      },
+      "EVIDENCE_DOCS": {
+        "ooxml_member": "xl/worksheets/sheet3.xml",
+        "rows": 135,
+        "table_rows_after_row_4": 132,
+        "cells_path": "data/initial_review/EVIDENCE_DOCS.cells.json"
+      },
+      "CLAIM_ANNOTATIONS": {
+        "ooxml_member": "xl/worksheets/sheet4.xml",
+        "rows": 436,
+        "table_rows_after_row_4": 433,
+        "cells_path": "data/initial_review/CLAIM_ANNOTATIONS.cells.json"
+      },
+      "EXTRACTION_AUDIT": {
+        "ooxml_member": "xl/worksheets/sheet5.xml",
+        "rows": 43,
+        "table_rows_after_row_4": 40,
+        "cells_path": "data/initial_review/EXTRACTION_AUDIT.cells.json"
+      },
+      "RUBRIC": {
+        "ooxml_member": "xl/worksheets/sheet6.xml",
+        "rows": 13,
+        "table_rows_after_row_4": 10,
+        "cells_path": "data/initial_review/RUBRIC.cells.json"
+      }
+    },
+    "omitted_author_handoff_sheets": []
+  },
+  "selection_key": {
+    "source_id": "selection_key",
+    "sha256": "c31bd177a93be55f42736ec4b1fd742fea9765457433f230b0692087ed61e2a5",
+    "size": 80294,
+    "derivation": "OOXML worksheet values only; no document properties, author metadata or filesystem path; no formula evaluation",
+    "sheets": {
+      "START_HERE": {
+        "ooxml_member": "xl/worksheets/sheet1.xml",
+        "rows": 11,
+        "table_rows_after_row_4": 8,
+        "cells_path": "data/selection_key/START_HERE.cells.json"
+      },
+      "SAMPLE_KEY": {
+        "ooxml_member": "xl/worksheets/sheet2.xml",
+        "rows": 43,
+        "table_rows_after_row_4": 40,
+        "cells_path": "data/selection_key/SAMPLE_KEY.cells.json"
+      },
+      "JUDGE_CLAIMS": {
+        "ooxml_member": "xl/worksheets/sheet3.xml",
+        "rows": 436,
+        "table_rows_after_row_4": 433,
+        "cells_path": "data/selection_key/JUDGE_CLAIMS.cells.json"
+      },
+      "SELECTION_LOG": {
+        "ooxml_member": "xl/worksheets/sheet4.xml",
+        "rows": 14,
+        "table_rows_after_row_4": 11,
+        "cells_path": "data/selection_key/SELECTION_LOG.cells.json"
+      }
+    },
+    "omitted_author_handoff_sheets": []
+  },
+  "preliminary_comparison": {
+    "source_id": "preliminary_comparison",
+    "sha256": "4442d1a7a313c658a1a1cb8d32e9bf01097f56ad9018d0317b2fd763c93c8a71",
+    "size": 86950,
+    "derivation": "OOXML worksheet values only; no document properties, author metadata or filesystem path; no formula evaluation",
+    "sheets": {
+      "MATCHED_CLAIMS": {
+        "ooxml_member": "xl/worksheets/sheet1.xml",
+        "rows": 436,
+        "table_rows_after_row_4": 433,
+        "cells_path": "data/preliminary_comparison/MATCHED_CLAIMS.cells.json"
+      },
+      "AGREEMENT_SUMMARY": {
+        "ooxml_member": "xl/worksheets/sheet2.xml",
+        "rows": 21,
+        "table_rows_after_row_4": 18,
+        "cells_path": "data/preliminary_comparison/AGREEMENT_SUMMARY.cells.json"
+      },
+      "CLAIM_DISCREPANCIES": {
+        "ooxml_member": "xl/worksheets/sheet3.xml",
+        "rows": 81,
+        "table_rows_after_row_4": 78,
+        "cells_path": "data/preliminary_comparison/CLAIM_DISCREPANCIES.cells.json"
+      },
+      "CONDITION_DESCRIPTIVE": {
+        "ooxml_member": "xl/worksheets/sheet4.xml",
+        "rows": 15,
+        "table_rows_after_row_4": 12,
+        "cells_path": "data/preliminary_comparison/CONDITION_DESCRIPTIVE.cells.json"
+      },
+      "START_HERE": {
+        "ooxml_member": "xl/worksheets/sheet5.xml",
+        "rows": 20,
+        "table_rows_after_row_4": 17,
+        "cells_path": "data/preliminary_comparison/START_HERE.cells.json"
+      }
+    },
+    "omitted_author_handoff_sheets": []
+  },
+  "repeat_completed": {
+    "source_id": "repeat_completed",
+    "sha256": "5cc7639c4eee0aa56a8636db2e40cac7399510f48a2b7cbb7fda38d5bbb2f1e9",
+    "size": 34800,
+    "derivation": "OOXML worksheet values only; no document properties, author metadata or filesystem path; no formula evaluation",
+    "sheets": {
+      "START_HERE": {
+        "ooxml_member": "xl/worksheets/sheet1.xml",
+        "rows": 15,
+        "table_rows_after_row_4": 12,
+        "cells_path": "data/repeat_completed/START_HERE.cells.json"
+      },
+      "REPEAT_RESPONSES": {
+        "ooxml_member": "xl/worksheets/sheet2.xml",
+        "rows": 7,
+        "table_rows_after_row_4": 4,
+        "cells_path": "data/repeat_completed/REPEAT_RESPONSES.cells.json"
+      },
+      "EVIDENCE_DOCS": {
+        "ooxml_member": "xl/worksheets/sheet3.xml",
+        "rows": 18,
+        "table_rows_after_row_4": 15,
+        "cells_path": "data/repeat_completed/EVIDENCE_DOCS.cells.json"
+      },
+      "REPEAT_CLAIMS": {
+        "ooxml_member": "xl/worksheets/sheet4.xml",
+        "rows": 51,
+        "table_rows_after_row_4": 48,
+        "cells_path": "data/repeat_completed/REPEAT_CLAIMS.cells.json"
+      },
+      "RUBRIC": {
+        "ooxml_member": "xl/worksheets/sheet5.xml",
+        "rows": 13,
+        "table_rows_after_row_4": 10,
+        "cells_path": "data/repeat_completed/RUBRIC.cells.json"
+      }
+    },
+    "omitted_author_handoff_sheets": []
+  },
+  "adjudicated_review": {
+    "source_id": "adjudicated_review",
+    "sha256": "8661e0829f786196f6aa3710fcfa223faf7e076d86b0c513c268dc7e4f0c9a2d",
+    "size": 182404,
+    "derivation": "OOXML worksheet values only; no document properties, author metadata or filesystem path; no formula evaluation",
+    "sheets": {
+      "START_HERE": {
+        "ooxml_member": "xl/worksheets/sheet1.xml",
+        "rows": 17,
+        "table_rows_after_row_4": 14,
+        "cells_path": "data/adjudicated_review/START_HERE.cells.json"
+      },
+      "RESPONSE_PACKETS": {
+        "ooxml_member": "xl/worksheets/sheet2.xml",
+        "rows": 43,
+        "table_rows_after_row_4": 40,
+        "cells_path": "data/adjudicated_review/RESPONSE_PACKETS.cells.json"
+      },
+      "EVIDENCE_DOCS": {
+        "ooxml_member": "xl/worksheets/sheet3.xml",
+        "rows": 135,
+        "table_rows_after_row_4": 132,
+        "cells_path": "data/adjudicated_review/EVIDENCE_DOCS.cells.json"
+      },
+      "CLAIM_ANNOTATIONS": {
+        "ooxml_member": "xl/worksheets/sheet4.xml",
+        "rows": 436,
+        "table_rows_after_row_4": 433,
+        "cells_path": "data/adjudicated_review/CLAIM_ANNOTATIONS.cells.json"
+      },
+      "EXTRACTION_AUDIT": {
+        "ooxml_member": "xl/worksheets/sheet5.xml",
+        "rows": 43,
+        "table_rows_after_row_4": 40,
+        "cells_path": "data/adjudicated_review/EXTRACTION_AUDIT.cells.json"
+      },
+      "RUBRIC": {
+        "ooxml_member": "xl/worksheets/sheet6.xml",
+        "rows": 13,
+        "table_rows_after_row_4": 10,
+        "cells_path": "data/adjudicated_review/RUBRIC.cells.json"
+      },
+      "EXTRACTION_TRIAGE": {
+        "ooxml_member": "xl/worksheets/sheet7.xml",
+        "rows": 43,
+        "table_rows_after_row_4": 40,
+        "cells_path": "data/adjudicated_review/EXTRACTION_TRIAGE.cells.json"
+      },
+      "CLAIM_QA_FLAGS": {
+        "ooxml_member": "xl/worksheets/sheet8.xml",
+        "rows": 39,
+        "table_rows_after_row_4": 36,
+        "cells_path": "data/adjudicated_review/CLAIM_QA_FLAGS.cells.json"
+      }
+    },
+    "omitted_author_handoff_sheets": [
+      "VALIDATION_NEXT_STEPS"
+    ]
+  },
+  "final_comparison": {
+    "source_id": "final_comparison",
+    "sha256": "f1a9bbe93bde9fb9f4b22b2a2253a269f6bee2f4c2d5f1c728716a14268e5c25",
+    "size": 84583,
+    "derivation": "OOXML worksheet values only; no document properties, author metadata or filesystem path; no formula evaluation",
+    "sheets": {
+      "READ_ME": {
+        "ooxml_member": "xl/worksheets/sheet1.xml",
+        "rows": 15,
+        "table_rows_after_row_4": 12,
+        "cells_path": "data/final_comparison/READ_ME.cells.json"
+      },
+      "REPEAT_48": {
+        "ooxml_member": "xl/worksheets/sheet2.xml",
+        "rows": 51,
+        "table_rows_after_row_4": 48,
+        "cells_path": "data/final_comparison/REPEAT_48.cells.json"
+      },
+      "ALL_433_CLAIMS": {
+        "ooxml_member": "xl/worksheets/sheet3.xml",
+        "rows": 436,
+        "table_rows_after_row_4": 433,
+        "cells_path": "data/final_comparison/ALL_433_CLAIMS.cells.json"
+      },
+      "AGREEMENT_METRICS": {
+        "ooxml_member": "xl/worksheets/sheet4.xml",
+        "rows": 16,
+        "table_rows_after_row_4": 13,
+        "cells_path": "data/final_comparison/AGREEMENT_METRICS.cells.json"
+      },
+      "EXTRACTION_TRIAGE": {
+        "ooxml_member": "xl/worksheets/sheet5.xml",
+        "rows": 43,
+        "table_rows_after_row_4": 40,
+        "cells_path": "data/final_comparison/EXTRACTION_TRIAGE.cells.json"
+      },
+      "FULL_800_SENSITIVITY": {
+        "ooxml_member": "xl/worksheets/sheet6.xml",
+        "rows": 11,
+        "table_rows_after_row_4": 8,
+        "cells_path": "data/final_comparison/FULL_800_SENSITIVITY.cells.json"
+      },
+      "PAIRED_BOOTSTRAP_CI": {
+        "ooxml_member": "xl/worksheets/sheet7.xml",
+        "rows": 27,
+        "table_rows_after_row_4": 24,
+        "cells_path": "data/final_comparison/PAIRED_BOOTSTRAP_CI.cells.json"
+      }
+    },
+    "omitted_author_handoff_sheets": [
+      "THESIS_ACTIONS"
+    ]
+  }
+}

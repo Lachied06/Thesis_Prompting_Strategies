@@ -1,0 +1,20 @@
+Write an academic synthesis addressing the task from the supplied source material.
+
+SOURCE MATERIAL
+---------------
+{source_context}
+---------------
+
+TASK
+----
+{task_prompt}
+
+REQUIREMENTS
+------------
+1. Identify the central proposition that must be evaluated.
+2. Compare the relevant findings across the supplied documents.
+3. Distinguish support, contradiction, and evidential limitations.
+4. Attribute material claims using the supplied document identifiers.
+5. Do not invent studies, citations, quotations, statistics, or findings.
+6. Keep the synthesis between 180 and 250 words.
+{output_contract}

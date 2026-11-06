@@ -1,0 +1,75 @@
+{
+  "date": "2026-11-06",
+  "evidence": "Current author instruction in this conversation; this register is a record, not independent documentary verification",
+  "D1": {
+    "status": "AUTHOR_CONFIRMED",
+    "scope": "MIT for original software only, exact paths in LICENSE_SCOPE.json",
+    "software_original_files": 72,
+    "blanket_MIT_for_dataset_figures_other_material": false
+  },
+  "D2": {
+    "status": "COMPLETE_SCOPE_SELECTED_CONDITIONAL_ON_THIRD_PARTY_RIGHTS",
+    "permission_for_all_source_text_inferred": false,
+    "individual_abstract_rights": "UNRESOLVED",
+    "HaluEval_attribution_share_alike": "INCOMPLETE"
+  },
+  "OpenAI_API": {
+    "status": "AUTHOR_CONFIRMED",
+    "account_and_output_arrangements_confirmed": true,
+    "contractual_documentation_supplied": false,
+    "contractual_documentation_invented": false,
+    "underlying_source_rights_resolved": false
+  },
+  "D3": {
+    "status": "APPROVED_EXCLUSION",
+    "path": "Thesis_Benchmarks_Datasets.xlsx"
+  },
+  "D4": {
+    "status": "APPROVED_EXCLUSION",
+    "path": "data/raw/scifact/data.tar.gz"
+  },
+  "D5": {
+    "status": "PRESERVE_PUBLISHED_TEXT_WHERE_RIGHTS_PERMIT",
+    "redaction_performed": false
+  },
+  "D6": {
+    "status": "APPROVED_DATA_ONLY_EXPORTS",
+    "original_XLSX_external": true
+  },
+  "D7": {
+    "status": "ORDINARY_GIT_COMPLETE_REAL_CONTENT_SELECTED_SUBJECT_TO_RIGHTS",
+    "path": "outputs/scifact_confirmatory_v3_2/results.jsonl",
+    "size": 94682411,
+    "LFS_or_stub_substitution": false
+  },
+  "historical_no_Git_or_publication_authorisation": true,
+  "current_interim_preparation": {
+    "scope": "Exact reviewed 225-file interim release; publication now expressly author-approved",
+    "working_tree_Git_init_and_exact_staging_authorised": true,
+    "commit_push_publication_authorised": true,
+    "conditional_original_paths_excluded": 70,
+    "complete_archive_long_term_target_retained": true
+  },
+  "current_interim_publication_authorisation": {
+    "date": "2026-11-06",
+    "status": "AUTHOR_APPROVED_COMMIT_AND_PUBLIC_PUSH",
+    "evidence": "Explicit author instruction approving the exact prepared 225-file interim release in this conversation",
+    "repository": "https://github.com/Lachied06/Thesis_Prompting_Strategies",
+    "file_count": 225,
+    "scope_allowlist": "PACKAGE_FILES.txt",
+    "scope_allowlist_sha256": "a9613e2ac45861a3b52d85aa5fcb4a5361008635c2187e511f322d123a055b9b",
+    "authorised_changes_before_commit": [
+      "PACKAGE_MANIFEST.json",
+      "SHA256SUMS.txt",
+      "electronic_appendices/E_Reproducibility/authoritative_file_manifest.csv",
+      "rights/AUTHOR_DECISIONS.json"
+    ],
+    "conditional_original_paths_excluded": 70,
+    "withheld_register": "rights/WITHHELD_FILES.csv",
+    "authorises_withheld_original_files": false,
+    "authorises_full_private_archive": false,
+    "authorises_future_scope_expansion": false,
+    "resolves_underlying_third_party_rights": false,
+    "complete_archive_long_term_target_retained": true
+  }
+}

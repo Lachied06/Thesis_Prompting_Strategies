@@ -1,0 +1,30 @@
+Revise the draft using the verification report. Return the final synthesis only.
+
+SOURCE MATERIAL
+---------------
+{source_context}
+---------------
+
+ORIGINAL TASK
+-------------
+{task_prompt}
+
+DRAFT
+-----
+{draft}
+-----
+
+VERIFICATION REPORT
+-------------------
+{verification_report}
+-------------------
+
+REVISION RULES
+--------------
+- Remove or qualify every unsupported, overstated, or contradictory claim.
+- Retain only citations whose identifiers and attributed findings are valid.
+- Add no factual claim unless a supplied document supports it.
+- State material evidential limitations clearly.
+- Keep the synthesis between 180 and 250 words.
+- Return only the requested output fields, not the verification notes.
+{output_contract}

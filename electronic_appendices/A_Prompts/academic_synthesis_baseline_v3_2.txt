@@ -1,0 +1,8 @@
+SOURCE MATERIAL
+---------------
+{source_context}
+---------------
+
+TASK
+----
+{task_prompt}{output_contract}

@@ -1,0 +1,27 @@
+{
+  "manuscript_name": "Thesis Draft v6 References.docx",
+  "manuscript_sha256": "c1abd81285e7f829f61f4b7a891027cdf4a8c60b5932eef0ecfa59034c5dc151",
+  "records": [
+    {
+      "path": "Figure_D1.png",
+      "ooxml_member": "word/media/image4.png",
+      "document_paragraph": 872,
+      "sha256": "8c4669e9a9548f74c2b01a4755747178cf296ec1ca7d2d25e5b5dbaa40d4b8d7",
+      "method": "Exact embedded manuscript image bytes; no re-encoding",
+      "status": "VERIFIED image identity; original plotting source NOT VERIFIED"
+    },
+    {
+      "path": "Figure_D2.png",
+      "ooxml_member": "word/media/image5.png",
+      "document_paragraph": 876,
+      "sha256": "dcc855ddbac80370bb9bfe30d56b053af661f08c9da66b8fda5da982faed0656",
+      "method": "Exact embedded manuscript image bytes; no re-encoding",
+      "status": "VERIFIED image identity; original plotting source NOT VERIFIED"
+    }
+  ],
+  "numerical_traceability": {
+    "D1": "Six attachment-coverage estimates in canonical paired_contrasts.csv; visually inspected",
+    "D2": "32 displayed one-decimal consensus means match evidence_condition_means.csv"
+  },
+  "limitation": "Original figure-generation code not located; no image redrawn or substituted"
+}

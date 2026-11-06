@@ -1,0 +1,21 @@
+{
+  "audit_schema_version": "1.0.0",
+  "created_at_utc": "2026-09-22T01:37:24.036077+00:00",
+  "source_data": "data/processed/scifact_synthesis_pilot_12.jsonl",
+  "source_data_sha256": "fd27db0d0d997fd4c6e0aa33ec853bdc25cfad01640bc53ed252b7dcf06d7b4a",
+  "audit_csv": "audits/scifact_synthesis_pilot_12.audit.csv",
+  "audit_csv_sha256": "15ad84afdff71940fcdf7acf63950024b1b699e4f0aca86a5725f67cb33bce82",
+  "output_data": "data/approved/scifact_synthesis_pilot_12.jsonl",
+  "output_data_sha256": "12a4520fc889b0a36813447ee289931b34b0562249a6d68b0f838805b5d4bcb9",
+  "total_tasks": 12,
+  "included_tasks": 7,
+  "excluded_tasks": 5,
+  "exclusion_reasons": {
+    "ambiguous_claim_and_label_mismatch": 1,
+    "label_mismatch": 1,
+    "endpoint_mismatch": 1,
+    "scope_mismatch": 1,
+    "entity_mismatch": 1
+  },
+  "selection_note": "Tasks were selected from pre-run benchmark audit decisions only. No model responses are present in the audit template."
+}

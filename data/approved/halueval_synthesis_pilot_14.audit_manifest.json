@@ -1,0 +1,22 @@
+{
+  "audit_schema_version": "1.0.0",
+  "created_at_utc": "2026-09-22T08:22:48.729125+00:00",
+  "source_data": "data/processed/halueval_synthesis_candidates_20.jsonl",
+  "source_data_sha256": "29a79baf643688fe4e8368fbd7cb086823768ae52c8bafc7cd3ddf1ea5f969ab",
+  "audit_csv": "audits/halueval_synthesis_candidates_20.audit.ai_assisted.csv",
+  "audit_csv_sha256": "16618bb70923e33c0da3e22c950eee77cd6eb33db7af2291735f726f1dcb0934",
+  "output_data": "data/approved/halueval_synthesis_pilot_14.jsonl",
+  "output_data_sha256": "11aae2e6bd76de35c5bc7927e74e511036511197761aa8124adbe67bb3f64ae0",
+  "total_tasks": 20,
+  "included_tasks": 14,
+  "excluded_tasks": 6,
+  "exclusion_reasons": {
+    "The proposed answer is actually supported by the passage, so the assigned CONTRADICT label is incorrect.": 1,
+    "The passage identifies the people but does not state who received the 1908 Nobel Prize for Literature.": 1,
+    "The passage dates Cold Spring Harbor but does not establish that it was the author’s final novel.": 1,
+    "The proposed answer does not answer the organisation question, and the passage does not directly establish the separate villain claim.": 1,
+    "The source passage is malformed and does not clearly establish the geographical relationship in the question.": 1,
+    "The passage gives Strickland’s year but omits an explicit year for Barron, so the ordering is not directly established.": 1
+  },
+  "selection_note": "Tasks were selected from pre-run benchmark audit decisions only. No model responses are present in the audit template."
+}

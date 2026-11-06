@@ -1,0 +1,132 @@
+{
+  "generation_requests": 1200,
+  "final_responses": 800,
+  "all_generation_system_prompts_null": true,
+  "all_generation_output_caps": [
+    1600
+  ],
+  "generation_settings": {
+    "experiment_name": "scifact_confirmatory_v3_2",
+    "repetitions": 1,
+    "shuffle_run_order": true,
+    "random_seed": 20260924,
+    "max_output_tokens": 1600,
+    "models": [
+      {
+        "provider": "openai",
+        "model": "gpt-5.5-2026-04-23",
+        "settings": {
+          "reasoning_effort": "none"
+        }
+      },
+      {
+        "provider": "openai",
+        "model": "gpt-5.4-mini-2026-03-17",
+        "settings": {
+          "reasoning_effort": "none"
+        }
+      }
+    ],
+    "strategies": [
+      {
+        "name": "baseline",
+        "version": "3.2.0"
+      },
+      {
+        "name": "structured",
+        "version": "3.2.0"
+      },
+      {
+        "name": "source_grounded",
+        "version": "3.2.0"
+      },
+      {
+        "name": "chain_of_verification",
+        "version": "3.2.0"
+      }
+    ]
+  },
+  "incomplete_steps": [
+    {
+      "run_id": "960ecb73-7795-42f1-adf1-60918e103eb6",
+      "task_id": "scifact_difficulty_1024_near_match_distractors",
+      "model": "gpt-5.5-2026-04-23",
+      "strategy": "chain_of_verification",
+      "stage": "verification_generation",
+      "finish_reason": "incomplete",
+      "output_tokens": 1600,
+      "output_cap": 1600,
+      "final_record_status": "completed"
+    },
+    {
+      "run_id": "0df2a586-ed8d-47aa-8910-20a3d87508c2",
+      "task_id": "scifact_difficulty_759_near_match_distractors",
+      "model": "gpt-5.5-2026-04-23",
+      "strategy": "chain_of_verification",
+      "stage": "verification_generation",
+      "finish_reason": "incomplete",
+      "output_tokens": 1600,
+      "output_cap": 1600,
+      "final_record_status": "completed"
+    },
+    {
+      "run_id": "13df1a38-a348-4ea0-a899-a33dc17b571b",
+      "task_id": "scifact_difficulty_598_near_match_distractors",
+      "model": "gpt-5.5-2026-04-23",
+      "strategy": "chain_of_verification",
+      "stage": "verification_generation",
+      "finish_reason": "incomplete",
+      "output_tokens": 1600,
+      "output_cap": 1600,
+      "final_record_status": "completed"
+    },
+    {
+      "run_id": "a2edf6b4-de27-46c2-81bd-27b969838ae4",
+      "task_id": "scifact_difficulty_960_near_match_distractors",
+      "model": "gpt-5.5-2026-04-23",
+      "strategy": "chain_of_verification",
+      "stage": "verification_generation",
+      "finish_reason": "incomplete",
+      "output_tokens": 1600,
+      "output_cap": 1600,
+      "final_record_status": "completed"
+    },
+    {
+      "run_id": "8bb92e3e-fc6a-429c-897f-7f0dfe363d8d",
+      "task_id": "scifact_difficulty_770_direct_control",
+      "model": "gpt-5.5-2026-04-23",
+      "strategy": "chain_of_verification",
+      "stage": "verification_generation",
+      "finish_reason": "incomplete",
+      "output_tokens": 1600,
+      "output_cap": 1600,
+      "final_record_status": "completed"
+    },
+    {
+      "run_id": "fda5129c-f31c-4d78-b3ee-aaf1acb0811e",
+      "task_id": "scifact_difficulty_1274_evidence_omission",
+      "model": "gpt-5.5-2026-04-23",
+      "strategy": "chain_of_verification",
+      "stage": "verification_generation",
+      "finish_reason": "incomplete",
+      "output_tokens": 1600,
+      "output_cap": 1600,
+      "final_record_status": "completed"
+    },
+    {
+      "run_id": "df8d1c57-d82c-4403-86f5-e9ce364a197f",
+      "task_id": "scifact_difficulty_54_near_match_distractors",
+      "model": "gpt-5.5-2026-04-23",
+      "strategy": "chain_of_verification",
+      "stage": "verification_generation",
+      "finish_reason": "incomplete",
+      "output_tokens": 1600,
+      "output_cap": 1600,
+      "final_record_status": "completed"
+    }
+  ],
+  "judge_attempts": {
+    "primary": 800,
+    "secondary": 821
+  }
+}
