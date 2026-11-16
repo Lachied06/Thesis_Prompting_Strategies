@@ -44,24 +44,29 @@
   },
   "historical_no_Git_or_publication_authorisation": true,
   "current_interim_preparation": {
-    "scope": "Exact reviewed 225-file interim release; publication now expressly author-approved",
+    "scope": "Exact reviewed 226-file font-notice maintenance release; publication expressly author-approved",
     "working_tree_Git_init_and_exact_staging_authorised": true,
     "commit_push_publication_authorised": true,
     "conditional_original_paths_excluded": 70,
     "complete_archive_long_term_target_retained": true
   },
   "current_interim_publication_authorisation": {
-    "date": "2026-11-06",
+    "date": "2026-11-16",
     "status": "AUTHOR_APPROVED_COMMIT_AND_PUBLIC_PUSH",
-    "evidence": "Explicit author instruction approving the exact prepared 225-file interim release in this conversation",
+    "evidence": "Explicit author instruction authorising publication of the reviewed 226-file font-notice maintenance candidate only, including approval-record and integrity refreshes, in this conversation",
     "repository": "https://github.com/Lachied06/Thesis_Prompting_Strategies",
-    "file_count": 225,
+    "file_count": 226,
     "scope_allowlist": "PACKAGE_FILES.txt",
-    "scope_allowlist_sha256": "a9613e2ac45861a3b52d85aa5fcb4a5361008635c2187e511f322d123a055b9b",
+    "scope_allowlist_sha256": "e59f69f673218e16a471d0b5ec1da61db9964c960248758733fae5f71095a7fd",
     "authorised_changes_before_commit": [
+      "PACKAGE_FILES.txt",
       "PACKAGE_MANIFEST.json",
+      "README.md",
       "SHA256SUMS.txt",
+      "THIRD_PARTY_NOTICES.md",
+      "electronic_appendices/E_Reproducibility/README.md",
       "electronic_appendices/E_Reproducibility/authoritative_file_manifest.csv",
+      "licenses/DejaVu-LICENSE.txt",
       "rights/AUTHOR_DECISIONS.json"
     ],
     "conditional_original_paths_excluded": 70,
@@ -70,6 +75,32 @@
     "authorises_full_private_archive": false,
     "authorises_future_scope_expansion": false,
     "resolves_underlying_third_party_rights": false,
-    "complete_archive_long_term_target_retained": true
-  }
+    "complete_archive_long_term_target_retained": true,
+    "baseline_commit": "6f73adceee0a422f45bcaee50160e95c24eef867",
+    "release_kind": "FONT_NOTICE_MAINTENANCE"
+  },
+  "publication_authorisation_history": [
+    {
+      "date": "2026-11-06",
+      "status": "AUTHOR_APPROVED_COMMIT_AND_PUBLIC_PUSH",
+      "evidence": "Explicit author instruction approving the exact prepared 225-file interim release in this conversation",
+      "repository": "https://github.com/Lachied06/Thesis_Prompting_Strategies",
+      "file_count": 225,
+      "scope_allowlist": "PACKAGE_FILES.txt",
+      "scope_allowlist_sha256": "a9613e2ac45861a3b52d85aa5fcb4a5361008635c2187e511f322d123a055b9b",
+      "authorised_changes_before_commit": [
+        "PACKAGE_MANIFEST.json",
+        "SHA256SUMS.txt",
+        "electronic_appendices/E_Reproducibility/authoritative_file_manifest.csv",
+        "rights/AUTHOR_DECISIONS.json"
+      ],
+      "conditional_original_paths_excluded": 70,
+      "withheld_register": "rights/WITHHELD_FILES.csv",
+      "authorises_withheld_original_files": false,
+      "authorises_full_private_archive": false,
+      "authorises_future_scope_expansion": false,
+      "resolves_underlying_third_party_rights": false,
+      "complete_archive_long_term_target_retained": true
+    }
+  ]
 }

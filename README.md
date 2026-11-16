@@ -43,6 +43,8 @@ Saved analyses retain their original canonical locations. Recomputing reports re
 
 MIT applies only to the 72 original software files listed in [LICENSE_SCOPE.json](LICENSE_SCOPE.json). Data, research outputs, figures and other unlisted material are outside that grant. Retained third-party components have their own terms: see [DATA_LICENSES.md](DATA_LICENSES.md), [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) and [dataset citations](DATASET_CITATIONS.bib).
 
+The forest-plot PDF contains DejaVu font subsets; see the [PDF-specific font notice](THIRD_PARTY_NOTICES.md#embedded-dejavu-fonts--forest-plot-pdf) and [complete font licence](licenses/DejaVu-LICENSE.txt), which should accompany separate redistribution of the PDF.
+
 Documentation follows the checked v7.1 thesis manuscript; historical scientific provenance is retained. Missing historical sampling/figure-generation and sensitivity-analysis scripts, review blinding/timing gaps and other measurement limits remain documented in [VERIFICATION_NOTES.md](VERIFICATION_NOTES.md) and the appendix guides. No missing historical script is represented as recovered.
 
-[PACKAGE_FILES.txt](PACKAGE_FILES.txt), [PACKAGE_MANIFEST.json](PACKAGE_MANIFEST.json), [the supplementary index](electronic_appendices/E_Reproducibility/authoritative_file_manifest.csv) and `SHA256SUMS.txt` describe this exact 225-file interim release.
+[PACKAGE_FILES.txt](PACKAGE_FILES.txt), [PACKAGE_MANIFEST.json](PACKAGE_MANIFEST.json), [the supplementary index](electronic_appendices/E_Reproducibility/authoritative_file_manifest.csv) and `SHA256SUMS.txt` describe this exact 226-file interim package.

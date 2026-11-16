@@ -26,4 +26,6 @@ No ZIP is generated automatically. The optional [packaging tool](../tools/packag
 
 ## Current interim public-release scope
 
-The original Code index/history remains preserved externally. This release's index and root integrity records cover the exact 225-file interim membership, with all 70 conditional originals withheld and both approved exclusions retained. They do not certify public distribution of conditional source text. The unchanged validator checks data/exports/templates and retains its hard-coded NOT VERIFIED provenance/rights messages; no verification logic is changed to obtain a pass.
+The original Code index/history remains preserved externally. This release's index and root integrity records cover the exact 226-file interim package membership, with all 70 conditional originals withheld and both approved exclusions retained. They do not certify public distribution of conditional source text. The unchanged validator checks data/exports/templates and retains its hard-coded NOT VERIFIED provenance/rights messages; no verification logic is changed to obtain a pass.
+
+Font-notice maintenance prepared on 16 November 2026 adds the complete DejaVu licence and a PDF-specific notice. The package index was refreshed for those notices and the associated documentation and integrity references; original scientific records and figures remain unchanged.

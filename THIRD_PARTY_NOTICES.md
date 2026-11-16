@@ -20,6 +20,12 @@ HaluEval's QA seed is HotpotQA. HotpotQA credits Zhilin Yang, Peng Qi, Saizheng 
 
 TruthfulQA authors: Stephanie Lin, Jacob Hilton and Owain Evans. Source: [sylinrl/TruthfulQA](https://github.com/sylinrl/TruthfulQA), inspected revision `d71c110897f5d31c5d7f309e7bc316c152f6f031`. The unchanged `data/raw/truthfulqa/TruthfulQA.csv` matches that revision byte for byte. Distributed under its upstream Apache License, Version 2.0; [the complete upstream licence](licenses/TruthfulQA-Apache-2.0.txt) accompanies this copy. No root NOTICE file was available at the exact pinned URL checked. No invented copyright year/owner is substituted for the template appendix.
 
+## Embedded DejaVu fonts — forest-plot PDF
+
+The [source-misrepresentation forest-plot PDF](outputs/scifact_confirmatory_v3_2/source_misrepresentation_analysis_v1/source_misrepresentation_forest.pdf) embeds the TrueType subsets `BMQQDV+DejaVuSans` and `EVICAO+DejaVuSans-Bold`, from the DejaVuSans and DejaVuSans-Bold typefaces. The complete [official DejaVu licence](https://dejavu-fonts.github.io/License.html), including the Bitstream Vera and Arev copyright, trademark, permission and disclaimer terms, is retained in [licenses/DejaVu-LICENSE.txt](licenses/DejaVu-LICENSE.txt). The official notice identifies DejaVu changes as public domain. The font licence applies to the embedded font software; it does not extend the thesis software's MIT scope or relicense the scientific results or figure composition.
+
+When redistributing this PDF separately from the repository, also supply `licenses/DejaVu-LICENSE.txt` and this PDF-specific font notice alongside it. The original PDF, PNG and SVG files have not been modified or regenerated for this notice maintenance.
+
 ## Thesis material and publication boundaries
 
 No upstream licence is automatically applied to thesis code, prompts, ratings, figures or other authored contributions. D1 is author-confirmed for the listed original software, which is MIT-licensed; other material is not automatically brought under MIT. Preserving published scholarly correspondence details (D5) is the selected treatment where source redistribution is cleared; no silent redaction occurs. Model output, a prompt log or a human annotation does not remove rights in embedded source text. See [DATA_LICENSES.md](DATA_LICENSES.md), [DATA_ORIGINS.json](DATA_ORIGINS.json) and [the conditional-file register](rights/CONDITIONAL_FILES.csv).

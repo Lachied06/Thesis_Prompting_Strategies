@@ -1,6 +1,6 @@
 {
-  "package_date": "2026-11-06",
-  "package_purpose": "Initial interim public release of thesis implementation and permitted research materials",
+  "package_date": "2026-11-16",
+  "package_purpose": "Author-approved font-notice maintenance release for the interim thesis public repository",
   "complete_release": false,
   "publication_authorised": true,
   "proposed_remote": "https://github.com/Lachied06/Thesis_Prompting_Strategies",
@@ -8,8 +8,8 @@
   "conditional_original_paths_withheld": 70,
   "SciFact_conditional_paths": 63,
   "HaluEval_conditional_paths": 7,
-  "additional_new_paths": 5,
-  "file_count": 225,
+  "additional_new_paths": 6,
+  "file_count": 226,
   "member_paths": [
     ".env.example",
     ".gitignore",
@@ -165,6 +165,7 @@
     "licenses/CC-BY-4.0.txt",
     "licenses/CC-BY-SA-3.0-URI.txt",
     "licenses/CC-BY-SA-4.0.txt",
+    "licenses/DejaVu-LICENSE.txt",
     "licenses/HaluEval-MIT.txt",
     "licenses/ODC-BY-1.0-URI.txt",
     "licenses/SciFact-LICENSE.md",
@@ -255,14 +256,51 @@
   "private_archive": "Preserved externally, not part of this public membership",
   "release_scope": "INITIAL_INTERIM_PUBLIC_RELEASE",
   "staging_authorised": true,
-  "publication_status": "Author approved commit and public push of this exact 225-file interim scope only",
+  "publication_status": "Author approved commit and public push of this exact 226-file font-notice maintenance scope only",
   "authorisation_record": "rights/AUTHOR_DECISIONS.json",
   "authorisation_scope": {
-    "file_count": 225,
+    "file_count": 226,
     "allowlist": "PACKAGE_FILES.txt",
-    "allowlist_sha256": "a9613e2ac45861a3b52d85aa5fcb4a5361008635c2187e511f322d123a055b9b",
+    "allowlist_sha256": "e59f69f673218e16a471d0b5ec1da61db9964c960248758733fae5f71095a7fd",
     "withheld_original_files_authorised": false,
     "full_private_archive_authorised": false,
     "future_scope_expansion_authorised": false
-  }
+  },
+  "authorisation_scope_note": "The current authorisation_scope records approval of this exact 226-file maintenance release only. The original 225-file scope is preserved in authorisation_scope_history and rights/AUTHOR_DECISIONS.json; withheld originals and the full private archive remain unauthorised.",
+  "font_notice_maintenance": {
+    "prepared_date": "2026-11-16",
+    "baseline_commit": "6f73adceee0a422f45bcaee50160e95c24eef867",
+    "proposed_file_count": 226,
+    "allowlist_sha256": "e59f69f673218e16a471d0b5ec1da61db9964c960248758733fae5f71095a7fd",
+    "new_path": "licenses/DejaVu-LICENSE.txt",
+    "official_licence_source": "https://dejavu-fonts.github.io/License.html",
+    "source_page_sha256": "d1219f132f33efc907d0d9ba4d312d68f0972f2f4760ebe0f3ed2106adfa4e1a",
+    "licence_text_sha256": "0bf70b06e62cb6f244e26b7c5b0c77d26f3fb12ed41f9ce0f9044fddb235e330",
+    "modified_existing_paths": [
+      "PACKAGE_FILES.txt",
+      "PACKAGE_MANIFEST.json",
+      "README.md",
+      "SHA256SUMS.txt",
+      "THIRD_PARTY_NOTICES.md",
+      "electronic_appendices/E_Reproducibility/README.md",
+      "electronic_appendices/E_Reproducibility/authoritative_file_manifest.csv",
+      "rights/AUTHOR_DECISIONS.json"
+    ],
+    "scientific_records_and_figures_unchanged": true,
+    "commit_and_push_authorised": true,
+    "author_approved_date": "2026-11-16"
+  },
+  "authorisation_scope_history": [
+    {
+      "baseline_commit": "6f73adceee0a422f45bcaee50160e95c24eef867",
+      "scope": {
+        "file_count": 225,
+        "allowlist": "PACKAGE_FILES.txt",
+        "allowlist_sha256": "a9613e2ac45861a3b52d85aa5fcb4a5361008635c2187e511f322d123a055b9b",
+        "withheld_original_files_authorised": false,
+        "full_private_archive_authorised": false,
+        "future_scope_expansion_authorised": false
+      }
+    }
+  ]
 }
