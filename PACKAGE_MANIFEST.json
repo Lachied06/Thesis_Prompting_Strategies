@@ -1,6 +1,6 @@
 {
-  "package_date": "2026-11-16",
-  "package_purpose": "Author-approved font-notice maintenance release for the interim thesis public repository",
+  "package_date": "2026-11-18",
+  "package_purpose": "Author-approved README compliance documentation-maintenance release for the interim thesis public repository",
   "complete_release": false,
   "publication_authorised": true,
   "proposed_remote": "https://github.com/Lachied06/Thesis_Prompting_Strategies",
@@ -256,7 +256,7 @@
   "private_archive": "Preserved externally, not part of this public membership",
   "release_scope": "INITIAL_INTERIM_PUBLIC_RELEASE",
   "staging_authorised": true,
-  "publication_status": "Author approved commit and public push of this exact 226-file font-notice maintenance scope only",
+  "publication_status": "Author approved commit and public push of this exact 226-file README documentation-maintenance scope only",
   "authorisation_record": "rights/AUTHOR_DECISIONS.json",
   "authorisation_scope": {
     "file_count": 226,
@@ -266,7 +266,7 @@
     "full_private_archive_authorised": false,
     "future_scope_expansion_authorised": false
   },
-  "authorisation_scope_note": "The current authorisation_scope records approval of this exact 226-file maintenance release only. The original 225-file scope is preserved in authorisation_scope_history and rights/AUTHOR_DECISIONS.json; withheld originals and the full private archive remain unauthorised.",
+  "authorisation_scope_note": "The current authorisation_scope records approval of this specific 226-file README documentation-maintenance release only, confirmed 18 November 2026. Previous published 225-file and 226-file release approvals are preserved in authorisation_scope_history and rights/AUTHOR_DECISIONS.json. The 70 withheld original paths, full private archive and future scope expansion remain unauthorised.",
   "font_notice_maintenance": {
     "prepared_date": "2026-11-16",
     "baseline_commit": "6f73adceee0a422f45bcaee50160e95c24eef867",
@@ -301,6 +301,43 @@
         "full_private_archive_authorised": false,
         "future_scope_expansion_authorised": false
       }
+    },
+    {
+      "baseline_commit": "78e0f684ea296058d7bea5a6788e0c148ebac5e6",
+      "scope": {
+        "file_count": 226,
+        "allowlist": "PACKAGE_FILES.txt",
+        "allowlist_sha256": "e59f69f673218e16a471d0b5ec1da61db9964c960248758733fae5f71095a7fd",
+        "withheld_original_files_authorised": false,
+        "full_private_archive_authorised": false,
+        "future_scope_expansion_authorised": false
+      },
+      "release_approval": {
+        "publication_authorised": true,
+        "staging_authorised": true,
+        "publication_status": "Author approved commit and public push of this exact 226-file font-notice maintenance scope only",
+        "authorisation_scope_note": "The current authorisation_scope records approval of this exact 226-file maintenance release only. The original 225-file scope is preserved in authorisation_scope_history and rights/AUTHOR_DECISIONS.json; withheld originals and the full private archive remain unauthorised.",
+        "authorisation_record": "rights/AUTHOR_DECISIONS.json"
+      }
     }
-  ]
+  ],
+  "readme_compliance_maintenance": {
+    "prepared_date": "2026-11-18",
+    "baseline_commit": "78e0f684ea296058d7bea5a6788e0c148ebac5e6",
+    "proposed_file_count": 226,
+    "modified_existing_paths": [
+      "DATA_ORIGINS.json",
+      "PACKAGE_MANIFEST.json",
+      "SHA256SUMS.txt",
+      "electronic_appendices/E_Reproducibility/authoritative_file_manifest.csv",
+      "electronic_appendices/F_Pilots/README.md",
+      "electronic_appendices/README.md"
+    ],
+    "new_paths": [],
+    "removed_paths": [],
+    "scientific_records_and_software_unchanged": true,
+    "scope_expanded": false,
+    "commit_and_push_authorised": true,
+    "author_approved_date": "2026-11-18"
+  }
 }

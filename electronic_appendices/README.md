@@ -1,20 +1,20 @@
 # Electronic Appendices A–G
 
-This is the examiner-facing evidence layer for **Evaluating the Effectiveness of Structured Prompt Engineering in Reducing Hallucinations in Large Language Models for Academic Writing Tasks**. It indexes the existing frozen experiment and adds small, traceable exports and approved data-only human-review records. Canonical large files remain in their original repository locations; these appendices do not replace or correct them.
+This public evidence layer accompanies **Evaluating the Effectiveness of Structured Prompt Engineering in Reducing Hallucinations in Large Language Models for Academic Writing Tasks**. It indexes the frozen experiment and includes available traceable exports and approved data-only human-review records. The complete unchanged scientific archive, including canonical large records omitted here, remains privately preserved; these appendices do not replace or correct it.
 
-**PRIVATE COMPLETE PROPOSAL — SOURCE RIGHTS PENDING.** Documentation is aligned to the locally available *Thesis Draft v7.1 Final.docx*, SHA-256 `29568a3920630e904d1755e906827109aebca35eaaee9d79ad9a33a5573a309b`, inspected read-only through an external private snapshot. The 1,070 Word XML paragraphs are snapshot locators, not rendered page numbers. The manuscript was not copied into this repository. Scientific records and historical v6 figure/export provenance remain unchanged; original-script/checklist and other scientific provenance gaps remain explicit. Author-confirmed software/API decisions do not clear conditional third-party source text.
+**CURRENT 226-FILE RIGHTS-LIMITED PUBLIC RESEARCH RELEASE.** Seventy original source-bearing paths remain withheld pending redistribution clearance. See the [exact withheld paths and original hashes](../rights/WITHHELD_FILES.csv), [rights explanation](../DATA_LICENSES.md) and [lawful restoration guide](../RESTORATION.md). Documentation is aligned to the locally available *Thesis Draft v7.1 Final.docx*, SHA-256 `29568a3920630e904d1755e906827109aebca35eaaee9d79ad9a33a5573a309b`, inspected read-only through an external private snapshot. The 1,070 Word XML paragraphs are snapshot locators, not rendered page numbers. The manuscript was not copied into this repository. Scientific records and historical v6 figure/export provenance remain unchanged; original-script/checklist and other scientific provenance gaps remain explicit. Author-confirmed software/API decisions do not clear conditional third-party source text.
 
 | Appendix | Purpose / printed thesis correspondence | Start here |
 |---|---|---|
 | A | Appendix A / §3.4: exact six stage templates and common output contract | [A_Prompts](A_Prompts/README.md) |
-| B | Appendix B / §3.2: 100 task mappings, transformations and complete claim-212 example | [B_Tasks](B_Tasks/README.md) |
-| C | Appendix C / §3.5: exact saved judge requests, six exclusions and extraction-fidelity example | [C_Evaluation](C_Evaluation/README.md) |
+| B | Appendix B / §3.2: 100 task mappings and transformations; complete claim-212 example withheld | [B_Tasks](B_Tasks/README.md) |
+| C | Appendix C / §3.5: six exclusions and evaluation methods; saved judge requests and extraction-fidelity example withheld | [C_Evaluation](C_Evaluation/README.md) |
 | D | Appendix D / Chapter 4: stored primary, sensitivity, citation, exploratory and resource results | [D_Results](D_Results/README.md) |
 | E | Appendix E / §3.9: execution settings, current checks, source hashes and safe offline reproduction | [E_Reproducibility](E_Reproducibility/README.md) |
-| F | Appendix F: historical pilot development, audits and recovered HaluEval outputs | [F_Pilots](F_Pilots/README.md) |
-| G | Appendix G / §3.7: distinct initial, repeat, adjudicated and extraction-review evidence | [G_Human_Audit](G_Human_Audit/README.md) |
+| F | Appendix F: historical pilot-development metadata; source-bearing audits and recovered HaluEval outputs withheld | [F_Pilots](F_Pilots/README.md) |
+| G | Appendix G / §3.7: available stage metadata, summaries and extraction-review evidence; source-bearing annotations/response packets withheld | [G_Human_Audit](G_Human_Audit/README.md) |
 
-The repository root [README](../README.md) remains the authoritative full-codebase guide; [CODE_GUIDE](../CODE_GUIDE.md) explains the frozen implementation. Root documentation now distinguishes the pre-appendix absence of human/pilot evidence from the current approved data-only review extracts and recovered historical HaluEval records. Original XLSX workbooks remain external; the original 800-response automated analysis is unchanged.
+The repository root [README](../README.md) describes the current public scope; [CODE_GUIDE](../CODE_GUIDE.md) explains the frozen implementation. Root documentation distinguishes the historical pre-appendix absence of human/pilot evidence from the later recovered private records and the permitted data-only extracts included here. Original XLSX workbooks remain external; the original 800-response automated analysis is unchanged.
 
 ## Reading the evidence
 
@@ -24,7 +24,9 @@ Keep source abstracts, task transformations, generated responses, traces, parser
 
 ## Offline inspection
 
-Run from the repository root with the recorded Python 3.12.14 environment:
+Public-file integrity can be checked from the repository root with `shasum -a 256 --check SHA256SUMS.txt`. The full appendix validator, human-audit checker and analysis-reproduction commands require withheld frozen inputs and will not complete on this public-only checkout. Obtain any required records lawfully and work in a separate restored copy. [RESTORATION.md](../RESTORATION.md) distinguishes independently reconstructable SciFact task inputs from original model responses, rendered requests, judge evaluations and human annotations, which upstream downloads cannot recreate.
+
+Only after lawful restoration, run the full checks from that copy's root with the recorded Python 3.12.14 environment:
 
 ```bash
 PYTHONDONTWRITEBYTECODE=1 python3.12 electronic_appendices/tools/validate_appendices.py
@@ -33,7 +35,7 @@ PYTHONDONTWRITEBYTECODE=1 python3.12 electronic_appendices/tools/check_human_aud
 
 On 6 November 2026, the author authorised refreshing the file index after the documentation revision. Only the 15 stale documentation entries were updated to current sizes and hashes; paths, roles and all other entries were retained. The previous index and complete pre-audit package were preserved externally before the correction. Current hashes are in the root [SHA256SUMS.txt](../SHA256SUMS.txt), with the correction and historical hash scopes recorded in [PACKAGE_MANIFEST.json](../PACKAGE_MANIFEST.json). The original validation script is unchanged; scientific records were not modified.
 
-The [reproduction walkthrough](E_Reproducibility/README.md) and [commands](E_Reproducibility/offline_analysis_commands.txt) write independent reports outside the repository. They reproduce stored summaries, not model generation, judging or judge accuracy. No API key is needed. Commands using POSIX environment syntax require the corresponding environment setting/interpreter invocation on Windows.
+After lawful restoration of their required original inputs, the [reproduction walkthrough](E_Reproducibility/README.md) and [commands](E_Reproducibility/offline_analysis_commands.txt) write independent reports outside the repository. They reproduce stored summaries, not model generation, judging or judge accuracy. No API key is needed. Commands using POSIX environment syntax require the corresponding environment setting/interpreter invocation on Windows.
 
 ## Open items and delivery boundaries
 
@@ -42,7 +44,7 @@ The [reproduction walkthrough](E_Reproducibility/README.md) and [commands](E_Rep
 - D1/D2 embedded images exist and their displayed values are traceable, but original plotting code was not located. Saved 5,000-resample sensitivity intervals are preserved, not claimed newly reproduced.
 - The manuscript's original numbered checks 1–19 were not located as a historical checklist. Newly performed checks use EA-prefixed IDs and must not be described as that original record.
 - The initial SciFact synthesis reviewed-audit CSV remains missing. Recovered HaluEval reviewer annotations do not establish a completed dual-judge atomic evaluation or independent expert review.
-- Dataset/passages redistribution permissions and public repository scope remain unresolved. Personal workbook properties were excluded; raw originals were not copied. The existing large result file remains intact. No ZIP, Git commit, push or publication was performed.
+- Redistribution clearance for the 70 withheld source-bearing originals remains unresolved; this public release is limited to the permitted 226-file scope. Personal workbook properties were excluded and original XLSX workbooks remain external. The complete large result file remains intact in the private archive. The earlier no-ZIP/commit/push/publication preparation statement described the historical private proposal, not the current published interim release.
 
 An optional [packaging tool](tools/package_appendices.py) can create a deterministic **external** ZIP after dataset/public-release decisions. It packages the repository path structure once, keeping appendix links valid. It requires explicit acknowledgment of unresolved redistribution rights and does not write into the repository.
 

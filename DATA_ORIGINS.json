@@ -191,8 +191,19 @@
   },
   "current_distribution_scope": {
     "type": "INITIAL_INTERIM_PUBLIC_RELEASE",
-    "included_files": 225,
+    "included_files": 226,
     "withheld_original_files": 70,
     "prior_source_statements": "Historical provenance retained; this field controls current inclusion scope"
-  }
+  },
+  "distribution_scope_history": [
+    {
+      "baseline_commit": "6f73adceee0a422f45bcaee50160e95c24eef867",
+      "scope": {
+        "type": "INITIAL_INTERIM_PUBLIC_RELEASE",
+        "included_files": 225,
+        "withheld_original_files": 70,
+        "prior_source_statements": "Historical provenance retained; this field controls current inclusion scope"
+      }
+    }
+  ]
 }
